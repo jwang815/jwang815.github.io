@@ -645,6 +645,7 @@
       max-width: 850px;
       margin: 0 auto;
       position: relative;
+      overflow: hidden;
     }
     .testimonial-gold-line {
       width: 60px;
@@ -664,18 +665,21 @@
     }
     .testimonial-slide {
       min-width: 100%;
+      width: 100%;
       flex-shrink: 0;
       padding: 0 20px;
       box-sizing: border-box;
     }
     .testimonial-quote {
       font-family: var(--font-display);
-      font-size: clamp(1.5rem, 2.8vw, 2rem);
+      font-size: clamp(1.3rem, 2.4vw, 1.8rem);
       font-weight: 400;
       font-style: italic;
       line-height: 1.6;
       color: var(--sand);
       margin-bottom: 36px;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
     }
     .testimonial-quote::before {
       content: '\201C';
