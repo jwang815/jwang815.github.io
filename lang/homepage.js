@@ -93,7 +93,7 @@ window.__i18n = {
   },
   "expedition_socotra_dates": {
     "en": "April 2026",
-    "zh": "April 2026"
+    "zh": "2026年4月"
   },
   "expedition_socotra_price": {
     "en": "From $2,950",
@@ -117,7 +117,7 @@ window.__i18n = {
   },
   "expedition_westafrica_dates": {
     "en": "May 2026",
-    "zh": "May 2026"
+    "zh": "2026年5月"
   },
   "expedition_westafrica_price": {
     "en": "From $2,950",
@@ -141,7 +141,7 @@ window.__i18n = {
   },
   "expedition_mongolia_dates": {
     "en": "July 2026",
-    "zh": "July 2026"
+    "zh": "2026年7月"
   },
   "expedition_mongolia_price": {
     "en": "From $4,950",
@@ -165,7 +165,7 @@ window.__i18n = {
   },
   "expedition_pakistan_dates": {
     "en": "Oct 2026",
-    "zh": "Oct 2026"
+    "zh": "2026年10月"
   },
   "expedition_pakistan_price": {
     "en": "From $3,695",
@@ -175,17 +175,33 @@ window.__i18n = {
     "en": "View Expedition",
     "zh": "查看行程详情"
   },
+  "stat_group_size_value": {
+    "en": "5",
+    "zh": "5"
+  },
   "stat_group_size_label": {
     "en": "Maximum Group Size",
     "zh": "每团最多人数"
+  },
+  "stat_countries_value": {
+    "en": "40+",
+    "zh": "40+"
   },
   "stat_countries_label": {
     "en": "Countries Explored",
     "zh": "已探索国家"
   },
+  "stat_itineraries_value": {
+    "en": "100%",
+    "zh": "100%"
+  },
   "stat_itineraries_label": {
     "en": "Bespoke Itineraries",
     "zh": "全程量身定制"
+  },
+  "stat_support_value": {
+    "en": "24/7",
+    "zh": "24/7"
   },
   "stat_support_label": {
     "en": "On-Ground Support",

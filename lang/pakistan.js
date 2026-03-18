@@ -29,7 +29,7 @@ window.__i18n = {
   },
   "pk_hero_dates": {
     "en": "October 15 – 27, 2026",
-    "zh": "October 15 – 27, 2026"
+    "zh": "2026年10月15日 – 27日"
   },
   "pk_hero_tagline": {
     "en": "13 Days Across the Karakoram and Ancient Empires",
@@ -149,7 +149,7 @@ window.__i18n = {
   },
   "pk_day1_date": {
     "en": "Thursday, October 15, 2026",
-    "zh": "Thursday, October 15, 2026"
+    "zh": "2026年10月15日，星期四"
   },
   "pk_day1_desc": {
     "en": "Arrive at Allama Iqbal International Airport and transfer to the Four Points by Sheraton Lahore. Today is a rest day to shake off the jet lag and settle into the rhythms of the city. Your guide will brief you on the days ahead over a welcome dinner.",
@@ -165,7 +165,7 @@ window.__i18n = {
   },
   "pk_day23_date": {
     "en": "Friday & Saturday, October 16 – 17, 2026",
-    "zh": "Friday & Saturday, October 16 – 17, 2026"
+    "zh": "2026年10月16日–17日，星期五与星期六"
   },
   "pk_day23_desc": {
     "en": "Two full days inside the walls of Lahore. Walk through Lahore Fort and the Sheesh Mahal, then stand in the vast marble courtyard of the Badshahi Mosque as the evening call to prayer rolls out across the city. Visit the Shalimar Gardens, the Tomb of Jahangir, and the intricate tilework of the Wazir Khan Mosque. Lose an afternoon in the Walled City's covered bazaars. On the second evening, make the drive to Wagah Border for the nightly flag-lowering ceremony, a spectacle of pageantry and nationalism shared by enormous crowds on both sides. Seek out the legendary fire barbershops of the old city and witness early-morning mud wrestling at one of Lahore's traditional wrestling grounds.",
@@ -181,7 +181,7 @@ window.__i18n = {
   },
   "pk_day4_date": {
     "en": "Sunday, October 18, 2026",
-    "zh": "Sunday, October 18, 2026"
+    "zh": "2026年10月18日，星期日"
   },
   "pk_day4_desc": {
     "en": "Depart Lahore by private vehicle heading north toward Islamabad. En route, stop at Hiran Minar, the 17th-century hunting retreat of Emperor Jahangir built around a lake in memory of a prized pet deer. Continue to the Khewra Salt Mines, the world's second-largest salt deposit, whose underground chambers glow pink and amber. Arrive in Islamabad by evening and check in to the 108 Hotel.",
@@ -197,7 +197,7 @@ window.__i18n = {
   },
   "pk_day5_date": {
     "en": "Monday, October 19, 2026",
-    "zh": "Monday, October 19, 2026"
+    "zh": "2026年10月19日，星期一"
   },
   "pk_day5_desc": {
     "en": "Board the morning flight from Islamabad to Skardu, one of aviation's great scenic experiences as the aircraft threads between the Karakoram and Himalaya. In the afternoon, lace up your boots for a hike up Marsur Rock, which rises above the town to deliver sweeping views of the Indus River valley and the mountains that encircle it. Stay overnight at the Broq Resort in Hussainabad, a well-positioned base for exploring the wider Skardu region.",
@@ -213,7 +213,7 @@ window.__i18n = {
   },
   "pk_day6_date": {
     "en": "Tuesday, October 20, 2026",
-    "zh": "Tuesday, October 20, 2026"
+    "zh": "2026年10月20日，星期二"
   },
   "pk_day6_desc": {
     "en": "Drive into the Shigar Valley to visit Shigar Fort, a 17th-century raja's palace that has been beautifully restored and now operates as a heritage hotel. Continue to the Sarfaranga Cold Desert, a high-altitude sand desert surrounded by mountains at over 2,500 metres. Explore Soq Valley, then skirt along the banks of the Upper Kachura Lake before visiting the famous Shangri-La Resort. On the return, stop at the Manthal Buddha Rock, a large carved image of the Buddha dating to around the 8th century. Stay overnight at Qayam Skardu.",
@@ -229,7 +229,7 @@ window.__i18n = {
   },
   "pk_day7_date": {
     "en": "Wednesday, October 21, 2026",
-    "zh": "Wednesday, October 21, 2026"
+    "zh": "2026年10月21日，星期三"
   },
   "pk_day7_desc": {
     "en": "Today's drive north along the Karakoram Highway beside the Indus River is itself the destination. The road cuts through gorges of naked rock and past villages clinging to the mountainside before opening into the wide, golden expanse of Hunza Valley. Arrive in Karimabad as the afternoon light falls across the terraced orchards, check in to the Hunza Serena Hotel, and watch the last colour drain from Rakaposhi's summit from your room.",
@@ -245,7 +245,7 @@ window.__i18n = {
   },
   "pk_day8_date": {
     "en": "Thursday, October 22, 2026",
-    "zh": "Thursday, October 22, 2026"
+    "zh": "2026年10月22日，星期四"
   },
   "pk_day8_desc": {
     "en": "Drive north from Karimabad along the KKH to reach Attabad Lake, its waters an extraordinary shade of turquoise created in 2010 when a massive landslide dammed the Hunza River. Cross the water by boat and continue through the Pak-China Friendship Tunnel to the village of Passu, where the Passu Cones rise in near-vertical pillars of black rock above the valley floor. Walk across the famous suspension bridge at Hussaini, one of the most dramatic bridge crossings in the world, and hike up to Baskochi Point for a panoramic view over the Batura Glacier.",
@@ -261,7 +261,7 @@ window.__i18n = {
   },
   "pk_day9_date": {
     "en": "Friday, October 23, 2026",
-    "zh": "Friday, October 23, 2026"
+    "zh": "2026年10月23日，星期五"
   },
   "pk_day9_desc": {
     "en": "Morning drive to Hopar Valley to walk on the surface of the Hopar Glacier, a river of ice descending from the mountains above Nagar. Return to Karimabad in the afternoon to visit Altit Fort, one of the oldest surviving wooden buildings in the region, and the neighbouring Baltit Fort which served as the seat of the Mir of Hunza for centuries. Browse the bazaars of Karimabad in the late afternoon, then drive up to Eagle's Nest for what is, on a clear evening, an unrepeatable sunset over a skyline of 7,000-metre peaks.",
@@ -277,7 +277,7 @@ window.__i18n = {
   },
   "pk_day10_date": {
     "en": "Saturday, October 24, 2026",
-    "zh": "Saturday, October 24, 2026"
+    "zh": "2026年10月24日，星期六"
   },
   "pk_day10_desc": {
     "en": "Board 4x4 vehicles for the rough track up to Naltar Valley, a high alpine bowl that hosts some of Pakistan's most vivid autumn colour. The valley's three alpine lakes range from deep blue to jade green depending on the light, surrounded by pine forests turning gold at the edges. The views of Rakaposhi from the Rakaposhi Viewpoint on the descent back toward the Karakoram Highway are among the finest of any mountain on Earth. Continue down to Gilgit city and check in to the Gilgit Serena Hotel.",
@@ -293,7 +293,7 @@ window.__i18n = {
   },
   "pk_day11_date": {
     "en": "Sunday, October 25, 2026",
-    "zh": "Sunday, October 25, 2026"
+    "zh": "2026年10月25日，星期日"
   },
   "pk_day11_desc": {
     "en": "Fly from Gilgit back to Islamabad and spend the afternoon exploring the capital. Visit the Faisal Mosque, one of the largest mosques in the world, whose tent-like concrete shell rises against the Margalla Hills. Walk through the Pakistan Monument, whose petals represent the country's four provinces and three territories. In the evening, cross into the old quarter of Rawalpindi to explore the covered bazaars and evening street food scene. Two nights at the 108 Hotel.",
@@ -309,7 +309,7 @@ window.__i18n = {
   },
   "pk_day12_date": {
     "en": "Monday, October 26, 2026",
-    "zh": "Monday, October 26, 2026"
+    "zh": "2026年10月26日，星期一"
   },
   "pk_day12_desc": {
     "en": "Drive west through the Margalla Pass to Peshawar, the ancient gateway city at the mouth of the Khyber Pass. Spend the day in the Qissa Khwani Bazaar, the thousand-year-old Storytellers' Bazaar where caravans once rested and travellers traded tales along the Silk Road. Visit Taj Mahal Soda (known locally as Taj Soda), one of the last authentic old-city refreshment houses. Explore the Sethi House, a private merchant mansion of extraordinary craftsmanship, and the Mohabbat Khan Mosque, whose blue-tiled interior is one of the finest examples of Mughal architecture in the northwest. Return to Islamabad in the evening.",
@@ -325,7 +325,7 @@ window.__i18n = {
   },
   "pk_day13_date": {
     "en": "Tuesday, October 27, 2026",
-    "zh": "Tuesday, October 27, 2026"
+    "zh": "2026年10月27日，星期二"
   },
   "pk_day13_desc": {
     "en": "A final morning in Islamabad before transfers to Islamabad International Airport for your onward flight home. Thirteen days, two UNESCO cities, one of the world's great mountain ranges, and a country that will pull you back.",
@@ -343,6 +343,10 @@ window.__i18n = {
     "en": "Every Moment Yours.",
     "zh": "每一个瞬间，皆属于你。"
   },
+  "pk_cinematic_title": {
+    "en": "Every Detail Arranged.<br><em>Every Moment Yours.</em>",
+    "zh": "一切细节，悉心安排。<br><em>每一刻光阴，尽属于你。</em>"
+  },
   "pk_details_label": {
     "en": "Expedition Details",
     "zh": "探险详情"
@@ -357,7 +361,7 @@ window.__i18n = {
   },
   "pk_detail_dates_value": {
     "en": "October 15 – 27, 2026",
-    "zh": "October 15 – 27, 2026"
+    "zh": "2026年10月15日 – 27日"
   },
   "pk_detail_duration_label": {
     "en": "Duration",
