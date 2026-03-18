@@ -174,6 +174,67 @@
       display: none !important;
     }
 
+    /* Language Toggle */
+    .lang-toggle {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      color: var(--sand);
+      cursor: pointer;
+      user-select: none;
+    }
+    .lang-toggle span {
+      padding: 4px 10px;
+      transition: color 0.3s ease, background 0.3s ease;
+      border: 1px solid rgba(196, 148, 74, 0.3);
+    }
+    .lang-toggle span:first-child {
+      border-radius: 3px 0 0 3px;
+      border-right: none;
+    }
+    .lang-toggle span:last-child {
+      border-radius: 0 3px 3px 0;
+    }
+    .lang-toggle span.active {
+      color: var(--charcoal);
+      background: var(--gold);
+      border-color: var(--gold);
+    }
+    .lang-toggle span:not(.active):hover {
+      color: var(--gold);
+      border-color: var(--gold);
+    }
+    .mobile-lang-toggle {
+      display: flex;
+      gap: 0;
+      margin-top: 16px;
+    }
+    .mobile-lang-toggle span {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      padding: 8px 20px;
+      color: var(--sand);
+      border: 1px solid rgba(196, 148, 74, 0.3);
+      cursor: pointer;
+      transition: color 0.3s ease, background 0.3s ease;
+    }
+    .mobile-lang-toggle span:first-child {
+      border-radius: 3px 0 0 3px;
+      border-right: none;
+    }
+    .mobile-lang-toggle span:last-child {
+      border-radius: 0 3px 3px 0;
+    }
+    .mobile-lang-toggle span.active {
+      color: var(--charcoal);
+      background: var(--gold);
+      border-color: var(--gold);
+    }
+
     /* Hamburger */
     .hamburger {
       display: none;
@@ -1074,10 +1135,16 @@
       <span class="nav-logo-text">Waypoint Journeys</span>
     </a>
     <ul class="nav-links">
-      <li><a href="#philosophy">Our Approach</a></li>
-      <li><a href="#expeditions">Expeditions</a></li>
-      <li><a href="#testimonial">Stories</a></li>
-      <li><a href="mailto:admin@wpjourneys.com" class="nav-cta-btn">Inquire</a></li>
+      <li><a href="#philosophy" data-i18n="nav.approach">Our Approach</a></li>
+      <li><a href="#expeditions" data-i18n="nav.expeditions">Expeditions</a></li>
+      <li><a href="#testimonial" data-i18n="nav.stories">Stories</a></li>
+      <li><a href="mailto:admin@wpjourneys.com" class="nav-cta-btn" data-i18n="nav.inquire">Inquire</a></li>
+      <li>
+        <div class="lang-toggle" id="langToggle">
+          <span class="active" data-lang="en">EN</span>
+          <span data-lang="zh">中文</span>
+        </div>
+      </li>
     </ul>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu">
       <span></span>
@@ -1088,10 +1155,14 @@
 
   <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobileMenu">
-    <a href="#philosophy" onclick="closeMobileMenu()">Our Approach</a>
-    <a href="#expeditions" onclick="closeMobileMenu()">Expeditions</a>
-    <a href="#testimonial" onclick="closeMobileMenu()">Stories</a>
-    <a href="mailto:admin@wpjourneys.com" onclick="closeMobileMenu()">Inquire</a>
+    <a href="#philosophy" onclick="closeMobileMenu()" data-i18n="nav.approach">Our Approach</a>
+    <a href="#expeditions" onclick="closeMobileMenu()" data-i18n="nav.expeditions">Expeditions</a>
+    <a href="#testimonial" onclick="closeMobileMenu()" data-i18n="nav.stories">Stories</a>
+    <a href="mailto:admin@wpjourneys.com" onclick="closeMobileMenu()" data-i18n="nav.inquire">Inquire</a>
+    <div class="mobile-lang-toggle" id="mobileLangToggle">
+      <span class="active" data-lang="en">EN</span>
+      <span data-lang="zh">中文</span>
+    </div>
   </div>
 
   <!-- ==================== HERO ==================== -->
@@ -1105,12 +1176,12 @@
     </div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <p class="hero-eyebrow reveal visible">LUXURY EXPEDITIONS TO THE WORLD'S LAST WILD PLACES</p>
-      <h1 class="hero-title reveal visible">Where the Map Ends,<br>the Journey Begins</h1>
-      <p class="hero-subtitle reveal visible">Bringing You Luxury Off the Beaten Path</p>
+      <p class="hero-eyebrow reveal visible" data-i18n="hero.eyebrow">LUXURY EXPEDITIONS TO THE WORLD'S LAST WILD PLACES</p>
+      <h1 class="hero-title reveal visible" data-i18n="hero.title" data-i18n-html="true">Where the Map Ends,<br>the Journey Begins</h1>
+      <p class="hero-subtitle reveal visible" data-i18n="hero.subtitle">Bringing You Luxury Off the Beaten Path</p>
     </div>
     <div class="scroll-indicator">
-      <span>Explore</span>
+      <span data-i18n="hero.explore">Explore</span>
       <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="6 9 12 15 18 9"></polyline>
       </svg>
@@ -1121,16 +1192,16 @@
   <section class="philosophy" id="philosophy">
     <div class="philosophy-grid">
       <div class="philosophy-content reveal">
-        <span class="section-label">THE WAYPOINT DIFFERENCE</span>
+        <span class="section-label" data-i18n="philosophy.label">THE WAYPOINT DIFFERENCE</span>
         <div class="gold-rule"></div>
-        <h2 class="philosophy-title">Not All Who Wander Are Lost. But the Best Ones Are.</h2>
-        <p class="philosophy-text">
+        <h2 class="philosophy-title" data-i18n="philosophy.title">Not All Who Wander Are Lost. But the Best Ones Are.</h2>
+        <p class="philosophy-text" data-i18n="philosophy.text1">
           The world's most extraordinary places are the ones most people will never see. Waypoint Journeys exists to take you there. Not as a tourist. As a traveler. Every expedition is hand-crafted from the ground up by our team of destination specialists and local experts who call these remote corners of the world home.
         </p>
-        <p class="philosophy-text">
+        <p class="philosophy-text" data-i18n="philosophy.text2">
           Our groups never exceed 5 guests. This isn't mass tourism repackaged with a luxury label. It's the antithesis of it. We set up private camps beneath desert stars, arrange dinners in thousand-year-old ruins, and partner with boutique lodges and glamping operators who share our obsession with detail and authenticity.
         </p>
-        <p class="philosophy-text">
+        <p class="philosophy-text" data-i18n="philosophy.text3">
           From the Karakoram Highway to the Dragon Blood forests of Socotra, from ancient mountain kingdoms to destinations we haven't announced yet. We go where the guidebooks end. Every itinerary is bespoke. Every experience is unrepeatable. That's the Waypoint promise.
         </p>
       </div>
@@ -1143,8 +1214,8 @@
   <!-- ==================== EXPEDITIONS ==================== -->
   <section class="expeditions" id="expeditions">
     <div class="expeditions-header">
-      <span class="section-label light reveal">UPCOMING EXPEDITIONS</span>
-      <h2 class="expeditions-title reveal reveal-delay-1">Choose Your Next Chapter</h2>
+      <span class="section-label light reveal" data-i18n="expeditions.label">UPCOMING EXPEDITIONS</span>
+      <h2 class="expeditions-title reveal reveal-delay-1" data-i18n="expeditions.title">Choose Your Next Chapter</h2>
     </div>
     <div class="expeditions-grid">
 
@@ -1153,15 +1224,15 @@
         <img class="expedition-card-img" src="https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80" alt="Tropical lagoon aerial view, Socotra Island">
         <div class="expedition-card-overlay"></div>
         <div class="expedition-card-content">
-          <span class="expedition-card-tag">Featured Expedition</span>
-          <h3 class="expedition-card-name">Socotra Island</h3>
-          <p class="expedition-card-subtitle">The Alien Island</p>
+          <span class="expedition-card-tag" data-i18n="exp.socotra.tag">Featured Expedition</span>
+          <h3 class="expedition-card-name" data-i18n="exp.socotra.name">Socotra Island</h3>
+          <p class="expedition-card-subtitle" data-i18n="exp.socotra.subtitle">The Alien Island</p>
           <p class="expedition-card-details">
-            <span>April 2026</span>
+            <span data-i18n="exp.socotra.date">April 2026</span>
             <span class="separator">·</span>
-            <span>From $2,950</span>
+            <span data-i18n="exp.socotra.price">From $2,950</span>
           </p>
-          <span class="expedition-card-link">
+          <span class="expedition-card-link" data-i18n="exp.viewExpedition">
             View Expedition
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </span>
@@ -1173,15 +1244,15 @@
         <img class="expedition-card-img" src="https://images.unsplash.com/photo-1545315637-8f35ef2d87f5?w=800&q=80" alt="Colorful pirogue on West African beach at sunset">
         <div class="expedition-card-overlay"></div>
         <div class="expedition-card-content">
-          <span class="expedition-card-tag">Cultural Expedition</span>
-          <h3 class="expedition-card-name">Ghana, Benin & Togo</h3>
-          <p class="expedition-card-subtitle">Voodoo, Castles & the Slave Coast</p>
+          <span class="expedition-card-tag" data-i18n="exp.westafrica.tag">Cultural Expedition</span>
+          <h3 class="expedition-card-name" data-i18n="exp.westafrica.name">Ghana, Benin & Togo</h3>
+          <p class="expedition-card-subtitle" data-i18n="exp.westafrica.subtitle">Voodoo, Castles & the Slave Coast</p>
           <p class="expedition-card-details">
-            <span>May 2026</span>
+            <span data-i18n="exp.westafrica.date">May 2026</span>
             <span class="separator">·</span>
-            <span>From $2,950</span>
+            <span data-i18n="exp.westafrica.price">From $2,950</span>
           </p>
-          <span class="expedition-card-link">
+          <span class="expedition-card-link" data-i18n="exp.viewExpedition">
             View Expedition
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </span>
@@ -1193,15 +1264,15 @@
         <img class="expedition-card-img" src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&q=80" alt="Mongolian eagle hunter on horseback">
         <div class="expedition-card-overlay"></div>
         <div class="expedition-card-content">
-          <span class="expedition-card-tag">Naadam Festival</span>
-          <h3 class="expedition-card-name">Mongolia</h3>
-          <p class="expedition-card-subtitle">Land of the Eternal Sky</p>
+          <span class="expedition-card-tag" data-i18n="exp.mongolia.tag">Naadam Festival</span>
+          <h3 class="expedition-card-name" data-i18n="exp.mongolia.name">Mongolia</h3>
+          <p class="expedition-card-subtitle" data-i18n="exp.mongolia.subtitle">Land of the Eternal Sky</p>
           <p class="expedition-card-details">
-            <span>July 2026</span>
+            <span data-i18n="exp.mongolia.date">July 2026</span>
             <span class="separator">·</span>
-            <span>From $4,950</span>
+            <span data-i18n="exp.mongolia.price">From $4,950</span>
           </p>
-          <span class="expedition-card-link">
+          <span class="expedition-card-link" data-i18n="exp.viewExpedition">
             View Expedition
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </span>
@@ -1213,15 +1284,15 @@
         <img class="expedition-card-img" src="https://images.unsplash.com/photo-1514558427911-8e293bebf18c?w=800&q=80" alt="Hunza Valley autumn foliage, Pakistan">
         <div class="expedition-card-overlay"></div>
         <div class="expedition-card-content">
-          <span class="expedition-card-tag">Fall Foliage Season</span>
-          <h3 class="expedition-card-name">Pakistan</h3>
-          <p class="expedition-card-subtitle">The Karakoram and Ancient Empires</p>
+          <span class="expedition-card-tag" data-i18n="exp.pakistan.tag">Fall Foliage Season</span>
+          <h3 class="expedition-card-name" data-i18n="exp.pakistan.name">Pakistan</h3>
+          <p class="expedition-card-subtitle" data-i18n="exp.pakistan.subtitle">The Karakoram and Ancient Empires</p>
           <p class="expedition-card-details">
-            <span>Oct 2026</span>
+            <span data-i18n="exp.pakistan.date">Oct 2026</span>
             <span class="separator">·</span>
-            <span>From $3,695</span>
+            <span data-i18n="exp.pakistan.price">From $3,695</span>
           </p>
-          <span class="expedition-card-link">
+          <span class="expedition-card-link" data-i18n="exp.viewExpedition">
             View Expedition
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </span>
@@ -1238,74 +1309,74 @@
     <div class="stats-grid">
       <div class="stat-item reveal">
         <div class="stat-number">5</div>
-        <div class="stat-label">Maximum Group Size</div>
+        <div class="stat-label" data-i18n="stats.groupSize">Maximum Group Size</div>
       </div>
       <div class="stat-item reveal reveal-delay-1">
         <div class="stat-number">40+</div>
-        <div class="stat-label">Countries Explored</div>
+        <div class="stat-label" data-i18n="stats.countries">Countries Explored</div>
       </div>
       <div class="stat-item reveal reveal-delay-2">
         <div class="stat-number">100%</div>
-        <div class="stat-label">Bespoke Itineraries</div>
+        <div class="stat-label" data-i18n="stats.bespoke">Bespoke Itineraries</div>
       </div>
       <div class="stat-item reveal reveal-delay-3">
         <div class="stat-number">24/7</div>
-        <div class="stat-label">On-Ground Support</div>
+        <div class="stat-label" data-i18n="stats.support">On-Ground Support</div>
       </div>
     </div>
   </section>
 
   <!-- ==================== TESTIMONIAL CAROUSEL ==================== -->
   <section class="testimonial" id="testimonial">
-    <span class="section-label light reveal" style="display:block;text-align:center;">TRAVELER STORIES</span>
-    <h2 class="expeditions-title reveal reveal-delay-1" style="text-align:center;margin-bottom:48px;">In Their Own Words</h2>
+    <span class="section-label light reveal" style="display:block;text-align:center;" data-i18n="testimonials.label">TRAVELER STORIES</span>
+    <h2 class="expeditions-title reveal reveal-delay-1" style="text-align:center;margin-bottom:48px;" data-i18n="testimonials.title">In Their Own Words</h2>
     <div class="testimonial-carousel-wrapper">
       <div class="testimonial-gold-line"></div>
       <div class="testimonial-track" id="testimonialTrack">
 
         <!-- Slide 1: Socotra -->
         <div class="testimonial-slide">
-          <blockquote class="testimonial-quote">
+          <blockquote class="testimonial-quote" data-i18n="testimonials.socotra.quote">
             Waypoint Journeys showed us a Socotra that doesn't exist in any guidebook. This wasn't travel. It was transformation.
           </blockquote>
-          <cite class="testimonial-attribution">— James & Laura P.</cite>
-          <span class="testimonial-destination">Socotra Expedition, 2024</span>
+          <cite class="testimonial-attribution" data-i18n="testimonials.socotra.author">— James & Laura P.</cite>
+          <span class="testimonial-destination" data-i18n="testimonials.socotra.dest">Socotra Expedition, 2024</span>
         </div>
 
         <!-- Slide 2: Pakistan -->
         <div class="testimonial-slide">
-          <blockquote class="testimonial-quote">
+          <blockquote class="testimonial-quote" data-i18n="testimonials.pakistan.quote">
             The Karakoram Highway, the Hunza Valley, the kindness of strangers at every turn. Pakistan shattered every preconception I had. Waypoint made it seamless and safe.
           </blockquote>
-          <cite class="testimonial-attribution">— Sarah M.</cite>
-          <span class="testimonial-destination">Pakistan Expedition, 2024</span>
+          <cite class="testimonial-attribution" data-i18n="testimonials.pakistan.author">— Sarah M.</cite>
+          <span class="testimonial-destination" data-i18n="testimonials.pakistan.dest">Pakistan Expedition, 2024</span>
         </div>
 
         <!-- Slide 3: Mongolia -->
         <div class="testimonial-slide">
-          <blockquote class="testimonial-quote">
+          <blockquote class="testimonial-quote" data-i18n="testimonials.mongolia.quote">
             Sleeping in a ger under a sky so full of stars it felt like science fiction. The Mongolian steppe makes you realize how small you are and how big life can be.
           </blockquote>
-          <cite class="testimonial-attribution">— David & Keiko T.</cite>
-          <span class="testimonial-destination">Mongolia Expedition, 2023</span>
+          <cite class="testimonial-attribution" data-i18n="testimonials.mongolia.author">— David & Keiko T.</cite>
+          <span class="testimonial-destination" data-i18n="testimonials.mongolia.dest">Mongolia Expedition, 2023</span>
         </div>
 
         <!-- Slide 4: Myanmar -->
         <div class="testimonial-slide">
-          <blockquote class="testimonial-quote">
+          <blockquote class="testimonial-quote" data-i18n="testimonials.myanmar.quote">
             Watching sunrise over two thousand temples in Bagan, floating through Inle Lake's gardens. Myanmar was a dream I didn't know I needed. Waypoint opened a door to another era.
           </blockquote>
-          <cite class="testimonial-attribution">— Rebecca H.</cite>
-          <span class="testimonial-destination">Myanmar Expedition, 2023</span>
+          <cite class="testimonial-attribution" data-i18n="testimonials.myanmar.author">— Rebecca H.</cite>
+          <span class="testimonial-destination" data-i18n="testimonials.myanmar.dest">Myanmar Expedition, 2023</span>
         </div>
 
         <!-- Slide 5: Syria -->
         <div class="testimonial-slide">
-          <blockquote class="testimonial-quote">
+          <blockquote class="testimonial-quote" data-i18n="testimonials.syria.quote">
             Walking through the old souk in Aleppo, standing in the courtyard of the Umayyad Mosque in Damascus. There is nothing else like it. Waypoint gave us access to history most people only read about.
           </blockquote>
-          <cite class="testimonial-attribution">— Michael R.</cite>
-          <span class="testimonial-destination">Syria Expedition, 2024</span>
+          <cite class="testimonial-attribution" data-i18n="testimonials.syria.author">— Michael R.</cite>
+          <span class="testimonial-destination" data-i18n="testimonials.syria.dest">Syria Expedition, 2024</span>
         </div>
 
       </div>
@@ -1326,9 +1397,9 @@
   <!-- ==================== CTA ==================== -->
   <section class="cta" id="contact">
     <div class="cta-inner">
-      <span class="section-label light reveal">BEGIN YOUR STORY</span>
-      <h2 class="cta-title reveal reveal-delay-1">Your Next Chapter Awaits</h2>
-      <p class="cta-text reveal reveal-delay-2">Every journey begins with a single conversation. Tell us where you dream of going, and we'll show you a world beyond imagination.</p>
+      <span class="section-label light reveal" data-i18n="cta.label">BEGIN YOUR STORY</span>
+      <h2 class="cta-title reveal reveal-delay-1" data-i18n="cta.title">Your Next Chapter Awaits</h2>
+      <p class="cta-text reveal reveal-delay-2" data-i18n="cta.text">Every journey begins with a single conversation. Tell us where you dream of going, and we'll show you a world beyond imagination.</p>
       <div class="cta-contact-row reveal reveal-delay-2">
         <a href="mailto:admin@wpjourneys.com" class="cta-contact-link" title="Email us">
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" stroke-width="1.8"/><polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
@@ -1340,7 +1411,7 @@
           <span>WhatsApp</span>
         </a>
       </div>
-      <a href="mailto:admin@wpjourneys.com?subject=Expedition%20Inquiry" class="cta-button reveal reveal-delay-3">INQUIRE ABOUT AN EXPEDITION</a>
+      <a href="mailto:admin@wpjourneys.com?subject=Expedition%20Inquiry" class="cta-button reveal reveal-delay-3" data-i18n="cta.button">INQUIRE ABOUT AN EXPEDITION</a>
     </div>
   </section>
 
@@ -1377,8 +1448,8 @@
         </svg>
       </a>
     </div>
-    <p class="footer-tagline">Luxury adventure travel to the world's last wild places.</p>
-    <p class="footer-copy">&copy; 2026 Waypoint Journeys. All rights reserved.</p>
+    <p class="footer-tagline" data-i18n="footer.tagline">Luxury adventure travel to the world's last wild places.</p>
+    <p class="footer-copy" data-i18n="footer.copy" data-i18n-html="true">&copy; 2026 Waypoint Journeys. All rights reserved.</p>
   </footer>
 
   <!-- ==================== JAVASCRIPT ==================== -->
@@ -1612,6 +1683,199 @@
           if (e.key === 'ArrowRight') { goToSlide(currentIndex + 1); resetAutoPlay(); }
         }
       });
+    })();
+
+    // ========== Language Toggle (EN / 中文) ==========
+    (function() {
+      var translations = {
+        en: {
+          'nav.approach': 'Our Approach',
+          'nav.expeditions': 'Expeditions',
+          'nav.stories': 'Stories',
+          'nav.inquire': 'Inquire',
+          'hero.eyebrow': 'LUXURY EXPEDITIONS TO THE WORLD\'S LAST WILD PLACES',
+          'hero.title': 'Where the Map Ends,<br>the Journey Begins',
+          'hero.subtitle': 'Bringing You Luxury Off the Beaten Path',
+          'hero.explore': 'Explore',
+          'philosophy.label': 'THE WAYPOINT DIFFERENCE',
+          'philosophy.title': 'Not All Who Wander Are Lost. But the Best Ones Are.',
+          'philosophy.text1': 'The world\'s most extraordinary places are the ones most people will never see. Waypoint Journeys exists to take you there. Not as a tourist. As a traveler. Every expedition is hand-crafted from the ground up by our team of destination specialists and local experts who call these remote corners of the world home.',
+          'philosophy.text2': 'Our groups never exceed 5 guests. This isn\'t mass tourism repackaged with a luxury label. It\'s the antithesis of it. We set up private camps beneath desert stars, arrange dinners in thousand-year-old ruins, and partner with boutique lodges and glamping operators who share our obsession with detail and authenticity.',
+          'philosophy.text3': 'From the Karakoram Highway to the Dragon Blood forests of Socotra, from ancient mountain kingdoms to destinations we haven\'t announced yet. We go where the guidebooks end. Every itinerary is bespoke. Every experience is unrepeatable. That\'s the Waypoint promise.',
+          'expeditions.label': 'UPCOMING EXPEDITIONS',
+          'expeditions.title': 'Choose Your Next Chapter',
+          'exp.socotra.tag': 'Featured Expedition',
+          'exp.socotra.name': 'Socotra Island',
+          'exp.socotra.subtitle': 'The Alien Island',
+          'exp.socotra.date': 'April 2026',
+          'exp.socotra.price': 'From $2,950',
+          'exp.viewExpedition': 'View Expedition',
+          'exp.westafrica.tag': 'Cultural Expedition',
+          'exp.westafrica.name': 'Ghana, Benin & Togo',
+          'exp.westafrica.subtitle': 'Voodoo, Castles & the Slave Coast',
+          'exp.westafrica.date': 'May 2026',
+          'exp.westafrica.price': 'From $2,950',
+          'exp.mongolia.tag': 'Naadam Festival',
+          'exp.mongolia.name': 'Mongolia',
+          'exp.mongolia.subtitle': 'Land of the Eternal Sky',
+          'exp.mongolia.date': 'July 2026',
+          'exp.mongolia.price': 'From $4,950',
+          'exp.pakistan.tag': 'Fall Foliage Season',
+          'exp.pakistan.name': 'Pakistan',
+          'exp.pakistan.subtitle': 'The Karakoram and Ancient Empires',
+          'exp.pakistan.date': 'Oct 2026',
+          'exp.pakistan.price': 'From $3,695',
+          'stats.groupSize': 'Maximum Group Size',
+          'stats.countries': 'Countries Explored',
+          'stats.bespoke': 'Bespoke Itineraries',
+          'stats.support': 'On-Ground Support',
+          'testimonials.label': 'TRAVELER STORIES',
+          'testimonials.title': 'In Their Own Words',
+          'testimonials.socotra.quote': 'Waypoint Journeys showed us a Socotra that doesn\'t exist in any guidebook. This wasn\'t travel. It was transformation.',
+          'testimonials.socotra.author': '— James & Laura P.',
+          'testimonials.socotra.dest': 'Socotra Expedition, 2024',
+          'testimonials.pakistan.quote': 'The Karakoram Highway, the Hunza Valley, the kindness of strangers at every turn. Pakistan shattered every preconception I had. Waypoint made it seamless and safe.',
+          'testimonials.pakistan.author': '— Sarah M.',
+          'testimonials.pakistan.dest': 'Pakistan Expedition, 2024',
+          'testimonials.mongolia.quote': 'Sleeping in a ger under a sky so full of stars it felt like science fiction. The Mongolian steppe makes you realize how small you are and how big life can be.',
+          'testimonials.mongolia.author': '— David & Keiko T.',
+          'testimonials.mongolia.dest': 'Mongolia Expedition, 2023',
+          'testimonials.myanmar.quote': 'Watching sunrise over two thousand temples in Bagan, floating through Inle Lake\'s gardens. Myanmar was a dream I didn\'t know I needed. Waypoint opened a door to another era.',
+          'testimonials.myanmar.author': '— Rebecca H.',
+          'testimonials.myanmar.dest': 'Myanmar Expedition, 2023',
+          'testimonials.syria.quote': 'Walking through the old souk in Aleppo, standing in the courtyard of the Umayyad Mosque in Damascus. There is nothing else like it. Waypoint gave us access to history most people only read about.',
+          'testimonials.syria.author': '— Michael R.',
+          'testimonials.syria.dest': 'Syria Expedition, 2024',
+          'cta.label': 'BEGIN YOUR STORY',
+          'cta.title': 'Your Next Chapter Awaits',
+          'cta.text': 'Every journey begins with a single conversation. Tell us where you dream of going, and we\'ll show you a world beyond imagination.',
+          'cta.button': 'INQUIRE ABOUT AN EXPEDITION',
+          'footer.tagline': 'Luxury adventure travel to the world\'s last wild places.',
+          'footer.copy': '&copy; 2026 Waypoint Journeys. All rights reserved.'
+        },
+        zh: {
+          'nav.approach': '我们的理念',
+          'nav.expeditions': '探险之旅',
+          'nav.stories': '旅行故事',
+          'nav.inquire': '立即咨询',
+          'hero.eyebrow': '奢华探险 · 探索世界最后的秘境',
+          'hero.title': '地图的尽头，<br>旅程的起点',
+          'hero.subtitle': '为您带来奢华的非凡旅程',
+          'hero.explore': '探索',
+          'philosophy.label': 'WAYPOINT 的与众不同',
+          'philosophy.title': '并非所有漫游者都迷失了方向，但最精彩的旅者一定是。',
+          'philosophy.text1': '世界上最非凡的地方，是大多数人永远无法看到的。Waypoint Journeys 的存在，就是带您抵达那里。不是以游客的身份，而是以真正旅行者的身份。每一次探险都由我们的目的地专家团队和当地向导从零开始精心打造——他们把这些偏远的角落称为家。',
+          'philosophy.text2': '我们的团队从不超过5位宾客。这不是贴上奢华标签的大众旅游，而是它的对立面。我们在沙漠星空下搭建私人营地，在千年古迹中安排晚宴，与精品酒店和豪华露营运营商合作——他们与我们一样，对细节和真实性有着同样的执着。',
+          'philosophy.text3': '从喀喇昆仑公路到索科特拉岛的龙血树森林，从古老的山地王国到我们尚未公布的目的地——我们前往旅行指南未曾触及的地方。每一份行程都是定制的。每一次体验都是不可复制的。这就是 Waypoint 的承诺。',
+          'expeditions.label': '即将出发的探险',
+          'expeditions.title': '选择您的下一段旅程',
+          'exp.socotra.tag': '精选探险',
+          'exp.socotra.name': '索科特拉岛',
+          'exp.socotra.subtitle': '外星之岛',
+          'exp.socotra.date': '2026年4月',
+          'exp.socotra.price': '起价 $2,950',
+          'exp.viewExpedition': '查看详情',
+          'exp.westafrica.tag': '文化探险',
+          'exp.westafrica.name': '加纳、贝宁与多哥',
+          'exp.westafrica.subtitle': '伏都教、城堡与奴隶海岸',
+          'exp.westafrica.date': '2026年5月',
+          'exp.westafrica.price': '起价 $2,950',
+          'exp.mongolia.tag': '那达慕盛会',
+          'exp.mongolia.name': '蒙古',
+          'exp.mongolia.subtitle': '长生天之国',
+          'exp.mongolia.date': '2026年7月',
+          'exp.mongolia.price': '起价 $4,950',
+          'exp.pakistan.tag': '秋叶观赏季',
+          'exp.pakistan.name': '巴基斯坦',
+          'exp.pakistan.subtitle': '喀喇昆仑与古帝国',
+          'exp.pakistan.date': '2026年10月',
+          'exp.pakistan.price': '起价 $3,695',
+          'stats.groupSize': '最大团队人数',
+          'stats.countries': '已探索国家',
+          'stats.bespoke': '定制行程',
+          'stats.support': '全天候地面支持',
+          'testimonials.label': '旅行者故事',
+          'testimonials.title': '他们的亲身经历',
+          'testimonials.socotra.quote': 'Waypoint Journeys 带我们看到了一个任何旅行指南中都不存在的索科特拉。这不是旅行，而是一次蜕变。',
+          'testimonials.socotra.author': '— James & Laura P.',
+          'testimonials.socotra.dest': '索科特拉探险，2024',
+          'testimonials.pakistan.quote': '喀喇昆仑公路、罕萨河谷、每个转角遇到的善良陌生人。巴基斯坦打破了我所有的偏见。Waypoint 让一切变得顺畅而安全。',
+          'testimonials.pakistan.author': '— Sarah M.',
+          'testimonials.pakistan.dest': '巴基斯坦探险，2024',
+          'testimonials.mongolia.quote': '在蒙古包里入眠，仰望满天繁星，仿佛置身科幻世界。蒙古大草原让你意识到自己有多渺小，而生命又有多辽阔。',
+          'testimonials.mongolia.author': '— David & Keiko T.',
+          'testimonials.mongolia.dest': '蒙古探险，2023',
+          'testimonials.myanmar.quote': '在蒲甘看两千座佛塔上的日出，在茵莱湖的花园中泛舟。缅甸是我不知道自己需要的梦。Waypoint 为我们打开了一扇通往另一个时代的门。',
+          'testimonials.myanmar.author': '— Rebecca H.',
+          'testimonials.myanmar.dest': '缅甸探险，2023',
+          'testimonials.syria.quote': '漫步在阿勒颇的古老市场，站在大马士革倭马亚清真寺的庭院中。没有什么能与之媲美。Waypoint 让我们触及了大多数人只能在书中读到的历史。',
+          'testimonials.syria.author': '— Michael R.',
+          'testimonials.syria.dest': '叙利亚探险，2024',
+          'cta.label': '开启您的故事',
+          'cta.title': '您的下一段篇章在等待',
+          'cta.text': '每一段旅程都始于一次对话。告诉我们您梦想去往何处，我们将为您展示超越想象的世界。',
+          'cta.button': '咨询探险行程',
+          'footer.tagline': '奢华探险旅行，前往世界最后的秘境。',
+          'footer.copy': '&copy; 2026 Waypoint Journeys. 保留所有权利。'
+        }
+      };
+
+      var currentLang = 'en';
+
+      function setLanguage(lang) {
+        currentLang = lang;
+        document.documentElement.setAttribute('lang', lang);
+
+        // Update all elements with data-i18n attribute
+        var elements = document.querySelectorAll('[data-i18n]');
+        elements.forEach(function(el) {
+          var key = el.getAttribute('data-i18n');
+          if (translations[lang] && translations[lang][key]) {
+            if (el.getAttribute('data-i18n-html') === 'true') {
+              el.innerHTML = translations[lang][key];
+            } else {
+              // Preserve child SVGs (for expedition card links)
+              var svg = el.querySelector('svg');
+              if (svg) {
+                el.childNodes.forEach(function(node) {
+                  if (node.nodeType === 3) node.textContent = '';
+                });
+                el.insertBefore(document.createTextNode(translations[lang][key] + '\n            '), svg);
+              } else {
+                el.textContent = translations[lang][key];
+              }
+            }
+          }
+        });
+
+        // Update toggle active states
+        document.querySelectorAll('.lang-toggle span, .mobile-lang-toggle span').forEach(function(btn) {
+          btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+        });
+
+        // Save preference
+        try { localStorage.setItem('wpj-lang', lang); } catch(e) {}
+      }
+
+      // Desktop toggle
+      var langToggle = document.getElementById('langToggle');
+      langToggle.addEventListener('click', function(e) {
+        var target = e.target.closest('[data-lang]');
+        if (target) setLanguage(target.getAttribute('data-lang'));
+      });
+
+      // Mobile toggle
+      var mobileLangToggle = document.getElementById('mobileLangToggle');
+      mobileLangToggle.addEventListener('click', function(e) {
+        var target = e.target.closest('[data-lang]');
+        if (target) setLanguage(target.getAttribute('data-lang'));
+      });
+
+      // Restore saved preference (default: English)
+      try {
+        var saved = localStorage.getItem('wpj-lang');
+        if (saved && saved === 'zh') setLanguage('zh');
+      } catch(e) {}
     })();
   </script>
 </body>
