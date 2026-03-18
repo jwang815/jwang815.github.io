@@ -25,7 +25,7 @@ window.__i18n = {
   },
   "wa_hero_dates": {
     "en": "May 2 – 9, 2026",
-    "zh": "May 2 – 9, 2026"
+    "zh": "2026年5月2日 – 9日"
   },
   "wa_hero_tagline": {
     "en": "8 days across three nations at the crossroads of history",
@@ -141,7 +141,7 @@ window.__i18n = {
   },
   "wa_day1_date": {
     "en": "Saturday, May 2, 2026",
-    "zh": "Saturday, May 2, 2026"
+    "zh": "2026年5月2日，星期六"
   },
   "wa_day1_desc": {
     "en": "Arrive at Cotonou Cadjehoun Airport, Benin's economic capital on the Gulf of Guinea. Transfer to your hotel in Ouidah, a historic town on the coast that serves as your base for the first three nights. Settle in and prepare for a week that will reshape how you see Africa.",
@@ -157,7 +157,7 @@ window.__i18n = {
   },
   "wa_day2_date": {
     "en": "Sunday, May 3, 2026",
-    "zh": "Sunday, May 3, 2026"
+    "zh": "2026年5月3日，星期日"
   },
   "wa_day2_desc": {
     "en": "Depart Ouidah early for Ganvié, the extraordinary stilt village on Lake Nokoué — home to 35,000 people and known as the Venice of Africa. Glide through its channels by pirogue past homes, markets, and schools built entirely on stilts. Continue to Abomey to visit the Royal Palace Museum, a UNESCO World Heritage Site and seat of the once-mighty Dahomey Kingdom. Explore the underground village of Bohicon and the Chameleon Temple before returning to Ouidah for the night.",
@@ -173,7 +173,7 @@ window.__i18n = {
   },
   "wa_day3_date": {
     "en": "Monday, May 4, 2026",
-    "zh": "Monday, May 4, 2026"
+    "zh": "2026年5月4日，星期一"
   },
   "wa_day3_desc": {
     "en": "Ouidah is the spiritual heartland of Voodoo, a living faith practised by millions. Walk the Route des Esclaves, the path slaves were forced to march to the sea, passing through the Sacred Forest where annual Voodoo Festivals draw devotees from around the world. Visit the Cathedral that stands alongside the Temple of the Sacred Pythons — a sanctuary where dozens of pythons roam freely as objects of worship. End the day at the haunting Gate of No Return, the monument marking where an estimated 12 million enslaved people departed these shores between the 16th and 19th centuries.",
@@ -189,7 +189,7 @@ window.__i18n = {
   },
   "wa_day4_date": {
     "en": "Tuesday, May 5, 2026",
-    "zh": "Tuesday, May 5, 2026"
+    "zh": "2026年5月5日，星期二"
   },
   "wa_day4_desc": {
     "en": "Cross the border into Togo after an early morning departure. After a ninety-minute drive and immigration formalities, begin exploring Lomé, Togo's low-key coastal capital. Visit a preserved slave house in Agbodrafo, then take in Independence Square, the Artisans Village, and the National Museum. The afternoon is devoted to the Fetish Market — the largest traditional medicine market in West Africa — followed by the fishing harbour, Art Street, and the bustling Grand Marché. Overnight in Lomé.",
@@ -205,7 +205,7 @@ window.__i18n = {
   },
   "wa_day5_date": {
     "en": "Wednesday, May 6, 2026",
-    "zh": "Wednesday, May 6, 2026"
+    "zh": "2026年5月6日，星期三"
   },
   "wa_day5_desc": {
     "en": "Depart Lomé for the Ghana border — just ten minutes from the hotel. After immigration protocols, begin the five-hour drive to Accra along the coastal road. Arrive in the afternoon and check into your hotel for an evening of rest and relaxation before two full days of exploration.",
@@ -221,7 +221,7 @@ window.__i18n = {
   },
   "wa_day6_date": {
     "en": "Thursday, May 7, 2026",
-    "zh": "Thursday, May 7, 2026"
+    "zh": "2026年5月7日，星期四"
   },
   "wa_day6_desc": {
     "en": "A full day immersed in Ghana's vibrant capital. Visit the Kwame Nkrumah Memorial Park, dedicated to the founding father of Ghanaian independence. Stand at Independence Square, also known as Black Star Square, the symbolic heart of the nation. Tour the National Museum, drive past the imposing Osu Castle — the former seat of the Ghanaian presidency — and walk through the historic streets of Jamestown, Accra's oldest neighbourhood. In the afternoon, drive to Cape Coast to position for the following day.",
@@ -237,7 +237,7 @@ window.__i18n = {
   },
   "wa_day7_date": {
     "en": "Friday, May 8, 2026",
-    "zh": "Friday, May 8, 2026"
+    "zh": "2026年5月8日，星期五"
   },
   "wa_day7_desc": {
     "en": "A day of profound historical weight. Visit Cape Coast Castle, the largest of the slave forts built along the Gold Coast, where enslaved people were held in underground dungeons before being shipped across the Atlantic. Continue to Elmina Castle, the oldest European building in sub-Saharan Africa, built by the Portuguese in 1482. Both are UNESCO World Heritage Sites. The experience is sobering, powerful, and essential. Return to Accra in the evening.",
@@ -253,7 +253,7 @@ window.__i18n = {
   },
   "wa_day8_date": {
     "en": "Saturday, May 9, 2026",
-    "zh": "Saturday, May 9, 2026"
+    "zh": "2026年5月9日，星期六"
   },
   "wa_day8_desc": {
     "en": "A final morning in Accra before transfers to Kotoka International Airport for your departure. Eight days, three countries, centuries of history, and a journey that will stay with you forever.",
@@ -264,8 +264,8 @@ window.__i18n = {
     "zh": "小团精品探险"
   },
   "wa_cinematic_title": {
-    "en": "Every Detail Arranged. Every Moment Yours.",
-    "zh": "每一处细节，皆已妥善安排。每一个瞬间，皆属于你。"
+    "en": "Every Detail Arranged.<br><em>Every Moment Yours.</em>",
+    "zh": "每一处细节，皆已妥善安排。<br><em>每一个瞬间，皆属于你。</em>"
   },
   "wa_details_label": {
     "en": "Expedition Details",
@@ -281,7 +281,7 @@ window.__i18n = {
   },
   "wa_details_dates_value": {
     "en": "May 2 – 9, 2026",
-    "zh": "May 2 – 9, 2026"
+    "zh": "2026年5月2日 – 9日"
   },
   "wa_details_duration_label": {
     "en": "Duration",
