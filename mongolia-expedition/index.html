@@ -1423,10 +1423,10 @@
 <body>
 
   <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Navigation menu">
-    <a href="#overview" onclick="closeMobileMenu()">Overview</a>
-    <a href="#itinerary" onclick="closeMobileMenu()">Itinerary</a>
-    <a href="#details" onclick="closeMobileMenu()">Details</a>
-    <a href="#book" onclick="closeMobileMenu()">Book Now</a>
+    <a href="#overview" onclick="closeMobileMenu()" data-i18n="mn_nav_overview">Overview</a>
+    <a href="#itinerary" onclick="closeMobileMenu()" data-i18n="mn_nav_itinerary">Itinerary</a>
+    <a href="#details" onclick="closeMobileMenu()" data-i18n="mn_nav_details">Details</a>
+    <a href="#book" onclick="closeMobileMenu()" data-i18n="mn_nav_book_now">Book Now</a>
   </div>
 
   <nav id="navbar" role="navigation" aria-label="Main navigation">
@@ -1442,14 +1442,14 @@
         <polygon points="42,24 28,21.5 30,24 28,26.5" fill="#C4944A" opacity="0.5"/>
         <circle cx="24" cy="24" r="3" fill="#C4944A"/>
       </svg>
-      <span class="nav-logo-text">Waypoint Journeys</span>
+      <span class="nav-logo-text" data-i18n="mn_footer_brand">Waypoint Journeys</span>
     </a>
 
     <ul class="nav-links">
-      <li><a href="#overview">Overview</a></li>
-      <li><a href="#itinerary">Itinerary</a></li>
-      <li><a href="#details">Details</a></li>
-      <li><a href="#book" class="nav-cta">Book Now</a></li>
+      <li><a href="#overview" data-i18n="mn_nav_overview">Overview</a></li>
+      <li><a href="#itinerary" data-i18n="mn_nav_itinerary">Itinerary</a></li>
+      <li><a href="#details" data-i18n="mn_nav_details">Details</a></li>
+      <li><a href="#book" class="nav-cta" data-i18n="mn_nav_book_now">Book Now</a></li>
     </ul>
 
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -1463,15 +1463,15 @@
     <div class="hero-bg" id="heroBg"></div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <p class="hero-eyebrow">Waypoint Journeys Presents</p>
-      <h1 class="hero-title">Mongolia</h1>
-      <p class="hero-subtitle">Land of the Eternal Sky</p>
-      <p class="hero-dates">July 2026</p>
-      <p class="hero-tagline">11 to 17 Nights Across the Steppe, Desert, and Mountains</p>
+      <p class="hero-eyebrow" data-i18n="mn_hero_eyebrow">Waypoint Journeys Presents</p>
+      <h1 class="hero-title" data-i18n="mn_hero_title">Mongolia</h1>
+      <p class="hero-subtitle" data-i18n="mn_hero_subtitle">Land of the Eternal Sky</p>
+      <p class="hero-dates" data-i18n="mn_hero_dates">July 2026</p>
+      <p class="hero-tagline" data-i18n="mn_hero_tagline">11 to 17 Nights Across the Steppe, Desert, and Mountains</p>
       <a href="#overview" class="hero-cta">View Expedition Details &darr;</a>
     </div>
     <div class="hero-scroll" aria-hidden="true">
-      <span>Scroll</span>
+      <span data-i18n="mn_hero_scroll">Scroll</span>
       <div class="scroll-arrow"></div>
     </div>
   </section>
@@ -1481,14 +1481,14 @@
       <div class="container">
         <div class="intro-grid">
           <div class="intro-text fade-in-left">
-            <span class="section-label">The Destination</span>
+            <span class="section-label" data-i18n="mn_overview_label">The Destination</span>
             <h2 class="section-title" id="overview-title">Where the Steppe Meets<br>the Eternal Sky</h2>
             <span class="gold-line"></span>
-            <p>Mongolia is one of the last places on Earth where the word "vast" still carries its full weight. Here, a single horizon holds more sky than most people encounter in a lifetime. The great steppe stretches unbroken from the shadow of the Altai Mountains to the scorched silence of the Gobi Desert. This is the land that produced Genghis Khan, the greatest conqueror in history, whose empire once spanned from the Pacific Ocean to the shores of the Danube. The ancient capital he built at Karakorum has returned to dust, but the spirit of his world remains palpable in every nomadic ger, every galloping herd, every hawk riding a thermal above the grassland.</p>
-            <p>In July, Mongolia reveals its beating heart at the Naadam Festival, a celebration stretching back eight centuries. Known as the "three games of men," Naadam brings together the nation's finest horse racers, wrestlers, and archers in a spectacle of color, tradition, and extraordinary athletic skill. The horse races alone span distances of up to 30 kilometers, ridden by child jockeys as young as five. It is a festival unlike anything else on the planet, and witnessing it alongside nomadic families is a privilege reserved for those who seek the road less traveled.</p>
-            <p>Beyond the festival, the Gobi Desert yields landscapes of almost cinematic grandeur: the terracotta spires of the Flaming Cliffs where dinosaur eggs were first discovered, the towering Khongor Sand Dunes glowing amber at sunset, and the hidden ice gorge of Yol Valley locked inside a summer desert. In the far west, Kazakh golden eagle hunters have passed down their ancient art across generations, the bond between hunter and bird forged through years of patient mastery. Mongolia does not merely offer travel. It offers a recalibration of scale, silence, and wonder.</p>
+            <p data-i18n="mn_overview_p1">Mongolia is one of the last places on Earth where the word "vast" still carries its full weight. Here, a single horizon holds more sky than most people encounter in a lifetime. The great steppe stretches unbroken from the shadow of the Altai Mountains to the scorched silence of the Gobi Desert. This is the land that produced Genghis Khan, the greatest conqueror in history, whose empire once spanned from the Pacific Ocean to the shores of the Danube. The ancient capital he built at Karakorum has returned to dust, but the spirit of his world remains palpable in every nomadic ger, every galloping herd, every hawk riding a thermal above the grassland.</p>
+            <p data-i18n="mn_overview_p2">In July, Mongolia reveals its beating heart at the Naadam Festival, a celebration stretching back eight centuries. Known as the "three games of men," Naadam brings together the nation's finest horse racers, wrestlers, and archers in a spectacle of color, tradition, and extraordinary athletic skill. The horse races alone span distances of up to 30 kilometers, ridden by child jockeys as young as five. It is a festival unlike anything else on the planet, and witnessing it alongside nomadic families is a privilege reserved for those who seek the road less traveled.</p>
+            <p data-i18n="mn_overview_p3">Beyond the festival, the Gobi Desert yields landscapes of almost cinematic grandeur: the terracotta spires of the Flaming Cliffs where dinosaur eggs were first discovered, the towering Khongor Sand Dunes glowing amber at sunset, and the hidden ice gorge of Yol Valley locked inside a summer desert. In the far west, Kazakh golden eagle hunters have passed down their ancient art across generations, the bond between hunter and bird forged through years of patient mastery. Mongolia does not merely offer travel. It offers a recalibration of scale, silence, and wonder.</p>
             <div class="pull-quote">
-              <blockquote>"In Mongolia, the distance between you and the horizon is the distance between who you are and who you might become."</blockquote>
+              <blockquote data-i18n="mn_overview_pull_quote">"In Mongolia, the distance between you and the horizon is the distance between who you are and who you might become."</blockquote>
             </div>
           </div>
           <div class="intro-image-wrap fade-in-right">
@@ -1498,7 +1498,7 @@
               loading="lazy"
             />
             <div class="intro-image-caption">
-              <span>The Mongolian steppe at golden hour, Arkhangai Province</span>
+              <span data-i18n="mn_overview_image_caption">The Mongolian steppe at golden hour, Arkhangai Province</span>
             </div>
           </div>
         </div>
@@ -1528,8 +1528,8 @@
   <section id="highlights" aria-labelledby="highlights-title">
     <div class="container">
       <div class="highlights-header fade-in">
-        <span class="section-label">Why Mongolia</span>
-        <h2 class="section-title" id="highlights-title">Six Reasons to Go Now</h2>
+        <span class="section-label" data-i18n="mn_highlights_label">Why Mongolia</span>
+        <h2 class="section-title" id="highlights-title" data-i18n="mn_highlights_title">Six Reasons to Go Now</h2>
         <span class="gold-line"></span>
       </div>
 
@@ -1541,8 +1541,8 @@
             <path d="M14 22 L30 22 M22 12 L22 36" stroke="#C4944A" stroke-width="1" opacity="0.5"/>
             <circle cx="22" cy="22" r="3" fill="#C4944A" opacity="0.85"/>
           </svg>
-          <div class="feature-title">Naadam Festival</div>
-          <p class="feature-desc">Mongolia's greatest cultural spectacle, held each July. Horse racing, wrestling, and archery draw the nation together in a centuries-old celebration of nomadic prowess and national identity.</p>
+          <div class="feature-title" data-i18n="mn_feature1_title">Naadam Festival</div>
+          <p class="feature-desc" data-i18n="mn_feature1_desc">Mongolia's greatest cultural spectacle, held each July. Horse racing, wrestling, and archery draw the nation together in a centuries-old celebration of nomadic prowess and national identity.</p>
         </div>
 
         <div class="feature-card fade-in">
@@ -1552,8 +1552,8 @@
             <circle cx="22" cy="14" r="4" stroke="#C4944A" stroke-width="1.4" fill="none"/>
             <path d="M22 14 L28 8" stroke="#C4944A" stroke-width="1.2" stroke-linecap="round"/>
           </svg>
-          <div class="feature-title">The Gobi Desert</div>
-          <p class="feature-desc">Flaming Cliffs blazing at dusk, Khongor Sand Dunes rising 300 metres from the desert floor, and Yol Valley's ice gorge hiding deep inside summer heat. The Gobi defies every expectation.</p>
+          <div class="feature-title" data-i18n="mn_feature2_title">The Gobi Desert</div>
+          <p class="feature-desc" data-i18n="mn_feature2_desc">Flaming Cliffs blazing at dusk, Khongor Sand Dunes rising 300 metres from the desert floor, and Yol Valley's ice gorge hiding deep inside summer heat. The Gobi defies every expectation.</p>
         </div>
 
         <div class="feature-card fade-in">
@@ -1564,8 +1564,8 @@
             <circle cx="18" cy="32" r="3" stroke="#C4944A" stroke-width="1.3" fill="none"/>
             <path d="M8 38 Q12 34 18 35 Q24 36 28 34" stroke="#C4944A" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
           </svg>
-          <div class="feature-title">Golden Eagle Hunters</div>
-          <p class="feature-desc">In the remote Altai, Kazakh hunters have trained golden eagles for the hunt across generations. The 17-night tour visits Olgii to witness this ancient art firsthand, one of the world's rarest living traditions.</p>
+          <div class="feature-title" data-i18n="mn_feature3_title">Golden Eagle Hunters</div>
+          <p class="feature-desc" data-i18n="mn_feature3_desc">In the remote Altai, Kazakh hunters have trained golden eagles for the hunt across generations. The 17-night tour visits Olgii to witness this ancient art firsthand, one of the world's rarest living traditions.</p>
         </div>
 
         <div class="feature-card fade-in">
@@ -1575,8 +1575,8 @@
             <circle cx="22" cy="12" r="3" fill="#C4944A" opacity="0.8"/>
             <path d="M8 34 L36 34" stroke="#C4944A" stroke-width="1" opacity="0.4"/>
           </svg>
-          <div class="feature-title">Nomadic Culture</div>
-          <p class="feature-desc">Sleep in traditional gers beneath skies blanketed with stars. Share airag with herder families, learn to ride Mongolian horses, and experience a way of life that has remained essentially unchanged for a thousand years.</p>
+          <div class="feature-title" data-i18n="mn_feature4_title">Nomadic Culture</div>
+          <p class="feature-desc" data-i18n="mn_feature4_desc">Sleep in traditional gers beneath skies blanketed with stars. Share airag with herder families, learn to ride Mongolian horses, and experience a way of life that has remained essentially unchanged for a thousand years.</p>
         </div>
 
         <div class="feature-card fade-in">
@@ -1586,8 +1586,8 @@
             <path d="M16 14 L16 10 Q16 8 22 8 Q28 8 28 10 L28 14" stroke="#C4944A" stroke-width="1.3" fill="none"/>
             <circle cx="22" cy="28" r="3" fill="#C4944A" opacity="0.8"/>
           </svg>
-          <div class="feature-title">Ancient Karakorum</div>
-          <p class="feature-desc">Walk the ruins of Genghis Khan's capital, once the nerve centre of the largest contiguous empire in history. The Erdene Zuu monastery beside it, built from the rubble of the original city, stands as a monument to impermanence and renewal.</p>
+          <div class="feature-title" data-i18n="mn_feature5_title">Ancient Karakorum</div>
+          <p class="feature-desc" data-i18n="mn_feature5_desc">Walk the ruins of Genghis Khan's capital, once the nerve centre of the largest contiguous empire in history. The Erdene Zuu monastery beside it, built from the rubble of the original city, stands as a monument to impermanence and renewal.</p>
         </div>
 
         <div class="feature-card fade-in">
@@ -1598,8 +1598,8 @@
             <circle cx="30" cy="8" r="2" fill="#C4944A" opacity="0.6"/>
             <circle cx="20" cy="6" r="1.5" fill="#C4944A" opacity="0.4"/>
           </svg>
-          <div class="feature-title">Vast Wilderness</div>
-          <p class="feature-desc">From the lush Orkhon Valley and its hidden waterfall to the White Stupa's dramatic clay cliffs, traverse landscapes that have seen almost no human alteration. Mongolia remains, remarkably, one of the last truly wild places on Earth.</p>
+          <div class="feature-title" data-i18n="mn_feature6_title">Vast Wilderness</div>
+          <p class="feature-desc" data-i18n="mn_feature6_desc">From the lush Orkhon Valley and its hidden waterfall to the White Stupa's dramatic clay cliffs, traverse landscapes that have seen almost no human alteration. Mongolia remains, remarkably, one of the last truly wild places on Earth.</p>
         </div>
       </div>
     </div>
@@ -1608,10 +1608,10 @@
   <section id="itinerary" aria-labelledby="itinerary-title">
     <div class="container">
       <div class="itinerary-header fade-in">
-        <span class="section-label">Day by Day</span>
-        <h2 class="section-title" id="itinerary-title">The Expedition</h2>
+        <span class="section-label" data-i18n="mn_itinerary_label">Day by Day</span>
+        <h2 class="section-title" id="itinerary-title" data-i18n="mn_itinerary_title">The Expedition</h2>
         <span class="gold-line"></span>
-        <p style="color: var(--text-muted); font-size: 1rem; max-width: 580px; margin: 0 auto; margin-top: 0.8rem; margin-bottom: 2.5rem;">Three itinerary options, all ending July 21. The 14-night adds Ulaanbaatar city tour and two nights in Terelj with the Genghis Khan Equestrian Statue. The 17-night further extends into western Mongolia for two nights with the Kazakh golden eagle hunters.</p>
+        <p style="color: var(--text-muted); font-size: 1rem; max-width: 580px; margin: 0 auto; margin-top: 0.8rem; margin-bottom: 2.5rem;" data-i18n="mn_itinerary_intro">Three itinerary options, all ending July 21. The 14-night adds Ulaanbaatar city tour and two nights in Terelj with the Genghis Khan Equestrian Statue. The 17-night further extends into western Mongolia for two nights with the Kazakh golden eagle hunters.</p>
       </div>
 
       <!-- Tier Selector -->
@@ -1636,10 +1636,10 @@
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 1</div>
-              <div class="day-location">Arrive Ulaanbaatar</div>
-              <div class="day-date">Saturday, July 4, 2026</div>
-              <p class="day-desc">Touch down in Ulaanbaatar, Mongolia's sprawling, contradictory capital where Soviet apartment blocks sit alongside Buddhist temples and modern glass towers. Transfer to your hotel and rest after your journey. This evening, gather around the table for a welcome dinner with your expedition companions, a first taste of Mongolian cuisine and the adventure ahead.</p>
+              <div class="day-label" data-i18n="mn_11n_day1_label">Day 1</div>
+              <div class="day-location" data-i18n="mn_11n_day1_location">Arrive Ulaanbaatar</div>
+              <div class="day-date" data-i18n="mn_17n_day1_date">Saturday, July 4, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day1_desc">Touch down in Ulaanbaatar, Mongolia's sprawling, contradictory capital where Soviet apartment blocks sit alongside Buddhist temples and modern glass towers. Transfer to your hotel and rest after your journey. This evening, gather around the table for a welcome dinner with your expedition companions, a first taste of Mongolian cuisine and the adventure ahead.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -1649,19 +1649,19 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 2</div>
-              <div class="day-location">Fly to Olgii</div>
-              <div class="day-date">Sunday, July 5, 2026</div>
-              <p class="day-desc">Take a domestic flight west to Olgii, the capital of Bayan-Olgii province and the heartland of Mongolia's Kazakh community. Explore the town's markets and mosques, a world apart from Ulaanbaatar. Tonight, sleep in Olgii town as you prepare to meet the legendary eagle hunters tomorrow.</p>
+              <div class="day-label" data-i18n="mn_11n_day2_label">Day 2</div>
+              <div class="day-location" data-i18n="mn_17n_day2_location">Fly to Olgii</div>
+              <div class="day-date" data-i18n="mn_17n_day2_date">Sunday, July 5, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day2_desc">Take a domestic flight west to Olgii, the capital of Bayan-Olgii province and the heartland of Mongolia's Kazakh community. Explore the town's markets and mosques, a world apart from Ulaanbaatar. Tonight, sleep in Olgii town as you prepare to meet the legendary eagle hunters tomorrow.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 3</div>
-              <div class="day-location">Sagsai Village</div>
-              <div class="day-date">Monday, July 6, 2026</div>
-              <p class="day-desc">Travel to Sagsai village, home to some of the most skilled eagle hunters in all of Mongolia. Watch a golden eagle hunting demonstration in the open valleys, the great birds streaking down from cliff faces at speeds exceeding 150 kilometers per hour. Learn about Kazakh culture, dress, music, and the rigorous years-long process of bonding a hunter with an eagle. Tonight, sleep in a traditional ger with your eagle hunter hosts, an intimate window into a way of life stretching back over 4,000 years.</p>
+              <div class="day-label" data-i18n="mn_11n_day3_label">Day 3</div>
+              <div class="day-location" data-i18n="mn_17n_day3_location">Sagsai Village</div>
+              <div class="day-date" data-i18n="mn_17n_day3_date">Monday, July 6, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day3_desc">Travel to Sagsai village, home to some of the most skilled eagle hunters in all of Mongolia. Watch a golden eagle hunting demonstration in the open valleys, the great birds streaking down from cliff faces at speeds exceeding 150 kilometers per hour. Learn about Kazakh culture, dress, music, and the rigorous years-long process of bonding a hunter with an eagle. Tonight, sleep in a traditional ger with your eagle hunter hosts, an intimate window into a way of life stretching back over 4,000 years.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -1671,19 +1671,19 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 4</div>
+              <div class="day-label" data-i18n="mn_11n_day4_label">Day 4</div>
               <div class="day-location">Fly Back &mdash; Drive to Terelj</div>
-              <div class="day-date">Tuesday, July 7, 2026</div>
+              <div class="day-date" data-i18n="mn_14n_day1_date">Tuesday, July 7, 2026</div>
               <p class="day-desc">A morning farewell to your eagle hunter hosts before the flight back to Ulaanbaatar. Upon arrival, drive directly east to Terelj National Park, pausing at the colossal Genghis Khan Equestrian Statue&mdash;a 40-metre stainless steel figure and the world's largest equestrian statue. Ascend to the viewing platform for panoramic views of the Tuul River valley before continuing into Terelj's pristine granite valleys. Overnight in a traditional ger camp beneath an extraordinary starlit sky.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 5</div>
-              <div class="day-location">Terelj National Park</div>
-              <div class="day-date">Wednesday, July 8, 2026</div>
-              <p class="day-desc">A full day to explore Terelj's dramatic granite landscape. Visit Turtle Rock, one of Mongolia's most recognizable natural sculptures, and climb to the Ariyabal Meditation Temple carved into the cliff face above a forested hillside. Spend the afternoon on horseback through open meadows flanked by pine forests. This extraordinary valley, just one hour from the capital, feels utterly removed from the modern world.</p>
+              <div class="day-label" data-i18n="mn_11n_day5_label">Day 5</div>
+              <div class="day-location" data-i18n="mn_14n_day4_location">Terelj National Park</div>
+              <div class="day-date" data-i18n="mn_14n_day2_date">Wednesday, July 8, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day5_desc">A full day to explore Terelj's dramatic granite landscape. Visit Turtle Rock, one of Mongolia's most recognizable natural sculptures, and climb to the Ariyabal Meditation Temple carved into the cliff face above a forested hillside. Spend the afternoon on horseback through open meadows flanked by pine forests. This extraordinary valley, just one hour from the capital, feels utterly removed from the modern world.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -1693,41 +1693,19 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 6</div>
+              <div class="day-label" data-i18n="mn_11n_day6_label">Day 6</div>
               <div class="day-location">Return to Ulaanbaatar &mdash; City Tour</div>
-              <div class="day-date">Thursday, July 9, 2026</div>
-              <p class="day-desc">Drive back into Ulaanbaatar for a full day in the capital. Begin at the Gandantegchinlen Monastery, the living center of Mongolian Buddhism, where monks chant their morning prayers beneath a 26-metre gilded statue. Walk to Chinggis Khan Square, the vast central plaza framed by government buildings and the looming bronze figure of the Great Khan himself. Spend the afternoon at the National Museum of Mongolia, tracing the full arc of the empire from the steppe tribes of antiquity to the modern nation.</p>
+              <div class="day-date" data-i18n="mn_14n_day3_date">Thursday, July 9, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day6_desc">Drive back into Ulaanbaatar for a full day in the capital. Begin at the Gandantegchinlen Monastery, the living center of Mongolian Buddhism, where monks chant their morning prayers beneath a 26-metre gilded statue. Walk to Chinggis Khan Square, the vast central plaza framed by government buildings and the looming bronze figure of the Great Khan himself. Spend the afternoon at the National Museum of Mongolia, tracing the full arc of the empire from the steppe tribes of antiquity to the modern nation.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 7</div>
-              <div class="day-location">At Leisure in Ulaanbaatar</div>
-              <div class="day-date">Friday, July 10, 2026</div>
-              <p class="day-desc">A free day in the capital on the eve of Naadam. Sleep in, browse the Black Market bazaar for cashmere and handicrafts, visit the Mongolian Art Museum, or simply wander the city at your own pace. This evening, the anticipation builds as the city begins its preparations for one of the great cultural festivals of the world.</p>
-            </div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-empty"></div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-empty"></div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-card">
-              <div class="day-label">Day 8</div>
-              <div class="day-location">Naadam Festival Opening</div>
-              <div class="day-date">Saturday, July 11, 2026</div>
-              <p class="day-desc">The opening ceremony of Naadam, Mongolia's national festival, begins today at the Central Stadium. Thousands gather as costumed horsemen parade, wrestling champions are introduced, and archery competitors take their marks. The wrestling competition, governed by rules older than the empire itself, begins immediately after the ceremony. Child jockeys as young as five years old prepare for the long-distance horse races stretching across the open steppe beyond the city.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-card">
-              <div class="day-label">Day 9</div>
-              <div class="day-location">Naadam Festival Day 2</div>
-              <div class="day-date">Sunday, July 12, 2026</div>
-              <p class="day-desc">Return to the festival grounds for a second day of competition. Wrestling finals, archery eliminations, and the thrilling conclusion of the horse races draw tens of thousands of spectators. Wander the festival grounds to sample khuushuur (fried mutton pastry), watch traditional throat singing, and mingle with Mongolian families in their finest deels. This is one of the great cultural spectacles of the world, and you are inside it.</p>
+              <div class="day-label" data-i18n="mn_11n_day7_label">Day 7</div>
+              <div class="day-location" data-i18n="mn_17n_day7_location">At Leisure in Ulaanbaatar</div>
+              <div class="day-date" data-i18n="mn_11n_day1_date">Friday, July 10, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day7_desc">A free day in the capital on the eve of Naadam. Sleep in, browse the Black Market bazaar for cashmere and handicrafts, visit the Mongolian Art Museum, or simply wander the city at your own pace. This evening, the anticipation builds as the city begins its preparations for one of the great cultural festivals of the world.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -1737,41 +1715,19 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 10</div>
-              <div class="day-location">Drive to Karakorum</div>
-              <div class="day-date">Monday, July 13, 2026</div>
-              <p class="day-desc">Leave Ulaanbaatar and head southwest along the valley of the Orkhon River toward the ancient capital of the Mongol Empire. Arrive at Karakorum in the afternoon. Visit the Erdene Zuu Monastery, built in 1586 from the stones of Genghis Khan's original capital, its white walls enclosing three ornate temples that survived the Soviet-era purges. Walk the outline of the old palace foundations as the steppe breeze carries the smell of wild sage. Tonight, sleep in a ger camp outside the monastery walls.</p>
+              <div class="day-label" data-i18n="mn_11n_day8_label">Day 8</div>
+              <div class="day-location" data-i18n="mn_11n_day2_location">Naadam Festival Opening</div>
+              <div class="day-date" data-i18n="mn_11n_day2_date">Saturday, July 11, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day8_desc">The opening ceremony of Naadam, Mongolia's national festival, begins today at the Central Stadium. Thousands gather as costumed horsemen parade, wrestling champions are introduced, and archery competitors take their marks. The wrestling competition, governed by rules older than the empire itself, begins immediately after the ceremony. Child jockeys as young as five years old prepare for the long-distance horse races stretching across the open steppe beyond the city.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 11</div>
-              <div class="day-location">Orkhon Valley</div>
-              <div class="day-date">Tuesday, July 14, 2026</div>
-              <p class="day-desc">Follow the Orkhon River deeper into one of Mongolia's most fertile and historically significant valleys. A morning hike brings you to the Orkhon Waterfall, which erupts from a basalt shelf formed by ancient volcanic activity. In the afternoon, visit a nomadic family at their summer camp, sharing tea, fermented mare's milk (airag), and a glimpse of the seasonal rhythms that have defined Mongolian life for centuries. The valley around you is a UNESCO World Heritage landscape.</p>
-            </div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-empty"></div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-empty"></div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-card">
-              <div class="day-label">Day 12</div>
-              <div class="day-location">Ongi Monastery Ruins</div>
-              <div class="day-date">Wednesday, July 15, 2026</div>
-              <p class="day-desc">Drive south through the transition zone where the steppe thins and the air begins to carry the dry, mineral scent of the approaching desert. Stop at the ruins of Ongi Monastery, once one of the largest religious complexes in Mongolia with over 30 temples and 1,000 monks, destroyed in the Stalinist purges of 1937. The ruins stand today as a haunting memorial. Reconstruction is underway, and the rebuilt main temple offers context and quiet reflection before the road south continues.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-card">
-              <div class="day-label">Day 13</div>
-              <div class="day-location">Flaming Cliffs</div>
-              <div class="day-date">Thursday, July 16, 2026</div>
-              <p class="day-desc">Drive to Bayanzag, the Flaming Cliffs, where American paleontologist Roy Chapman Andrews discovered the world's first dinosaur eggs in 1923. The red sandstone formations burn at sunset with an intensity that borders on supernatural. Walk the rim of the cliffs and peer down into the gullies where dinosaur fossils still surface after heavy rains.</p>
+              <div class="day-label" data-i18n="mn_11n_day9_label">Day 9</div>
+              <div class="day-location" data-i18n="mn_11n_day3_location">Naadam Festival Day 2</div>
+              <div class="day-date" data-i18n="mn_11n_day3_date">Sunday, July 12, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day9_desc">Return to the festival grounds for a second day of competition. Wrestling finals, archery eliminations, and the thrilling conclusion of the horse races draw tens of thousands of spectators. Wander the festival grounds to sample khuushuur (fried mutton pastry), watch traditional throat singing, and mingle with Mongolian families in their finest deels. This is one of the great cultural spectacles of the world, and you are inside it.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -1781,41 +1737,19 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 14</div>
-              <div class="day-location">Khongor Sand Dunes</div>
-              <div class="day-date">Friday, July 17, 2026</div>
-              <p class="day-desc">The Khongor Sand Dunes, known as the Singing Sands, rise up to 300 metres and stretch nearly 200 kilometres across the Gobi floor. Ride Bactrian camels along their base, the ancient two-humped variety that has crossed these sands for millennia. In the late afternoon, climb the main dune ridge as the sun begins its descent, the valley below casting long violet shadows across the sand. The view from the summit, with the Gobi spreading in every direction, is among the great vistas of the natural world.</p>
+              <div class="day-label" data-i18n="mn_11n_day10_label">Day 10</div>
+              <div class="day-location" data-i18n="mn_11n_day4_location">Drive to Karakorum</div>
+              <div class="day-date" data-i18n="mn_11n_day4_date">Monday, July 13, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day10_desc">Leave Ulaanbaatar and head southwest along the valley of the Orkhon River toward the ancient capital of the Mongol Empire. Arrive at Karakorum in the afternoon. Visit the Erdene Zuu Monastery, built in 1586 from the stones of Genghis Khan's original capital, its white walls enclosing three ornate temples that survived the Soviet-era purges. Walk the outline of the old palace foundations as the steppe breeze carries the smell of wild sage. Tonight, sleep in a ger camp outside the monastery walls.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 15</div>
-              <div class="day-location">Yol Valley and Three Camels Lodge</div>
-              <div class="day-date">Saturday, July 18, 2026</div>
-              <p class="day-desc">Enter the Gobi Gurvansaikhan National Park and descend into Yol Valley, a narrow ice gorge that persists through summer locked between soaring canyon walls. Walk the frozen floor of the gorge past nesting griffon vultures overhead. This afternoon, arrive at Three Camels Lodge, the Gobi's finest and most celebrated accommodation, a beautifully designed ger camp whose traditional architecture and attentive hospitality have earned it international recognition. Tonight, the desert sky above you will hold more stars than you have ever seen.</p>
-            </div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-empty"></div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-empty"></div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-card">
-              <div class="day-label">Day 16</div>
-              <div class="day-location">Tsagaan Suvarga</div>
-              <div class="day-date">Sunday, July 19, 2026</div>
-              <p class="day-desc">Continue to Tsagaan Suvarga, the White Stupa, a formation of ancient seabed cliffs rising 30 metres from the Gobi plain in layered bands of white, red, and ochre. Once the floor of a shallow inland sea, these sedimentary walls are studded with the fossils of marine creatures that lived here 60 million years ago. At sunrise and sunset the cliffs ignite in color. It is one of Mongolia's most quietly spectacular landscapes, and almost no one outside the country knows it exists.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-card">
-              <div class="day-label">Day 17</div>
-              <div class="day-location">Drive Back to Ulaanbaatar</div>
-              <div class="day-date">Monday, July 20, 2026</div>
-              <p class="day-desc">The final leg of the overland journey brings you back into Ulaanbaatar by afternoon. The rest of the day is yours: browse the Black Market (Narantuul), Mongolia's vast open-air bazaar, for cashmere, silver jewelry, and traditional handicrafts. This evening, gather for the farewell dinner: a proper Mongolian feast with the full group, a last sharing of stories from the road, and a toast to the steppe, the desert, and the eternal blue sky that watched over all of it.</p>
+              <div class="day-label" data-i18n="mn_11n_day11_label">Day 11</div>
+              <div class="day-location" data-i18n="mn_11n_day5_location">Orkhon Valley</div>
+              <div class="day-date" data-i18n="mn_11n_day5_date">Tuesday, July 14, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day11_desc">Follow the Orkhon River deeper into one of Mongolia's most fertile and historically significant valleys. A morning hike brings you to the Orkhon Waterfall, which erupts from a basalt shelf formed by ancient volcanic activity. In the afternoon, visit a nomadic family at their summer camp, sharing tea, fermented mare's milk (airag), and a glimpse of the seasonal rhythms that have defined Mongolian life for centuries. The valley around you is a UNESCO World Heritage landscape.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -1825,10 +1759,76 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 18</div>
-              <div class="day-location">Depart Ulaanbaatar</div>
-              <div class="day-date">Tuesday, July 21, 2026</div>
-              <p class="day-desc">Transfer to Chinggis Khan International Airport for your onward journey. The expedition is complete. Mongolia has a way of following travelers home, a persistent quality of light and space that reframes ordinary life. We hope you carry a little of the eternal blue sky with you.</p>
+              <div class="day-label" data-i18n="mn_11n_day12_label">Day 12</div>
+              <div class="day-location" data-i18n="mn_11n_day6_location">Ongi Monastery Ruins</div>
+              <div class="day-date" data-i18n="mn_11n_day6_date">Wednesday, July 15, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day12_desc">Drive south through the transition zone where the steppe thins and the air begins to carry the dry, mineral scent of the approaching desert. Stop at the ruins of Ongi Monastery, once one of the largest religious complexes in Mongolia with over 30 temples and 1,000 monks, destroyed in the Stalinist purges of 1937. The ruins stand today as a haunting memorial. Reconstruction is underway, and the rebuilt main temple offers context and quiet reflection before the road south continues.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_14n_day13_label">Day 13</div>
+              <div class="day-location" data-i18n="mn_11n_day7_location">Flaming Cliffs</div>
+              <div class="day-date" data-i18n="mn_11n_day7_date">Thursday, July 16, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day13_desc">Drive to Bayanzag, the Flaming Cliffs, where American paleontologist Roy Chapman Andrews discovered the world's first dinosaur eggs in 1923. The red sandstone formations burn at sunset with an intensity that borders on supernatural. Walk the rim of the cliffs and peer down into the gullies where dinosaur fossils still surface after heavy rains.</p>
+            </div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-empty"></div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-empty"></div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_14n_day14_label">Day 14</div>
+              <div class="day-location" data-i18n="mn_11n_day8_location">Khongor Sand Dunes</div>
+              <div class="day-date" data-i18n="mn_11n_day8_date">Friday, July 17, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day14_desc">The Khongor Sand Dunes, known as the Singing Sands, rise up to 300 metres and stretch nearly 200 kilometres across the Gobi floor. Ride Bactrian camels along their base, the ancient two-humped variety that has crossed these sands for millennia. In the late afternoon, climb the main dune ridge as the sun begins its descent, the valley below casting long violet shadows across the sand. The view from the summit, with the Gobi spreading in every direction, is among the great vistas of the natural world.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_14n_day15_label">Day 15</div>
+              <div class="day-location" data-i18n="mn_11n_day9_location">Yol Valley and Three Camels Lodge</div>
+              <div class="day-date" data-i18n="mn_11n_day9_date">Saturday, July 18, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day15_desc">Enter the Gobi Gurvansaikhan National Park and descend into Yol Valley, a narrow ice gorge that persists through summer locked between soaring canyon walls. Walk the frozen floor of the gorge past nesting griffon vultures overhead. This afternoon, arrive at Three Camels Lodge, the Gobi's finest and most celebrated accommodation, a beautifully designed ger camp whose traditional architecture and attentive hospitality have earned it international recognition. Tonight, the desert sky above you will hold more stars than you have ever seen.</p>
+            </div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-empty"></div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-empty"></div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_17n_day16_label">Day 16</div>
+              <div class="day-location" data-i18n="mn_11n_day10_location">Tsagaan Suvarga</div>
+              <div class="day-date" data-i18n="mn_11n_day10_date">Sunday, July 19, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day16_desc">Continue to Tsagaan Suvarga, the White Stupa, a formation of ancient seabed cliffs rising 30 metres from the Gobi plain in layered bands of white, red, and ochre. Once the floor of a shallow inland sea, these sedimentary walls are studded with the fossils of marine creatures that lived here 60 million years ago. At sunrise and sunset the cliffs ignite in color. It is one of Mongolia's most quietly spectacular landscapes, and almost no one outside the country knows it exists.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_17n_day17_label">Day 17</div>
+              <div class="day-location" data-i18n="mn_11n_day11_location">Drive Back to Ulaanbaatar</div>
+              <div class="day-date" data-i18n="mn_11n_day11_date">Monday, July 20, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day17_desc">The final leg of the overland journey brings you back into Ulaanbaatar by afternoon. The rest of the day is yours: browse the Black Market (Narantuul), Mongolia's vast open-air bazaar, for cashmere, silver jewelry, and traditional handicrafts. This evening, gather for the farewell dinner: a proper Mongolian feast with the full group, a last sharing of stories from the road, and a toast to the steppe, the desert, and the eternal blue sky that watched over all of it.</p>
+            </div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-empty"></div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-empty"></div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_17n_day18_label">Day 18</div>
+              <div class="day-location" data-i18n="mn_11n_day12_location">Depart Ulaanbaatar</div>
+              <div class="day-date" data-i18n="mn_11n_day12_date">Tuesday, July 21, 2026</div>
+              <p class="day-desc" data-i18n="mn_17n_day18_desc">Transfer to Chinggis Khan International Airport for your onward journey. The expedition is complete. Mongolia has a way of following travelers home, a persistent quality of light and space that reframes ordinary life. We hope you carry a little of the eternal blue sky with you.</p>
             </div>
           </div>
 
@@ -1841,10 +1841,10 @@
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 1</div>
-              <div class="day-location">Arrive Ulaanbaatar</div>
-              <div class="day-date">Tuesday, July 7, 2026</div>
-              <p class="day-desc">Arrive in Ulaanbaatar and transfer to your hotel. This evening, gather for a welcome dinner with your group and a first taste of Mongolian cuisine, setting the tone for the adventure ahead.</p>
+              <div class="day-label" data-i18n="mn_11n_day1_label">Day 1</div>
+              <div class="day-location" data-i18n="mn_11n_day1_location">Arrive Ulaanbaatar</div>
+              <div class="day-date" data-i18n="mn_14n_day1_date">Tuesday, July 7, 2026</div>
+              <p class="day-desc" data-i18n="mn_14n_day1_desc">Arrive in Ulaanbaatar and transfer to your hotel. This evening, gather for a welcome dinner with your group and a first taste of Mongolian cuisine, setting the tone for the adventure ahead.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -1854,18 +1854,18 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 2</div>
-              <div class="day-location">Ulaanbaatar City Tour</div>
-              <div class="day-date">Wednesday, July 8, 2026</div>
-              <p class="day-desc">Begin at the Gandantegchinlen Monastery, the living center of Mongolian Buddhism. Walk to Chinggis Khan Square and spend the afternoon at the National Museum of Mongolia, tracing the full arc from ancient steppe tribes to the great empire.</p>
+              <div class="day-label" data-i18n="mn_11n_day2_label">Day 2</div>
+              <div class="day-location" data-i18n="mn_14n_day2_location">Ulaanbaatar City Tour</div>
+              <div class="day-date" data-i18n="mn_14n_day2_date">Wednesday, July 8, 2026</div>
+              <p class="day-desc" data-i18n="mn_14n_day2_desc">Begin at the Gandantegchinlen Monastery, the living center of Mongolian Buddhism. Walk to Chinggis Khan Square and spend the afternoon at the National Museum of Mongolia, tracing the full arc from ancient steppe tribes to the great empire.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 3</div>
-              <div class="day-location">Drive to Terelj National Park</div>
-              <div class="day-date">Thursday, July 9, 2026</div>
+              <div class="day-label" data-i18n="mn_11n_day3_label">Day 3</div>
+              <div class="day-location" data-i18n="mn_14n_day3_location">Drive to Terelj National Park</div>
+              <div class="day-date" data-i18n="mn_14n_day3_date">Thursday, July 9, 2026</div>
               <p class="day-desc">Drive east from Ulaanbaatar, stopping at the monumental Genghis Khan Equestrian Statue&mdash;a 40-metre stainless steel figure astride a horse, the largest equestrian statue in the world. Ascend to the viewing platform on the horse's head for panoramic views of the Tuul River valley. Continue into the pristine valleys of Terelj National Park, where granite tors rise improbably from the grassland. Overnight in a traditional ger camp beneath an extraordinary starlit sky.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
@@ -1876,18 +1876,18 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 4</div>
-              <div class="day-location">Terelj National Park</div>
-              <div class="day-date">Friday, July 10, 2026</div>
-              <p class="day-desc">A full day to explore Terelj's dramatic granite landscape. Visit Turtle Rock, one of Mongolia's most recognizable natural sculptures, and climb to the Ariyabal Meditation Temple, a hillside Buddhist retreat carved into the cliff face. Spend the afternoon on horseback through open meadows flanked by pine forests, and overnight once more beneath the park's extraordinary starlit sky.</p>
+              <div class="day-label" data-i18n="mn_11n_day4_label">Day 4</div>
+              <div class="day-location" data-i18n="mn_14n_day4_location">Terelj National Park</div>
+              <div class="day-date" data-i18n="mn_11n_day1_date">Friday, July 10, 2026</div>
+              <p class="day-desc" data-i18n="mn_14n_day4_desc">A full day to explore Terelj's dramatic granite landscape. Visit Turtle Rock, one of Mongolia's most recognizable natural sculptures, and climb to the Ariyabal Meditation Temple, a hillside Buddhist retreat carved into the cliff face. Spend the afternoon on horseback through open meadows flanked by pine forests, and overnight once more beneath the park's extraordinary starlit sky.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 5</div>
+              <div class="day-label" data-i18n="mn_11n_day5_label">Day 5</div>
               <div class="day-location">Return to UB &mdash; Naadam Opening</div>
-              <div class="day-date">Saturday, July 11, 2026</div>
+              <div class="day-date" data-i18n="mn_11n_day2_date">Saturday, July 11, 2026</div>
               <p class="day-desc">Return to Ulaanbaatar for the opening ceremony of Naadam, Mongolia's national festival. At the Central Stadium, costumed horsemen parade, wrestling champions are introduced, and archery competitors take their marks. Child jockeys as young as five years old prepare for the long-distance horse races stretching across the open steppe beyond the city.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
@@ -1898,41 +1898,19 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 6</div>
-              <div class="day-location">Naadam Festival Day 2</div>
-              <div class="day-date">Sunday, July 12, 2026</div>
-              <p class="day-desc">Return for the wrestling finals, archery eliminations, and the thrilling conclusion of the horse races. Wander the festival grounds, sample khuushuur and airag, watch traditional throat singing, and mingle with Mongolian families in their finest deels.</p>
+              <div class="day-label" data-i18n="mn_11n_day6_label">Day 6</div>
+              <div class="day-location" data-i18n="mn_11n_day3_location">Naadam Festival Day 2</div>
+              <div class="day-date" data-i18n="mn_11n_day3_date">Sunday, July 12, 2026</div>
+              <p class="day-desc" data-i18n="mn_14n_day6_desc">Return for the wrestling finals, archery eliminations, and the thrilling conclusion of the horse races. Wander the festival grounds, sample khuushuur and airag, watch traditional throat singing, and mingle with Mongolian families in their finest deels.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 7</div>
-              <div class="day-location">Drive to Karakorum</div>
-              <div class="day-date">Monday, July 13, 2026</div>
-              <p class="day-desc">Head southwest toward the ancient capital of the Mongol Empire. Arrive at Karakorum and visit the Erdene Zuu Monastery, built from the stones of Genghis Khan's original palace. Walk the foundation outlines as the steppe breeze carries wild sage. Overnight in a ger camp outside the monastery walls.</p>
-            </div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-empty"></div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-empty"></div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-card">
-              <div class="day-label">Day 8</div>
-              <div class="day-location">Orkhon Valley</div>
-              <div class="day-date">Tuesday, July 14, 2026</div>
-              <p class="day-desc">Follow the Orkhon River into its UNESCO World Heritage valley. Hike to the Orkhon Waterfall erupting from ancient basalt. Visit a nomadic family at their summer camp, sharing tea and airag and witnessing the seasonal rhythms that have defined Mongolian life for centuries.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-card">
-              <div class="day-label">Day 9</div>
-              <div class="day-location">Ongi Monastery Ruins</div>
-              <div class="day-date">Wednesday, July 15, 2026</div>
-              <p class="day-desc">Drive south through the steppe-to-desert transition zone. Stop at the ruins of Ongi Monastery, once one of Mongolia's largest religious complexes, destroyed in the Stalinist purges of 1937. The rebuilt main temple offers quiet reflection before the road south continues toward the Gobi.</p>
+              <div class="day-label" data-i18n="mn_11n_day7_label">Day 7</div>
+              <div class="day-location" data-i18n="mn_11n_day4_location">Drive to Karakorum</div>
+              <div class="day-date" data-i18n="mn_11n_day4_date">Monday, July 13, 2026</div>
+              <p class="day-desc" data-i18n="mn_14n_day7_desc">Head southwest toward the ancient capital of the Mongol Empire. Arrive at Karakorum and visit the Erdene Zuu Monastery, built from the stones of Genghis Khan's original palace. Walk the foundation outlines as the steppe breeze carries wild sage. Overnight in a ger camp outside the monastery walls.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -1942,41 +1920,19 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 10</div>
-              <div class="day-location">Flaming Cliffs</div>
-              <div class="day-date">Thursday, July 16, 2026</div>
-              <p class="day-desc">Visit Bayanzag, the Flaming Cliffs, where the world's first dinosaur eggs were discovered in 1923. The red sandstone formations burn at sunset. Walk the rim and peer into gullies where fossils still surface after rain.</p>
+              <div class="day-label" data-i18n="mn_11n_day8_label">Day 8</div>
+              <div class="day-location" data-i18n="mn_11n_day5_location">Orkhon Valley</div>
+              <div class="day-date" data-i18n="mn_11n_day5_date">Tuesday, July 14, 2026</div>
+              <p class="day-desc" data-i18n="mn_14n_day8_desc">Follow the Orkhon River into its UNESCO World Heritage valley. Hike to the Orkhon Waterfall erupting from ancient basalt. Visit a nomadic family at their summer camp, sharing tea and airag and witnessing the seasonal rhythms that have defined Mongolian life for centuries.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 11</div>
-              <div class="day-location">Khongor Sand Dunes</div>
-              <div class="day-date">Friday, July 17, 2026</div>
-              <p class="day-desc">Ride Bactrian camels along the base of the Khongor Sand Dunes, rising 300 metres from the desert floor. Climb the main ridge at sunset as the valley below casts long violet shadows across the sand, one of the great vistas of the natural world.</p>
-            </div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-empty"></div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-empty"></div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-card">
-              <div class="day-label">Day 12</div>
-              <div class="day-location">Yol Valley and Three Camels Lodge</div>
-              <div class="day-date">Saturday, July 18, 2026</div>
-              <p class="day-desc">Walk the ice gorge of Yol Valley inside Gobi Gurvansaikhan National Park. This afternoon, arrive at Three Camels Lodge, the Gobi's most celebrated ger camp accommodation. Tonight, the desert sky above you will hold more stars than you have ever seen.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-card">
-              <div class="day-label">Day 13</div>
-              <div class="day-location">Tsagaan Suvarga</div>
-              <div class="day-date">Sunday, July 19, 2026</div>
-              <p class="day-desc">Visit Tsagaan Suvarga, the White Stupa, an ancient seabed rising 30 metres from the Gobi floor in layered bands of white, red, and ochre. At sunrise and sunset the cliffs ignite with color. One of Mongolia's most quietly spectacular landscapes.</p>
+              <div class="day-label" data-i18n="mn_11n_day9_label">Day 9</div>
+              <div class="day-location" data-i18n="mn_11n_day6_location">Ongi Monastery Ruins</div>
+              <div class="day-date" data-i18n="mn_11n_day6_date">Wednesday, July 15, 2026</div>
+              <p class="day-desc" data-i18n="mn_14n_day9_desc">Drive south through the steppe-to-desert transition zone. Stop at the ruins of Ongi Monastery, once one of Mongolia's largest religious complexes, destroyed in the Stalinist purges of 1937. The rebuilt main temple offers quiet reflection before the road south continues toward the Gobi.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -1986,19 +1942,63 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 14</div>
-              <div class="day-location">Drive Back to Ulaanbaatar</div>
-              <div class="day-date">Monday, July 20, 2026</div>
-              <p class="day-desc">Arrive back in Ulaanbaatar by afternoon. Browse the Black Market for cashmere and traditional crafts, or rest quietly as the city hums around you. This evening, a farewell dinner to share stories from the road and toast to the journey.</p>
+              <div class="day-label" data-i18n="mn_11n_day10_label">Day 10</div>
+              <div class="day-location" data-i18n="mn_11n_day7_location">Flaming Cliffs</div>
+              <div class="day-date" data-i18n="mn_11n_day7_date">Thursday, July 16, 2026</div>
+              <p class="day-desc" data-i18n="mn_14n_day10_desc">Visit Bayanzag, the Flaming Cliffs, where the world's first dinosaur eggs were discovered in 1923. The red sandstone formations burn at sunset. Walk the rim and peer into gullies where fossils still surface after rain.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 15</div>
-              <div class="day-location">Depart Ulaanbaatar</div>
-              <div class="day-date">Tuesday, July 21, 2026</div>
-              <p class="day-desc">Transfer to Chinggis Khan International Airport for your onward journey. The expedition is complete. We hope you carry a little of the eternal blue sky with you.</p>
+              <div class="day-label" data-i18n="mn_11n_day11_label">Day 11</div>
+              <div class="day-location" data-i18n="mn_11n_day8_location">Khongor Sand Dunes</div>
+              <div class="day-date" data-i18n="mn_11n_day8_date">Friday, July 17, 2026</div>
+              <p class="day-desc" data-i18n="mn_14n_day11_desc">Ride Bactrian camels along the base of the Khongor Sand Dunes, rising 300 metres from the desert floor. Climb the main ridge at sunset as the valley below casts long violet shadows across the sand, one of the great vistas of the natural world.</p>
+            </div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-empty"></div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-empty"></div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_11n_day12_label">Day 12</div>
+              <div class="day-location" data-i18n="mn_11n_day9_location">Yol Valley and Three Camels Lodge</div>
+              <div class="day-date" data-i18n="mn_11n_day9_date">Saturday, July 18, 2026</div>
+              <p class="day-desc" data-i18n="mn_14n_day12_desc">Walk the ice gorge of Yol Valley inside Gobi Gurvansaikhan National Park. This afternoon, arrive at Three Camels Lodge, the Gobi's most celebrated ger camp accommodation. Tonight, the desert sky above you will hold more stars than you have ever seen.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_14n_day13_label">Day 13</div>
+              <div class="day-location" data-i18n="mn_11n_day10_location">Tsagaan Suvarga</div>
+              <div class="day-date" data-i18n="mn_11n_day10_date">Sunday, July 19, 2026</div>
+              <p class="day-desc" data-i18n="mn_14n_day13_desc">Visit Tsagaan Suvarga, the White Stupa, an ancient seabed rising 30 metres from the Gobi floor in layered bands of white, red, and ochre. At sunrise and sunset the cliffs ignite with color. One of Mongolia's most quietly spectacular landscapes.</p>
+            </div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-empty"></div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-empty"></div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_14n_day14_label">Day 14</div>
+              <div class="day-location" data-i18n="mn_11n_day11_location">Drive Back to Ulaanbaatar</div>
+              <div class="day-date" data-i18n="mn_11n_day11_date">Monday, July 20, 2026</div>
+              <p class="day-desc" data-i18n="mn_14n_day14_desc">Arrive back in Ulaanbaatar by afternoon. Browse the Black Market for cashmere and traditional crafts, or rest quietly as the city hums around you. This evening, a farewell dinner to share stories from the road and toast to the journey.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_14n_day15_label">Day 15</div>
+              <div class="day-location" data-i18n="mn_11n_day12_location">Depart Ulaanbaatar</div>
+              <div class="day-date" data-i18n="mn_11n_day12_date">Tuesday, July 21, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day12_desc">Transfer to Chinggis Khan International Airport for your onward journey. The expedition is complete. We hope you carry a little of the eternal blue sky with you.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -2013,10 +2013,10 @@
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 1</div>
-              <div class="day-location">Arrive Ulaanbaatar</div>
-              <div class="day-date">Friday, July 10, 2026</div>
-              <p class="day-desc">Arrive in Ulaanbaatar, Mongolia's vibrant capital and gateway to the eternal blue sky. Settle into your hotel and prepare for the extraordinary journey ahead. Tomorrow, the ancient Naadam Festival begins.</p>
+              <div class="day-label" data-i18n="mn_11n_day1_label">Day 1</div>
+              <div class="day-location" data-i18n="mn_11n_day1_location">Arrive Ulaanbaatar</div>
+              <div class="day-date" data-i18n="mn_11n_day1_date">Friday, July 10, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day1_desc">Arrive in Ulaanbaatar, Mongolia's vibrant capital and gateway to the eternal blue sky. Settle into your hotel and prepare for the extraordinary journey ahead. Tomorrow, the ancient Naadam Festival begins.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -2026,41 +2026,19 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 2</div>
-              <div class="day-location">Naadam Festival Opening</div>
-              <div class="day-date">Saturday, July 11, 2026</div>
-              <p class="day-desc">The opening ceremony of Naadam, Mongolia's greatest national celebration. At the Central Stadium, costumed horsemen parade, wrestling champions are introduced, and archery competitors take their marks. Child jockeys as young as five prepare to race across the open steppe in one of sport's most extraordinary spectacles.</p>
+              <div class="day-label" data-i18n="mn_11n_day2_label">Day 2</div>
+              <div class="day-location" data-i18n="mn_11n_day2_location">Naadam Festival Opening</div>
+              <div class="day-date" data-i18n="mn_11n_day2_date">Saturday, July 11, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day2_desc">The opening ceremony of Naadam, Mongolia's greatest national celebration. At the Central Stadium, costumed horsemen parade, wrestling champions are introduced, and archery competitors take their marks. Child jockeys as young as five prepare to race across the open steppe in one of sport's most extraordinary spectacles.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 3</div>
-              <div class="day-location">Naadam Festival Day 2</div>
-              <div class="day-date">Sunday, July 12, 2026</div>
-              <p class="day-desc">Return to the festival for wrestling finals, archery eliminations, and the thrilling conclusion of the horse races. Wander the grounds, sample khuushuur and airag, watch throat singing, and absorb one of the great cultural events on Earth alongside Mongolian families in their finest deels.</p>
-            </div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-empty"></div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-empty"></div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-card">
-              <div class="day-label">Day 4</div>
-              <div class="day-location">Drive to Karakorum</div>
-              <div class="day-date">Monday, July 13, 2026</div>
-              <p class="day-desc">Head southwest toward the ancient capital of the Mongol Empire. Arrive at Karakorum and visit the Erdene Zuu Monastery, built from the stones of Genghis Khan's original palace. Walk the ancient foundation outlines as the steppe breeze carries wild sage. Overnight in a ger camp outside the monastery walls.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-card">
-              <div class="day-label">Day 5</div>
-              <div class="day-location">Orkhon Valley</div>
-              <div class="day-date">Tuesday, July 14, 2026</div>
-              <p class="day-desc">Follow the Orkhon River into its UNESCO World Heritage valley. Hike to the waterfall erupting from ancient basalt. Visit a nomadic family at their summer camp, sharing tea and airag and witnessing the seasonal rhythms that have defined Mongolian life for centuries.</p>
+              <div class="day-label" data-i18n="mn_11n_day3_label">Day 3</div>
+              <div class="day-location" data-i18n="mn_11n_day3_location">Naadam Festival Day 2</div>
+              <div class="day-date" data-i18n="mn_11n_day3_date">Sunday, July 12, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day3_desc">Return to the festival for wrestling finals, archery eliminations, and the thrilling conclusion of the horse races. Wander the grounds, sample khuushuur and airag, watch throat singing, and absorb one of the great cultural events on Earth alongside Mongolian families in their finest deels.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -2070,41 +2048,19 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 6</div>
-              <div class="day-location">Ongi Monastery Ruins</div>
-              <div class="day-date">Wednesday, July 15, 2026</div>
-              <p class="day-desc">Drive south through the steppe-to-desert transition. Stop at the ruins of Ongi Monastery, once one of Mongolia's largest religious complexes before the Stalinist purges of 1937. The rebuilt main temple offers context and quiet reflection before the road south continues into the Gobi.</p>
+              <div class="day-label" data-i18n="mn_11n_day4_label">Day 4</div>
+              <div class="day-location" data-i18n="mn_11n_day4_location">Drive to Karakorum</div>
+              <div class="day-date" data-i18n="mn_11n_day4_date">Monday, July 13, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day4_desc">Head southwest toward the ancient capital of the Mongol Empire. Arrive at Karakorum and visit the Erdene Zuu Monastery, built from the stones of Genghis Khan's original palace. Walk the ancient foundation outlines as the steppe breeze carries wild sage. Overnight in a ger camp outside the monastery walls.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 7</div>
-              <div class="day-location">Flaming Cliffs</div>
-              <div class="day-date">Thursday, July 16, 2026</div>
-              <p class="day-desc">Visit Bayanzag, the Flaming Cliffs, where the world's first dinosaur eggs were found in 1923. The red sandstone burns at sunset with an intensity that borders on supernatural. Walk the rim and peer into the fossil-rich gullies below.</p>
-            </div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-empty"></div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-empty"></div>
-            <div class="day-dot"><div class="day-dot-inner"></div></div>
-            <div class="timeline-card">
-              <div class="day-label">Day 8</div>
-              <div class="day-location">Khongor Sand Dunes</div>
-              <div class="day-date">Friday, July 17, 2026</div>
-              <p class="day-desc">Ride Bactrian camels along the base of the Singing Sands, rising 300 metres from the desert floor. Climb the main dune ridge at sunset as violet shadows stretch across the sand below. One of the great natural vistas on Earth, seen by very few.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item fade-in">
-            <div class="timeline-card">
-              <div class="day-label">Day 9</div>
-              <div class="day-location">Yol Valley and Three Camels Lodge</div>
-              <div class="day-date">Saturday, July 18, 2026</div>
-              <p class="day-desc">Walk the ice gorge of Yol Valley inside Gobi Gurvansaikhan National Park, a narrow canyon where ice persists through the summer heat. Arrive this afternoon at Three Camels Lodge, the Gobi's most celebrated accommodation. The desert sky tonight will hold more stars than you have ever seen.</p>
+              <div class="day-label" data-i18n="mn_11n_day5_label">Day 5</div>
+              <div class="day-location" data-i18n="mn_11n_day5_location">Orkhon Valley</div>
+              <div class="day-date" data-i18n="mn_11n_day5_date">Tuesday, July 14, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day5_desc">Follow the Orkhon River into its UNESCO World Heritage valley. Hike to the waterfall erupting from ancient basalt. Visit a nomadic family at their summer camp, sharing tea and airag and witnessing the seasonal rhythms that have defined Mongolian life for centuries.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -2114,19 +2070,19 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 10</div>
-              <div class="day-location">Tsagaan Suvarga</div>
-              <div class="day-date">Sunday, July 19, 2026</div>
-              <p class="day-desc">Visit Tsagaan Suvarga, the White Stupa, an ancient seabed rising 30 metres from the Gobi floor in layered bands of white, red, and ochre. At sunrise and sunset the cliffs ignite with color. One of Mongolia's most quietly spectacular and least-known landscapes.</p>
+              <div class="day-label" data-i18n="mn_11n_day6_label">Day 6</div>
+              <div class="day-location" data-i18n="mn_11n_day6_location">Ongi Monastery Ruins</div>
+              <div class="day-date" data-i18n="mn_11n_day6_date">Wednesday, July 15, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day6_desc">Drive south through the steppe-to-desert transition. Stop at the ruins of Ongi Monastery, once one of Mongolia's largest religious complexes before the Stalinist purges of 1937. The rebuilt main temple offers context and quiet reflection before the road south continues into the Gobi.</p>
             </div>
           </div>
 
           <div class="timeline-item fade-in">
             <div class="timeline-card">
-              <div class="day-label">Day 11</div>
-              <div class="day-location">Drive Back to Ulaanbaatar</div>
-              <div class="day-date">Monday, July 20, 2026</div>
-              <p class="day-desc">The final leg of the overland journey brings you back into Ulaanbaatar by afternoon. Browse the Black Market for cashmere, handicrafts, and souvenirs. This evening, the farewell dinner: a proper Mongolian feast and a last sharing of stories from the steppe and the Gobi.</p>
+              <div class="day-label" data-i18n="mn_11n_day7_label">Day 7</div>
+              <div class="day-location" data-i18n="mn_11n_day7_location">Flaming Cliffs</div>
+              <div class="day-date" data-i18n="mn_11n_day7_date">Thursday, July 16, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day7_desc">Visit Bayanzag, the Flaming Cliffs, where the world's first dinosaur eggs were found in 1923. The red sandstone burns at sunset with an intensity that borders on supernatural. Walk the rim and peer into the fossil-rich gullies below.</p>
             </div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-empty"></div>
@@ -2136,10 +2092,54 @@
             <div class="timeline-empty"></div>
             <div class="day-dot"><div class="day-dot-inner"></div></div>
             <div class="timeline-card">
-              <div class="day-label">Day 12</div>
-              <div class="day-location">Depart Ulaanbaatar</div>
-              <div class="day-date">Tuesday, July 21, 2026</div>
-              <p class="day-desc">Transfer to Chinggis Khan International Airport for your onward journey. The expedition is complete. We hope you carry a little of the eternal blue sky with you.</p>
+              <div class="day-label" data-i18n="mn_11n_day8_label">Day 8</div>
+              <div class="day-location" data-i18n="mn_11n_day8_location">Khongor Sand Dunes</div>
+              <div class="day-date" data-i18n="mn_11n_day8_date">Friday, July 17, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day8_desc">Ride Bactrian camels along the base of the Singing Sands, rising 300 metres from the desert floor. Climb the main dune ridge at sunset as violet shadows stretch across the sand below. One of the great natural vistas on Earth, seen by very few.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_11n_day9_label">Day 9</div>
+              <div class="day-location" data-i18n="mn_11n_day9_location">Yol Valley and Three Camels Lodge</div>
+              <div class="day-date" data-i18n="mn_11n_day9_date">Saturday, July 18, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day9_desc">Walk the ice gorge of Yol Valley inside Gobi Gurvansaikhan National Park, a narrow canyon where ice persists through the summer heat. Arrive this afternoon at Three Camels Lodge, the Gobi's most celebrated accommodation. The desert sky tonight will hold more stars than you have ever seen.</p>
+            </div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-empty"></div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-empty"></div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_11n_day10_label">Day 10</div>
+              <div class="day-location" data-i18n="mn_11n_day10_location">Tsagaan Suvarga</div>
+              <div class="day-date" data-i18n="mn_11n_day10_date">Sunday, July 19, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day10_desc">Visit Tsagaan Suvarga, the White Stupa, an ancient seabed rising 30 metres from the Gobi floor in layered bands of white, red, and ochre. At sunrise and sunset the cliffs ignite with color. One of Mongolia's most quietly spectacular and least-known landscapes.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_11n_day11_label">Day 11</div>
+              <div class="day-location" data-i18n="mn_11n_day11_location">Drive Back to Ulaanbaatar</div>
+              <div class="day-date" data-i18n="mn_11n_day11_date">Monday, July 20, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day11_desc">The final leg of the overland journey brings you back into Ulaanbaatar by afternoon. Browse the Black Market for cashmere, handicrafts, and souvenirs. This evening, the farewell dinner: a proper Mongolian feast and a last sharing of stories from the steppe and the Gobi.</p>
+            </div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-empty"></div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-empty"></div>
+            <div class="day-dot"><div class="day-dot-inner"></div></div>
+            <div class="timeline-card">
+              <div class="day-label" data-i18n="mn_11n_day12_label">Day 12</div>
+              <div class="day-location" data-i18n="mn_11n_day12_location">Depart Ulaanbaatar</div>
+              <div class="day-date" data-i18n="mn_11n_day12_date">Tuesday, July 21, 2026</div>
+              <p class="day-desc" data-i18n="mn_11n_day12_desc">Transfer to Chinggis Khan International Airport for your onward journey. The expedition is complete. We hope you carry a little of the eternal blue sky with you.</p>
             </div>
           </div>
 
@@ -2159,7 +2159,7 @@
     <div style="position:absolute;inset:0;background:linear-gradient(to right, rgba(10,8,5,0.65) 0%, rgba(10,8,5,0.2) 50%, rgba(10,8,5,0.65) 100%);"></div>
     <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem;">
       <div class="fade-in">
-        <p style="font-family:'Source Sans 3',sans-serif;font-size:0.72rem;letter-spacing:0.32em;color:var(--gold);text-transform:uppercase;font-weight:600;margin-bottom:1rem;">Small Group Expedition</p>
+        <p style="font-family:'Source Sans 3',sans-serif;font-size:0.72rem;letter-spacing:0.32em;color:var(--gold);text-transform:uppercase;font-weight:600;margin-bottom:1rem;" data-i18n="mn_gallery_label">Small Group Expedition</p>
         <h2 style="font-family:'Playfair Display',serif;font-size:clamp(1.8rem,5vw,3.4rem);color:var(--white);font-weight:700;line-height:1.2;max-width:640px;">Every Detail Arranged.<br><em>Every Moment Yours.</em></h2>
       </div>
     </div>
@@ -2168,43 +2168,43 @@
   <section id="details" aria-labelledby="details-title">
     <div class="container">
       <div class="details-header fade-in">
-        <span class="section-label">Expedition Details</span>
-        <h2 class="section-title" id="details-title">What's Included</h2>
+        <span class="section-label" data-i18n="mn_details_label">Expedition Details</span>
+        <h2 class="section-title" id="details-title" data-i18n="mn_details_title">What's Included</h2>
         <span class="gold-line"></span>
       </div>
 
       <div class="details-grid fade-in">
         <div class="detail-row">
-          <span class="detail-label">Dates</span>
+          <span class="detail-label" data-i18n="mn_detail_dates_label">Dates</span>
           <span class="detail-value">July 4 &ndash; 21 (17 Nights) / July 7 &ndash; 21 (14 Nights) / July 10 &ndash; 21 (11 Nights), 2026</span>
         </div>
         <div class="detail-row">
-          <span class="detail-label">Duration</span>
-          <span class="detail-value">11, 14, or 17 nights depending on selected itinerary</span>
+          <span class="detail-label" data-i18n="mn_detail_duration_label">Duration</span>
+          <span class="detail-value" data-i18n="mn_detail_duration_value">11, 14, or 17 nights depending on selected itinerary</span>
         </div>
         <div class="detail-row">
-          <span class="detail-label">Group Size</span>
-          <span class="detail-value">Small group expedition: intimate, unhurried, and personal</span>
+          <span class="detail-label" data-i18n="mn_detail_group_label">Group Size</span>
+          <span class="detail-value" data-i18n="mn_detail_group_value">Small group expedition: intimate, unhurried, and personal</span>
         </div>
         <div class="detail-row">
-          <span class="detail-label">Accommodation</span>
-          <span class="detail-value">Shared accommodation (2 per room), mix of hotels and ger camps including Three Camels Lodge in the Gobi</span>
+          <span class="detail-label" data-i18n="mn_detail_accommodation_label">Accommodation</span>
+          <span class="detail-value" data-i18n="mn_detail_accommodation_value">Shared accommodation (2 per room), mix of hotels and ger camps including Three Camels Lodge in the Gobi</span>
         </div>
         <div class="detail-row">
-          <span class="detail-label">Single Suppl.</span>
-          <span class="detail-value">Additional $125/night for a private room (except Three Camels Lodge on July 18)</span>
+          <span class="detail-label" data-i18n="mn_detail_single_label">Single Suppl.</span>
+          <span class="detail-value" data-i18n="mn_detail_single_value">Additional $125/night for a private room (except Three Camels Lodge on July 18)</span>
         </div>
         <div class="detail-row">
-          <span class="detail-label">Meals</span>
-          <span class="detail-value">All meals included outside of Ulaanbaatar</span>
+          <span class="detail-label" data-i18n="mn_detail_meals_label">Meals</span>
+          <span class="detail-value" data-i18n="mn_detail_meals_value">All meals included outside of Ulaanbaatar</span>
         </div>
         <div class="detail-row">
-          <span class="detail-label">Flights</span>
-          <span class="detail-value">Domestic flight within Mongolia included for the 17-night tour (Ulaanbaatar to Olgii and return)</span>
+          <span class="detail-label" data-i18n="mn_detail_flights_label">Flights</span>
+          <span class="detail-value" data-i18n="mn_detail_flights_value">Domestic flight within Mongolia included for the 17-night tour (Ulaanbaatar to Olgii and return)</span>
         </div>
         <div class="detail-row">
-          <span class="detail-label">Not Included</span>
-          <span class="detail-value">Meals within Ulaanbaatar, international flights, visa fees, and travel insurance</span>
+          <span class="detail-label" data-i18n="mn_detail_not_included_label">Not Included</span>
+          <span class="detail-value" data-i18n="mn_detail_not_included_value">Meals within Ulaanbaatar, international flights, visa fees, and travel insurance</span>
         </div>
       </div>
     </div>
@@ -2214,49 +2214,49 @@
     <div class="pricing-bg"></div>
     <div class="container">
       <div class="pricing-content fade-in">
-        <p class="pricing-label">Expedition Investment</p>
-        <h2 class="pricing-section-title" id="pricing-title">Choose Your Mongolia</h2>
-        <p class="pricing-intro">Three itinerary lengths. One extraordinary destination. All tours end July 21, 2026.</p>
+        <p class="pricing-label" data-i18n="mn_pricing_label">Expedition Investment</p>
+        <h2 class="pricing-section-title" id="pricing-title" data-i18n="mn_pricing_title">Choose Your Mongolia</h2>
+        <p class="pricing-intro" data-i18n="mn_pricing_intro">Three itinerary lengths. One extraordinary destination. All tours end July 21, 2026.</p>
 
         <div class="pricing-cards">
           <div class="pricing-card">
-            <div class="pricing-card-nights">11 Nights</div>
+            <div class="pricing-card-nights" data-i18n="mn_pricing_card1_nights">11 Nights</div>
             <div class="pricing-card-dates">July 10 &ndash; 21, 2026</div>
-            <div class="pricing-card-amount">$4,950</div>
-            <div class="pricing-card-per">USD per person</div>
+            <div class="pricing-card-amount" data-i18n="mn_pricing_card1_amount">$4,950</div>
+            <div class="pricing-card-per" data-i18n="mn_pricing_card3_per">USD per person</div>
             <div class="pricing-card-divider"></div>
-            <p class="pricing-card-note">Ulaanbaatar, Naadam Festival, Karakorum, Orkhon Valley, Ongi, Gobi Desert, Tsagaan Suvarga</p>
+            <p class="pricing-card-note" data-i18n="mn_pricing_card1_note">Ulaanbaatar, Naadam Festival, Karakorum, Orkhon Valley, Ongi, Gobi Desert, Tsagaan Suvarga</p>
           </div>
           <div class="pricing-card">
-            <div class="pricing-card-nights">14 Nights</div>
+            <div class="pricing-card-nights" data-i18n="mn_pricing_card2_nights">14 Nights</div>
             <div class="pricing-card-dates">July 7 &ndash; 21, 2026</div>
-            <div class="pricing-card-amount">$5,950</div>
-            <div class="pricing-card-per">USD per person</div>
+            <div class="pricing-card-amount" data-i18n="mn_pricing_card2_amount">$5,950</div>
+            <div class="pricing-card-per" data-i18n="mn_pricing_card3_per">USD per person</div>
             <div class="pricing-card-divider"></div>
-            <p class="pricing-card-note">All of the above, plus Ulaanbaatar city tour, Terelj National Park with Genghis Khan Statue</p>
+            <p class="pricing-card-note" data-i18n="mn_pricing_card2_note">All of the above, plus Ulaanbaatar city tour, Terelj National Park with Genghis Khan Statue</p>
           </div>
           <div class="pricing-card featured">
-            <div class="pricing-card-nights">17 Nights</div>
+            <div class="pricing-card-nights" data-i18n="mn_pricing_card3_nights">17 Nights</div>
             <div class="pricing-card-dates">July 4 &ndash; 21, 2026</div>
-            <div class="pricing-card-amount">$7,450</div>
-            <div class="pricing-card-per">USD per person</div>
+            <div class="pricing-card-amount" data-i18n="mn_pricing_card3_amount">$7,450</div>
+            <div class="pricing-card-per" data-i18n="mn_pricing_card3_per">USD per person</div>
             <div class="pricing-card-divider"></div>
-            <p class="pricing-card-note">All of the above, plus Olgii and Sagsai for Golden Eagle Hunters</p>
+            <p class="pricing-card-note" data-i18n="mn_pricing_card3_note">All of the above, plus Olgii and Sagsai for Golden Eagle Hunters</p>
           </div>
         </div>
 
-        <p class="pricing-includes">Fully inclusive of accommodation, all meals outside Ulaanbaatar, activities, and ground transportation</p>
-        <p class="pricing-note">International airfare, Ulaanbaatar meals, visa fees, and travel insurance not included</p>
-        <a href="mailto:admin@wpjourneys.com" class="book-cta" target="_blank" rel="noopener noreferrer">Reserve Your Spot</a>
+        <p class="pricing-includes" data-i18n="mn_pricing_includes">Fully inclusive of accommodation, all meals outside Ulaanbaatar, activities, and ground transportation</p>
+        <p class="pricing-note" data-i18n="mn_pricing_note">International airfare, Ulaanbaatar meals, visa fees, and travel insurance not included</p>
+        <a href="mailto:admin@wpjourneys.com" class="book-cta" target="_blank" rel="noopener noreferrer" data-i18n="mn_pricing_cta">Reserve Your Spot</a>
         <div class="contact-options">
           <a href="mailto:admin@wpjourneys.com" class="contact-option" title="Email us">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" stroke-width="1.8"/><polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
-            <span>admin@wpjourneys.com</span>
+            <span data-i18n="mn_contact_email">admin@wpjourneys.com</span>
           </a>
           <span class="contact-separator"></span>
           <a href="https://wa.me/message/4D3P4QCBYG5SG1" class="contact-option" target="_blank" rel="noopener noreferrer" title="Message us on WhatsApp">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-            <span>WhatsApp</span>
+            <span data-i18n="mn_contact_whatsapp">WhatsApp</span>
           </a>
         </div>
       </div>
@@ -2273,7 +2273,7 @@
         <polygon points="24,6 26.5,20 24,18 21.5,20" fill="#C4944A" opacity="0.6"/>
         <circle cx="24" cy="24" r="3" fill="#C4944A" opacity="0.6"/>
       </svg>
-      <span class="footer-logo-text">Waypoint Journeys</span>
+      <span class="footer-logo-text" data-i18n="mn_footer_brand">Waypoint Journeys</span>
     </div>
     <div class="footer-social">
       <!-- Instagram -->
@@ -2295,7 +2295,7 @@
         </svg>
       </a>
     </div>
-    <p class="footer-tagline">Luxury adventure travel to the world's last wild places.</p>
+    <p class="footer-tagline" data-i18n="mn_footer_tagline">Luxury adventure travel to the world's last wild places.</p>
     <p class="footer-copy">&copy; 2026 Waypoint Journeys. All rights reserved.</p>
   </footer>
 
@@ -2440,5 +2440,8 @@
     selectTier('17');
   </script>
 
+
+  <script src="/lang/mongolia.js"></script>
+  <script src="/lang/i18n.js"></script>
 </body>
 </html>
