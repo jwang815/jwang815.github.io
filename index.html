@@ -1871,11 +1871,30 @@
         if (target) setLanguage(target.getAttribute('data-lang'));
       });
 
-      // Restore saved preference (default: English)
-      try {
-        var saved = localStorage.getItem('wpj-lang');
-        if (saved && saved === 'zh') setLanguage('zh');
-      } catch(e) {}
+      // Determine initial language: saved preference > IP geolocation > English default
+      function initLanguage() {
+        try {
+          var saved = localStorage.getItem('wpj-lang');
+          if (saved) {
+            if (saved === 'zh') setLanguage('zh');
+            return; // User has an explicit preference, respect it
+          }
+        } catch(e) {}
+
+        // No saved preference — detect country via IP geolocation
+        fetch('https://ipapi.co/json/', { mode: 'cors' })
+          .then(function(res) { return res.json(); })
+          .then(function(data) {
+            if (data && data.country_code === 'CN') {
+              setLanguage('zh');
+            }
+          })
+          .catch(function() {
+            // Geolocation failed, stay on English default
+          });
+      }
+
+      initLanguage();
     })();
   </script>
 </body>
