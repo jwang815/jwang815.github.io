@@ -364,8 +364,8 @@ window.__i18n = {
     "zh": "立即预订名额"
   },
   "wa_contact_email": {
-    "en": "admin@wpjourneys.com",
-    "zh": "admin@wpjourneys.com"
+    "en": "info@wpjourneys.com",
+    "zh": "info@wpjourneys.com"
   },
   "wa_contact_whatsapp": {
     "en": "WhatsApp",

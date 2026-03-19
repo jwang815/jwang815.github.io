@@ -444,8 +444,8 @@ window.__i18n = {
     "zh": "立即预订席位"
   },
   "pk_contact_email": {
-    "en": "admin@wpjourneys.com",
-    "zh": "admin@wpjourneys.com"
+    "en": "info@wpjourneys.com",
+    "zh": "info@wpjourneys.com"
   },
   "pk_contact_whatsapp": {
     "en": "WhatsApp",

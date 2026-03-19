@@ -1056,8 +1056,8 @@ window.__i18n = {
     "zh": "立即预定名额"
   },
   "mn_contact_email": {
-    "en": "admin@wpjourneys.com",
-    "zh": "admin@wpjourneys.com"
+    "en": "info@wpjourneys.com",
+    "zh": "info@wpjourneys.com"
   },
   "mn_contact_whatsapp": {
     "en": "WhatsApp",
