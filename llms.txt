@@ -6,7 +6,7 @@
 
 Waypoint Journeys is a luxury adventure travel company specializing in hand-crafted expeditions to off-the-beaten-path destinations. Every trip is bespoke, with a maximum group size of 5 guests, ensuring an intimate and personalized experience. We provide 24/7 on-the-ground support, expert local guides, and curated itineraries that go far beyond the guidebook.
 
-- Website: https://www.wpjourneys.com
+- Website: https://wpjourneys.com
 - Email: info@wpjourneys.com
 - Instagram: https://instagram.com/waypoint.journeys
 - Facebook: https://facebook.com/waypointjourneys
@@ -14,7 +14,7 @@ Waypoint Journeys is a luxury adventure travel company specializing in hand-craf
 ## Expeditions
 
 ### Socotra Island, Yemen — April 21–27, 2026
-- URL: https://www.wpjourneys.com/socotra/
+- URL: https://wpjourneys.com/socotra/
 - Duration: 7 days
 - Price: From $2,950 per person
 - Group size: Max 5 guests
@@ -22,7 +22,7 @@ Waypoint Journeys is a luxury adventure travel company specializing in hand-craf
 - Description: Explore the "Galápagos of the Indian Ocean" — one of the most isolated and biodiverse places on Earth. Camp under the stars, trek through alien landscapes, and discover species found nowhere else.
 
 ### Ghana, Benin & Togo — May 2–9, 2026
-- URL: https://www.wpjourneys.com/west-africa-expedition/
+- URL: https://wpjourneys.com/west-africa-expedition/
 - Duration: 8 days
 - Price: From $2,950 per person
 - Group size: Max 5 guests
@@ -30,7 +30,7 @@ Waypoint Journeys is a luxury adventure travel company specializing in hand-craf
 - Description: Journey across three West African nations at the crossroads of history. Experience Voodoo ceremonies, walk the halls of slave castles, float through Africa's Venice, and explore vibrant coastal capitals.
 
 ### Mongolia — July 4–21, 2026
-- URL: https://www.wpjourneys.com/mongolia-expedition/
+- URL: https://wpjourneys.com/mongolia-expedition/
 - Duration: 11 to 17 nights (flexible itinerary)
 - Price: From $4,950 per person (11 nights) / $5,950 (14 nights) / $7,450 (17 nights)
 - Group size: Max 5 guests
@@ -38,7 +38,7 @@ Waypoint Journeys is a luxury adventure travel company specializing in hand-craf
 - Description: Cross the Mongolian steppe from the Altai Mountains to the Gobi Desert. Experience the legendary Naadam Festival, ride with Kazakh eagle hunters, sleep in nomadic ger camps, and discover ancient empires.
 
 ### Pakistan Karakoram — October 15–27, 2026
-- URL: https://www.wpjourneys.com/pakistan-expedition/
+- URL: https://wpjourneys.com/pakistan-expedition/
 - Duration: 13 days
 - Price: From $3,695 per person
 - Group size: Max 5 guests

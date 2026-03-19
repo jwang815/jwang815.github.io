@@ -1,5 +1,5 @@
 # Waypoint Journeys — robots.txt
-# https://www.wpjourneys.com
+# https://wpjourneys.com
 
 User-agent: *
 Allow: /
@@ -23,4 +23,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://www.wpjourneys.com/sitemap.xml
+Sitemap: https://wpjourneys.com/sitemap.xml
