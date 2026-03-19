@@ -1,4 +1,8 @@
 window.__i18n = {
+  "sc_nav_brand": {
+    "en": "Waypoint Journeys",
+    "zh": "Waypoint Journeys"
+  },
   "sc_nav_overview": {
     "en": "Overview",
     "zh": "行程概览"
@@ -21,7 +25,7 @@ window.__i18n = {
   },
   "sc_hero_title": {
     "en": "Socotra",
-    "zh": "Socotra"
+    "zh": "索科特拉岛"
   },
   "sc_hero_subtitle": {
     "en": "The World's Forgotten Garden of Eden",
@@ -145,7 +149,7 @@ window.__i18n = {
   },
   "sc_day1_location": {
     "en": "Jeddah → Socotra → Homhil",
-    "zh": "Jeddah → Socotra → Homhil"
+    "zh": "吉达 → 索科特拉 → 霍姆希尔"
   },
   "sc_day1_date": {
     "en": "Monday, April 21, 2026",
@@ -161,7 +165,7 @@ window.__i18n = {
   },
   "sc_day2_location": {
     "en": "Homhil → Arher",
-    "zh": "Homhil → Arher"
+    "zh": "霍姆希尔 → 阿赫尔"
   },
   "sc_day2_date": {
     "en": "Tuesday, April 22, 2026",
@@ -177,7 +181,7 @@ window.__i18n = {
   },
   "sc_day3_location": {
     "en": "Arher → Hoq Cave → Ras Irisseyl",
-    "zh": "Arher → Hoq Cave → Ras Irisseyl"
+    "zh": "阿赫尔 → 霍克洞穴 → 伊里塞尔角"
   },
   "sc_day3_date": {
     "en": "Wednesday, April 23, 2026",
@@ -193,7 +197,7 @@ window.__i18n = {
   },
   "sc_day4_location": {
     "en": "Arher → Kalisan Canyon → Hadibo",
-    "zh": "Arher → Kalisan Canyon → Hadibo"
+    "zh": "阿赫尔 → 卡利桑峡谷 → 哈迪布"
   },
   "sc_day4_date": {
     "en": "Thursday, April 24, 2026",
@@ -209,7 +213,7 @@ window.__i18n = {
   },
   "sc_day5_location": {
     "en": "Hadibo → Firhmin Forest → Zahek → Diksam",
-    "zh": "Hadibo → Firhmin Forest → Zahek → Diksam"
+    "zh": "哈迪布 → 菲尔明森林 → 扎赫克 → 迪克萨姆"
   },
   "sc_day5_date": {
     "en": "Friday, April 25, 2026",
@@ -225,7 +229,7 @@ window.__i18n = {
   },
   "sc_day6_location": {
     "en": "Diksam → Detwah Lagoon → Shu'ab Beach",
-    "zh": "Diksam → Detwah Lagoon → Shu'ab Beach"
+    "zh": "迪克萨姆 → 德特瓦泻湖 → 舒阿卜海滩"
   },
   "sc_day6_date": {
     "en": "Saturday, April 26, 2026",
@@ -241,7 +245,7 @@ window.__i18n = {
   },
   "sc_day7_location": {
     "en": "Hadibo → Jeddah",
-    "zh": "Hadibo → Jeddah"
+    "zh": "哈迪布 → 吉达"
   },
   "sc_day7_date": {
     "en": "Sunday, April 27, 2026",
