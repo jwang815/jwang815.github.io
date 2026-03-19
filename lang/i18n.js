@@ -43,22 +43,18 @@
   // ── Inject pill toggle CSS ──
   var style = document.createElement('style');
   style.textContent = [
-    /* Desktop: toggle in nav after links */
+    /* Base toggle styles */
     '.lang-toggle{display:flex;align-items:center;border:1px solid rgba(196,148,74,0.35);border-radius:20px;overflow:hidden;margin-left:20px;flex-shrink:0;height:30px;background:transparent;transition:border-color 0.3s}',
     '.lang-toggle button{font-family:var(--font-body,"Source Sans 3",sans-serif);font-size:0.68rem;font-weight:500;letter-spacing:0.08em;padding:5px 14px;border:none;background:transparent;color:rgba(245,237,224,0.55);cursor:pointer;transition:all 0.3s ease;line-height:1;white-space:nowrap;height:100%}',
     '.lang-toggle button.active{background:rgba(196,148,74,0.18);color:#C4944A;font-weight:600}',
     '.lang-toggle button:hover:not(.active){color:rgba(245,237,224,0.85)}',
     '.lang-toggle-sep{width:1px;height:14px;background:rgba(196,148,74,0.3);flex-shrink:0}',
-    /* Desktop-only toggle (hidden on mobile) */
+    /* Desktop-only toggle: after nav-links, hidden on mobile */
     '.lang-toggle--desktop{display:flex}',
     '@media(max-width:900px){.lang-toggle--desktop{display:none}}',
-    /* Mobile nav bar toggle: sits next to hamburger, visible when menu is closed */
-    '.lang-toggle--mobile-nav{display:none;margin-right:16px;height:28px}',
-    '.lang-toggle--mobile-nav button{font-size:0.62rem;padding:4px 10px}',
-    '@media(max-width:900px){.lang-toggle--mobile-nav{display:flex}}',
-    /* Mobile menu overlay toggle: visible inside the full-screen menu */
-    '.lang-toggle--overlay{display:none;margin-top:24px;height:34px;border-color:rgba(196,148,74,0.5)}',
-    '.lang-toggle--overlay button{font-size:0.8rem;padding:7px 20px}',
+    /* Mobile overlay toggle: inside mobile menu dropdown, hidden on desktop */
+    '.lang-toggle--overlay{display:none;margin:12px auto 0;height:34px;border-color:rgba(196,148,74,0.45)}',
+    '.lang-toggle--overlay button{font-size:0.72rem;padding:6px 16px}',
     '@media(max-width:900px){.lang-toggle--overlay{display:flex}}',
     /* Chinese font override */
     'html[lang="zh-CN"]{--font-display:"Noto Serif SC","Playfair Display",Georgia,serif;--font-body:"Noto Sans SC","Source Sans 3","Segoe UI",Helvetica,Arial,sans-serif}'
@@ -104,7 +100,6 @@
     if (!nav) return;
 
     var navLinks = nav.querySelector('.nav-links');
-    var hamburger = nav.querySelector('.hamburger');
 
     // Desktop toggle: after nav-links, hidden on mobile
     if (navLinks) {
@@ -113,15 +108,8 @@
       navLinks.parentNode.insertBefore(desktopToggle, navLinks.nextSibling);
     }
 
-    // Mobile nav bar toggle: before hamburger, hidden on desktop
-    if (hamburger) {
-      var mobileToggle = createToggle();
-      mobileToggle.classList.add('lang-toggle--mobile-nav');
-      hamburger.parentNode.insertBefore(mobileToggle, hamburger);
-    }
-
-    // Mobile menu overlay toggle: inside the full-screen menu
-    var mobileMenu = document.querySelector('.mobile-menu, #mobileMenu');
+    // Mobile overlay toggle: inside mobile menu dropdown
+    var mobileMenu = document.querySelector('#mobileMenu, .mobile-menu');
     if (mobileMenu) {
       var overlayToggle = createToggle();
       overlayToggle.classList.add('lang-toggle--overlay');
