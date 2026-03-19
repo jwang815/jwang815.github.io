@@ -1,0 +1,26 @@
+# Waypoint Journeys — robots.txt
+# https://wpjourneys.com
+
+User-agent: *
+Allow: /
+
+# AI Search Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://wpjourneys.com/sitemap.xml
