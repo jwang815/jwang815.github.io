@@ -368,8 +368,8 @@ window.__i18n = {
     "zh": "尽管索科特拉在行政上隶属也门，但距大陆超过200英里。岛屿的偏远意味着大陆冲突并未波及此地。岛上从未发生暴力或不安定事件。索科特里人民以热情好客、欢迎来访者而闻名。"
   },
   "sc_footer_tagline": {
-    "en": "Extraordinary Journeys to the World's Most Remote Destinations",
-    "zh": "通往世界最偏远目的地的非凡旅程"
+    "en": "Luxury adventure travel to the world's last wild places.",
+    "zh": "奢华探险旅行，前往世界最后的荒野秘境。"
   },
   "sc_footer_copy": {
     "en": "© 2026 Waypoint Journeys. All rights reserved.",
