@@ -306,5 +306,61 @@ window.__i18n = {
   "hero_title": {
     "en": "Where the Map Ends,<br>the Journey Begins",
     "zh": "地图终止之处<br>正是旅程的起点"
+  },
+  "faq_label": {
+    "en": "FREQUENTLY ASKED QUESTIONS",
+    "zh": "常见问题"
+  },
+  "faq_title": {
+    "en": "Common Questions About Our Expeditions",
+    "zh": "关于我们探险的常见问题"
+  },
+  "faq_q1": {
+    "en": "What makes Waypoint Journeys different from other luxury travel companies?",
+    "zh": "Waypoint Journeys 与其他高端旅行公司有什么不同？"
+  },
+  "faq_a1": {
+    "en": "We go where others don\'t. Waypoint Journeys specializes in off-the-beaten-path destinations like Socotra Island, Mongolia, Pakistan, and West Africa — places most luxury operators won\'t touch. Every expedition is limited to 5 guests maximum, with hand-crafted itineraries built from the ground up by local experts who call these regions home.",
+    "zh": "我们前往其他公司不敢涉足的地方。Waypoint Journeys 专注于索科特拉岛、蒙古、巴基斯坦和西非等人迹罕至的目的地。每次探险最多仅限5位客人，由当地专家从零打造定制行程。"
+  },
+  "faq_q2": {
+    "en": "What is included in the expedition price?",
+    "zh": "探险费用包含哪些项目？"
+  },
+  "faq_a2": {
+    "en": "All expeditions include accommodation, expert local guides, ground transportation, most meals, and 24/7 on-the-ground support. International flights to the starting city are not included, giving you flexibility to book your own routing. Specific inclusions vary by destination — check each expedition page for the full breakdown.",
+    "zh": "所有探险均包含住宿、当地专家向导、地面交通、大部分餐食以及全天候地面支持。前往出发城市的国际航班不包含在内，让您自由安排航线。具体包含内容因目的地而异，请查看各探险页面了解详情。"
+  },
+  "faq_q3": {
+    "en": "How physically demanding are the expeditions?",
+    "zh": "探险对体能要求高吗？"
+  },
+  "faq_a3": {
+    "en": "It depends on the destination. Socotra involves moderate hiking and beach camping. Mongolia can range from comfortable to adventurous depending on which itinerary tier you choose. Pakistan\'s Karakoram Highway trip is mostly vehicle-based with light walks. West Africa is culturally intensive but not physically strenuous. None require technical mountaineering — just a reasonable level of fitness and a spirit of adventure.",
+    "zh": "视目的地而定。索科特拉涉及中等强度的徒步和海滩露营。蒙古根据您选择的行程档次，从舒适到冒险不等。巴基斯坦喀喇昆仑公路之旅以车辆为主，辅以轻度步行。西非文化体验丰富但体力要求不高。所有行程都不需要专业登山技能，只需合理的体能和冒险精神。"
+  },
+  "faq_q4": {
+    "en": "Can I book a private or custom expedition?",
+    "zh": "可以预订私人定制探险吗？"
+  },
+  "faq_a4": {
+    "en": "Yes. While we run scheduled group departures, every itinerary can be customized or run as a fully private trip. Want to extend your time in the Gobi Desert, add a side trip to Lahore, or build something entirely new? Email us at info@wpjourneys.com and we\'ll design it around you.",
+    "zh": "可以。我们既有定期出发的团队行程，每条路线也可以定制或作为全私人行程运行。想要延长戈壁沙漠的时间、增加拉合尔的支线旅行，或设计全新行程？请发邮件至 info@wpjourneys.com，我们将为您量身打造。"
+  },
+  "faq_q5": {
+    "en": "Is it safe to travel to these destinations?",
+    "zh": "前往这些目的地安全吗？"
+  },
+  "faq_a5": {
+    "en": "Safety is our top priority. Our team leaders have years of experience operating in every destination we offer. We maintain relationships with trusted local partners, monitor conditions continuously, and provide 24/7 support throughout every trip. Many of our destinations are far safer than their reputations suggest — Pakistan and Mongolia, for example, are among the most hospitable countries in the world for visitors.",
+    "zh": "安全是我们的首要考量。我们的领队在每个目的地都拥有多年运营经验，与当地可信赖的合作伙伴保持长期关系，持续监控当地状况，并在整个行程中提供全天候支持。许多目的地远比其声誉所暗示的要安全得多——例如巴基斯坦和蒙古是世界上对游客最友善的国家之一。"
+  },
+  "faq_q6": {
+    "en": "How far in advance should I book?",
+    "zh": "需要提前多久预订？"
+  },
+  "faq_a6": {
+    "en": "We recommend booking at least 2–3 months in advance. With a maximum of 5 guests per trip, spots fill quickly — especially for destinations like Socotra where charter flights have limited availability. That said, last-minute inquiries are always welcome if space remains.",
+    "zh": "我们建议至少提前2至3个月预订。每次行程最多5位客人，名额很快售罄，尤其是像索科特拉这样包机航班有限的目的地。当然，如果还有名额，我们随时欢迎临时咨询。"
   }
 };
