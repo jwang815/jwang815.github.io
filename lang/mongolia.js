@@ -32,8 +32,8 @@ window.__i18n = {
     "zh": "永恒苍天之地"
   },
   "mn_hero_dates": {
-    "en": "July 2026",
-    "zh": "2026年7月"
+    "en": "11–17 Days",
+    "zh": "11–17天"
   },
   "mn_hero_tagline": {
     "en": "11 to 17 Nights Across the Steppe, Desert, and Mountains",
@@ -140,15 +140,15 @@ window.__i18n = {
     "zh": "探险之旅"
   },
   "mn_itinerary_intro": {
-    "en": "Three itinerary options, all ending July 21. The 14-night adds Ulaanbaatar city tour and two nights in Terelj with the Genghis Khan Equestrian Statue. The 17-night further extends into western Mongolia for two nights with the Kazakh golden eagle hunters.",
-    "zh": "三种行程方案，均于7月21日结束。14晚方案增加乌兰巴托城市游览及两晚特雷勒吉住宿（含成吉思汗骑马雕像）。17晚方案进一步延伸至蒙古西部，与哈萨克猎鹰传人共度两晚。"
+    "en": "Three itinerary options. The 14-night adds Ulaanbaatar city tour and two nights in Terelj with the Genghis Khan Equestrian Statue. The 17-night further extends into western Mongolia for two nights with the Kazakh golden eagle hunters.",
+    "zh": "三种行程方案。14晚方案增加乌兰巴托城市游览及两晚特雷勒吉住宿（含成吉思汗骑马雕像）。17晚方案进一步延伸至蒙古西部，与哈萨克猎鹰传人共度两晚。"
   },
   "mn_tier_11n": {
     "en": "11 Nights",
     "zh": "11晚"
   },
   "mn_tier_11n_sub": {
-    "en": "July 10 – 21 · from $4,950",
+    "en": "11 Nights · from $4,950",
     "zh": "7月10日 – 21日 · 起价 $4,950"
   },
   "mn_tier_14n": {
@@ -156,7 +156,7 @@ window.__i18n = {
     "zh": "14晚"
   },
   "mn_tier_14n_sub": {
-    "en": "July 7 – 21 · from $5,950",
+    "en": "14 Nights · from $5,950",
     "zh": "7月7日 – 21日 · 起价 $5,950"
   },
   "mn_tier_17n": {
@@ -164,7 +164,7 @@ window.__i18n = {
     "zh": "17晚"
   },
   "mn_tier_17n_sub": {
-    "en": "July 4 – 21 · from $7,450",
+    "en": "17 Nights · from $7,450",
     "zh": "7月4日 – 21日 · 起价 $7,450"
   },
   "mn_17n_day1_label": {
@@ -176,8 +176,8 @@ window.__i18n = {
     "zh": "抵达乌兰巴托"
   },
   "mn_17n_day1_date": {
-    "en": "Saturday, July 4, 2026",
-    "zh": "2026年7月4日，星期六"
+    "en": "Day 1",
+    "zh": "第1天"
   },
   "mn_17n_day1_desc": {
     "en": "Touch down in Ulaanbaatar, Mongolia's sprawling, contradictory capital where Soviet apartment blocks sit alongside Buddhist temples and modern glass towers. Transfer to your hotel and rest after your journey. This evening, gather around the table for a welcome dinner with your expedition companions, a first taste of Mongolian cuisine and the adventure ahead.",
@@ -192,8 +192,8 @@ window.__i18n = {
     "zh": "飞往乌里雅苏台"
   },
   "mn_17n_day2_date": {
-    "en": "Sunday, July 5, 2026",
-    "zh": "2026年7月5日，星期日"
+    "en": "Day 2",
+    "zh": "第2天"
   },
   "mn_17n_day2_desc": {
     "en": "Take a domestic flight west to Olgii, the capital of Bayan-Olgii province and the heartland of Mongolia's Kazakh community. Explore the town's markets and mosques, a world apart from Ulaanbaatar. Tonight, sleep in Olgii town as you prepare to meet the legendary eagle hunters tomorrow.",
@@ -208,8 +208,8 @@ window.__i18n = {
     "zh": "萨格赛村"
   },
   "mn_17n_day3_date": {
-    "en": "Monday, July 6, 2026",
-    "zh": "2026年7月6日，星期一"
+    "en": "Day 3",
+    "zh": "第3天"
   },
   "mn_17n_day3_desc": {
     "en": "Travel to Sagsai village, home to some of the most skilled eagle hunters in all of Mongolia. Watch a golden eagle hunting demonstration in the open valleys, the great birds streaking down from cliff faces at speeds exceeding 150 kilometers per hour. Learn about Kazakh culture, dress, music, and the rigorous years-long process of bonding a hunter with an eagle. Tonight, sleep in a traditional ger with your eagle hunter hosts, an intimate window into a way of life stretching back over 4,000 years.",
@@ -224,8 +224,8 @@ window.__i18n = {
     "zh": "飞返乌兰巴托，驱车前往特雷勒吉"
   },
   "mn_17n_day4_date": {
-    "en": "Tuesday, July 7, 2026",
-    "zh": "2026年7月7日，星期二"
+    "en": "Day 4",
+    "zh": "第4天"
   },
   "mn_17n_day4_desc": {
     "en": "A morning farewell to your eagle hunter hosts before the flight back to Ulaanbaatar. Upon arrival, drive directly east to Terelj National Park, pausing at the colossal Genghis Khan Equestrian Statue—a 40-metre stainless steel figure and the world's largest equestrian statue. Ascend to the viewing platform for panoramic views of the Tuul River valley before continuing into Terelj's pristine granite valleys. Overnight in a traditional ger camp beneath an extraordinary starlit sky.",
@@ -240,8 +240,8 @@ window.__i18n = {
     "zh": "特雷勒吉国家公园"
   },
   "mn_17n_day5_date": {
-    "en": "Wednesday, July 8, 2026",
-    "zh": "2026年7月8日，星期三"
+    "en": "Day 5",
+    "zh": "第5天"
   },
   "mn_17n_day5_desc": {
     "en": "A full day to explore Terelj's dramatic granite landscape. Visit Turtle Rock, one of Mongolia's most recognizable natural sculptures, and climb to the Ariyabal Meditation Temple carved into the cliff face above a forested hillside. Spend the afternoon on horseback through open meadows flanked by pine forests. This extraordinary valley, just one hour from the capital, feels utterly removed from the modern world.",
@@ -256,8 +256,8 @@ window.__i18n = {
     "zh": "返回乌兰巴托，游览城市"
   },
   "mn_17n_day6_date": {
-    "en": "Thursday, July 9, 2026",
-    "zh": "2026年7月9日，星期四"
+    "en": "Day 6",
+    "zh": "第6天"
   },
   "mn_17n_day6_desc": {
     "en": "Drive back into Ulaanbaatar for a full day in the capital. Begin at the Gandantegchinlen Monastery, the living center of Mongolian Buddhism, where monks chant their morning prayers beneath a 26-metre gilded statue. Walk to Chinggis Khan Square, the vast central plaza framed by government buildings and the looming bronze figure of the Great Khan himself. Spend the afternoon at the National Museum of Mongolia, tracing the full arc of the empire from the steppe tribes of antiquity to the modern nation.",
@@ -272,8 +272,8 @@ window.__i18n = {
     "zh": "乌兰巴托自由活动日"
   },
   "mn_17n_day7_date": {
-    "en": "Friday, July 10, 2026",
-    "zh": "2026年7月10日，星期五"
+    "en": "Day 7",
+    "zh": "第7天"
   },
   "mn_17n_day7_desc": {
     "en": "A free day in the capital on the eve of Naadam. Sleep in, browse the Black Market bazaar for cashmere and handicrafts, visit the Mongolian Art Museum, or simply wander the city at your own pace. This evening, the anticipation builds as the city begins its preparations for one of the great cultural festivals of the world.",
@@ -288,8 +288,8 @@ window.__i18n = {
     "zh": "那达慕节开幕式"
   },
   "mn_17n_day8_date": {
-    "en": "Saturday, July 11, 2026",
-    "zh": "2026年7月11日，星期六"
+    "en": "Day 8",
+    "zh": "第8天"
   },
   "mn_17n_day8_desc": {
     "en": "The opening ceremony of Naadam, Mongolia's national festival, begins today at the Central Stadium. Thousands gather as costumed horsemen parade, wrestling champions are introduced, and archery competitors take their marks. The wrestling competition, governed by rules older than the empire itself, begins immediately after the ceremony. Child jockeys as young as five years old prepare for the long-distance horse races stretching across the open steppe beyond the city.",
@@ -304,8 +304,8 @@ window.__i18n = {
     "zh": "那达慕节第二天"
   },
   "mn_17n_day9_date": {
-    "en": "Sunday, July 12, 2026",
-    "zh": "2026年7月12日，星期日"
+    "en": "Day 9",
+    "zh": "第9天"
   },
   "mn_17n_day9_desc": {
     "en": "Return to the festival grounds for a second day of competition. Wrestling finals, archery eliminations, and the thrilling conclusion of the horse races draw tens of thousands of spectators. Wander the festival grounds to sample khuushuur (fried mutton pastry), watch traditional throat singing, and mingle with Mongolian families in their finest deels. This is one of the great cultural spectacles of the world, and you are inside it.",
@@ -320,8 +320,8 @@ window.__i18n = {
     "zh": "驱车前往哈拉和林"
   },
   "mn_17n_day10_date": {
-    "en": "Monday, July 13, 2026",
-    "zh": "2026年7月13日，星期一"
+    "en": "Day 10",
+    "zh": "第10天"
   },
   "mn_17n_day10_desc": {
     "en": "Leave Ulaanbaatar and head southwest along the valley of the Orkhon River toward the ancient capital of the Mongol Empire. Arrive at Karakorum in the afternoon. Visit the Erdene Zuu Monastery, built in 1586 from the stones of Genghis Khan's original capital, its white walls enclosing three ornate temples that survived the Soviet-era purges. Walk the outline of the old palace foundations as the steppe breeze carries the smell of wild sage. Tonight, sleep in a ger camp outside the monastery walls.",
@@ -336,8 +336,8 @@ window.__i18n = {
     "zh": "鄂尔浑河谷"
   },
   "mn_17n_day11_date": {
-    "en": "Tuesday, July 14, 2026",
-    "zh": "2026年7月14日，星期二"
+    "en": "Day 11",
+    "zh": "第11天"
   },
   "mn_17n_day11_desc": {
     "en": "Follow the Orkhon River deeper into one of Mongolia's most fertile and historically significant valleys. A morning hike brings you to the Orkhon Waterfall, which erupts from a basalt shelf formed by ancient volcanic activity. In the afternoon, visit a nomadic family at their summer camp, sharing tea, fermented mare's milk (airag), and a glimpse of the seasonal rhythms that have defined Mongolian life for centuries. The valley around you is a UNESCO World Heritage landscape.",
@@ -352,8 +352,8 @@ window.__i18n = {
     "zh": "翁金寺遗址"
   },
   "mn_17n_day12_date": {
-    "en": "Wednesday, July 15, 2026",
-    "zh": "2026年7月15日，星期三"
+    "en": "Day 12",
+    "zh": "第12天"
   },
   "mn_17n_day12_desc": {
     "en": "Drive south through the transition zone where the steppe thins and the air begins to carry the dry, mineral scent of the approaching desert. Stop at the ruins of Ongi Monastery, once one of the largest religious complexes in Mongolia with over 30 temples and 1,000 monks, destroyed in the Stalinist purges of 1937. The ruins stand today as a haunting memorial. Reconstruction is underway, and the rebuilt main temple offers context and quiet reflection before the road south continues.",
@@ -368,8 +368,8 @@ window.__i18n = {
     "zh": "火焰崖"
   },
   "mn_17n_day13_date": {
-    "en": "Thursday, July 16, 2026",
-    "zh": "2026年7月16日，星期四"
+    "en": "Day 13",
+    "zh": "第13天"
   },
   "mn_17n_day13_desc": {
     "en": "Drive to Bayanzag, the Flaming Cliffs, where American paleontologist Roy Chapman Andrews discovered the world's first dinosaur eggs in 1923. The red sandstone formations burn at sunset with an intensity that borders on supernatural. Walk the rim of the cliffs and peer down into the gullies where dinosaur fossils still surface after heavy rains.",
@@ -384,8 +384,8 @@ window.__i18n = {
     "zh": "洪戈林沙丘"
   },
   "mn_17n_day14_date": {
-    "en": "Friday, July 17, 2026",
-    "zh": "2026年7月17日，星期五"
+    "en": "Day 14",
+    "zh": "第14天"
   },
   "mn_17n_day14_desc": {
     "en": "The Khongor Sand Dunes, known as the Singing Sands, rise up to 300 metres and stretch nearly 200 kilometres across the Gobi floor. Ride Bactrian camels along their base, the ancient two-humped variety that has crossed these sands for millennia. In the late afternoon, climb the main dune ridge as the sun begins its descent, the valley below casting long violet shadows across the sand. The view from the summit, with the Gobi spreading in every direction, is among the great vistas of the natural world.",
@@ -400,8 +400,8 @@ window.__i18n = {
     "zh": "雅布赖峡谷与三骆驼酒店"
   },
   "mn_17n_day15_date": {
-    "en": "Saturday, July 18, 2026",
-    "zh": "2026年7月18日，星期六"
+    "en": "Day 15",
+    "zh": "第15天"
   },
   "mn_17n_day15_desc": {
     "en": "Enter the Gobi Gurvansaikhan National Park and descend into Yol Valley, a narrow ice gorge that persists through summer locked between soaring canyon walls. Walk the frozen floor of the gorge past nesting griffon vultures overhead. This afternoon, arrive at Three Camels Lodge, the Gobi's finest and most celebrated accommodation, a beautifully designed ger camp whose traditional architecture and attentive hospitality have earned it international recognition. Tonight, the desert sky above you will hold more stars than you have ever seen.",
@@ -416,8 +416,8 @@ window.__i18n = {
     "zh": "白塔（察干苏巴尔加）"
   },
   "mn_17n_day16_date": {
-    "en": "Sunday, July 19, 2026",
-    "zh": "2026年7月19日，星期日"
+    "en": "Day 16",
+    "zh": "第16天"
   },
   "mn_17n_day16_desc": {
     "en": "Continue to Tsagaan Suvarga, the White Stupa, a formation of ancient seabed cliffs rising 30 metres from the Gobi plain in layered bands of white, red, and ochre. Once the floor of a shallow inland sea, these sedimentary walls are studded with the fossils of marine creatures that lived here 60 million years ago. At sunrise and sunset the cliffs ignite in color. It is one of Mongolia's most quietly spectacular landscapes, and almost no one outside the country knows it exists.",
@@ -432,8 +432,8 @@ window.__i18n = {
     "zh": "驱车返回乌兰巴托"
   },
   "mn_17n_day17_date": {
-    "en": "Monday, July 20, 2026",
-    "zh": "2026年7月20日，星期一"
+    "en": "Day 17",
+    "zh": "第17天"
   },
   "mn_17n_day17_desc": {
     "en": "The final leg of the overland journey brings you back into Ulaanbaatar by afternoon. The rest of the day is yours: browse the Black Market (Narantuul), Mongolia's vast open-air bazaar, for cashmere, silver jewelry, and traditional handicrafts. This evening, gather for the farewell dinner: a proper Mongolian feast with the full group, a last sharing of stories from the road, and a toast to the steppe, the desert, and the eternal blue sky that watched over all of it.",
@@ -448,8 +448,8 @@ window.__i18n = {
     "zh": "离开乌兰巴托"
   },
   "mn_17n_day18_date": {
-    "en": "Tuesday, July 21, 2026",
-    "zh": "2026年7月21日，星期二"
+    "en": "Day 18",
+    "zh": "第18天"
   },
   "mn_17n_day18_desc": {
     "en": "Transfer to Chinggis Khan International Airport for your onward journey. The expedition is complete. Mongolia has a way of following travelers home, a persistent quality of light and space that reframes ordinary life. We hope you carry a little of the eternal blue sky with you.",
@@ -464,8 +464,8 @@ window.__i18n = {
     "zh": "抵达乌兰巴托"
   },
   "mn_14n_day1_date": {
-    "en": "Tuesday, July 7, 2026",
-    "zh": "2026年7月7日，星期二"
+    "en": "Day 4",
+    "zh": "第4天"
   },
   "mn_14n_day1_desc": {
     "en": "Arrive in Ulaanbaatar and transfer to your hotel. This evening, gather for a welcome dinner with your group and a first taste of Mongolian cuisine, setting the tone for the adventure ahead.",
@@ -480,8 +480,8 @@ window.__i18n = {
     "zh": "乌兰巴托城市游览"
   },
   "mn_14n_day2_date": {
-    "en": "Wednesday, July 8, 2026",
-    "zh": "2026年7月8日，星期三"
+    "en": "Day 5",
+    "zh": "第5天"
   },
   "mn_14n_day2_desc": {
     "en": "Begin at the Gandantegchinlen Monastery, the living center of Mongolian Buddhism. Walk to Chinggis Khan Square and spend the afternoon at the National Museum of Mongolia, tracing the full arc from ancient steppe tribes to the great empire.",
@@ -496,8 +496,8 @@ window.__i18n = {
     "zh": "驱车前往特雷勒吉国家公园"
   },
   "mn_14n_day3_date": {
-    "en": "Thursday, July 9, 2026",
-    "zh": "2026年7月9日，星期四"
+    "en": "Day 6",
+    "zh": "第6天"
   },
   "mn_14n_day3_desc": {
     "en": "Drive east from Ulaanbaatar, stopping at the monumental Genghis Khan Equestrian Statue—a 40-metre stainless steel figure astride a horse, the largest equestrian statue in the world. Ascend to the viewing platform on the horse's head for panoramic views of the Tuul River valley. Continue into the pristine valleys of Terelj National Park, where granite tors rise improbably from the grassland. Overnight in a traditional ger camp beneath an extraordinary starlit sky.",
@@ -512,8 +512,8 @@ window.__i18n = {
     "zh": "特雷勒吉国家公园"
   },
   "mn_14n_day4_date": {
-    "en": "Friday, July 10, 2026",
-    "zh": "2026年7月10日，星期五"
+    "en": "Day 7",
+    "zh": "第7天"
   },
   "mn_14n_day4_desc": {
     "en": "A full day to explore Terelj's dramatic granite landscape. Visit Turtle Rock, one of Mongolia's most recognizable natural sculptures, and climb to the Ariyabal Meditation Temple, a hillside Buddhist retreat carved into the cliff face. Spend the afternoon on horseback through open meadows flanked by pine forests, and overnight once more beneath the park's extraordinary starlit sky.",
@@ -528,8 +528,8 @@ window.__i18n = {
     "zh": "返回乌兰巴托，那达慕开幕式"
   },
   "mn_14n_day5_date": {
-    "en": "Saturday, July 11, 2026",
-    "zh": "2026年7月11日，星期六"
+    "en": "Day 8",
+    "zh": "第8天"
   },
   "mn_14n_day5_desc": {
     "en": "Return to Ulaanbaatar for the opening ceremony of Naadam, Mongolia's national festival. At the Central Stadium, costumed horsemen parade, wrestling champions are introduced, and archery competitors take their marks. Child jockeys as young as five years old prepare to race across the open steppe in one of sport's most extraordinary spectacles.",
@@ -544,8 +544,8 @@ window.__i18n = {
     "zh": "那达慕节第二天"
   },
   "mn_14n_day6_date": {
-    "en": "Sunday, July 12, 2026",
-    "zh": "2026年7月12日，星期日"
+    "en": "Day 9",
+    "zh": "第9天"
   },
   "mn_14n_day6_desc": {
     "en": "Return for the wrestling finals, archery eliminations, and the thrilling conclusion of the horse races. Wander the festival grounds, sample khuushuur and airag, watch traditional throat singing, and mingle with Mongolian families in their finest deels.",
@@ -560,8 +560,8 @@ window.__i18n = {
     "zh": "驱车前往哈拉和林"
   },
   "mn_14n_day7_date": {
-    "en": "Monday, July 13, 2026",
-    "zh": "2026年7月13日，星期一"
+    "en": "Day 10",
+    "zh": "第10天"
   },
   "mn_14n_day7_desc": {
     "en": "Head southwest toward the ancient capital of the Mongol Empire. Arrive at Karakorum and visit the Erdene Zuu Monastery, built from the stones of Genghis Khan's original palace. Walk the foundation outlines as the steppe breeze carries wild sage. Overnight in a ger camp outside the monastery walls.",
@@ -576,8 +576,8 @@ window.__i18n = {
     "zh": "鄂尔浑河谷"
   },
   "mn_14n_day8_date": {
-    "en": "Tuesday, July 14, 2026",
-    "zh": "2026年7月14日，星期二"
+    "en": "Day 11",
+    "zh": "第11天"
   },
   "mn_14n_day8_desc": {
     "en": "Follow the Orkhon River into its UNESCO World Heritage valley. Hike to the Orkhon Waterfall erupting from ancient basalt. Visit a nomadic family at their summer camp, sharing tea and airag and witnessing the seasonal rhythms that have defined Mongolian life for centuries.",
@@ -592,8 +592,8 @@ window.__i18n = {
     "zh": "翁金寺遗址"
   },
   "mn_14n_day9_date": {
-    "en": "Wednesday, July 15, 2026",
-    "zh": "2026年7月15日，星期三"
+    "en": "Day 12",
+    "zh": "第12天"
   },
   "mn_14n_day9_desc": {
     "en": "Drive south through the steppe-to-desert transition zone. Stop at the ruins of Ongi Monastery, once one of Mongolia's largest religious complexes, destroyed in the Stalinist purges of 1937. The rebuilt main temple offers quiet reflection before the road south continues toward the Gobi.",
@@ -608,8 +608,8 @@ window.__i18n = {
     "zh": "火焰崖"
   },
   "mn_14n_day10_date": {
-    "en": "Thursday, July 16, 2026",
-    "zh": "2026年7月16日，星期四"
+    "en": "Day 13",
+    "zh": "第13天"
   },
   "mn_14n_day10_desc": {
     "en": "Visit Bayanzag, the Flaming Cliffs, where the world's first dinosaur eggs were discovered in 1923. The red sandstone formations burn at sunset. Walk the rim and peer into gullies where fossils still surface after rain.",
@@ -624,8 +624,8 @@ window.__i18n = {
     "zh": "洪戈林沙丘"
   },
   "mn_14n_day11_date": {
-    "en": "Friday, July 17, 2026",
-    "zh": "2026年7月17日，星期五"
+    "en": "Day 14",
+    "zh": "第14天"
   },
   "mn_14n_day11_desc": {
     "en": "Ride Bactrian camels along the base of the Khongor Sand Dunes, rising 300 metres from the desert floor. Climb the main ridge at sunset as the valley below casts long violet shadows across the sand, one of the great vistas of the natural world.",
@@ -640,8 +640,8 @@ window.__i18n = {
     "zh": "雅布赖峡谷与三骆驼酒店"
   },
   "mn_14n_day12_date": {
-    "en": "Saturday, July 18, 2026",
-    "zh": "2026年7月18日，星期六"
+    "en": "Day 15",
+    "zh": "第15天"
   },
   "mn_14n_day12_desc": {
     "en": "Walk the ice gorge of Yol Valley inside Gobi Gurvansaikhan National Park. This afternoon, arrive at Three Camels Lodge, the Gobi's most celebrated ger camp accommodation. Tonight, the desert sky above you will hold more stars than you have ever seen.",
@@ -656,8 +656,8 @@ window.__i18n = {
     "zh": "白塔（察干苏巴尔加）"
   },
   "mn_14n_day13_date": {
-    "en": "Sunday, July 19, 2026",
-    "zh": "2026年7月19日，星期日"
+    "en": "Day 16",
+    "zh": "第16天"
   },
   "mn_14n_day13_desc": {
     "en": "Visit Tsagaan Suvarga, the White Stupa, an ancient seabed rising 30 metres from the Gobi floor in layered bands of white, red, and ochre. At sunrise and sunset the cliffs ignite with color. One of Mongolia's most quietly spectacular landscapes.",
@@ -672,8 +672,8 @@ window.__i18n = {
     "zh": "驱车返回乌兰巴托"
   },
   "mn_14n_day14_date": {
-    "en": "Monday, July 20, 2026",
-    "zh": "2026年7月20日，星期一"
+    "en": "Day 17",
+    "zh": "第17天"
   },
   "mn_14n_day14_desc": {
     "en": "Arrive back in Ulaanbaatar by afternoon. Browse the Black Market for cashmere and traditional crafts, or rest quietly as the city hums around you. This evening, a farewell dinner to share stories from the road and toast to the journey.",
@@ -688,8 +688,8 @@ window.__i18n = {
     "zh": "离开乌兰巴托"
   },
   "mn_14n_day15_date": {
-    "en": "Tuesday, July 21, 2026",
-    "zh": "2026年7月21日，星期二"
+    "en": "Day 18",
+    "zh": "第18天"
   },
   "mn_14n_day15_desc": {
     "en": "Transfer to Chinggis Khan International Airport for your onward journey. The expedition is complete. We hope you carry a little of the eternal blue sky with you.",
@@ -704,8 +704,8 @@ window.__i18n = {
     "zh": "抵达乌兰巴托"
   },
   "mn_11n_day1_date": {
-    "en": "Friday, July 10, 2026",
-    "zh": "2026年7月10日，星期五"
+    "en": "Day 7",
+    "zh": "第7天"
   },
   "mn_11n_day1_desc": {
     "en": "Arrive in Ulaanbaatar, Mongolia's vibrant capital and gateway to the eternal blue sky. Settle into your hotel and prepare for the extraordinary journey ahead. Tomorrow, the ancient Naadam Festival begins.",
@@ -720,8 +720,8 @@ window.__i18n = {
     "zh": "那达慕节开幕式"
   },
   "mn_11n_day2_date": {
-    "en": "Saturday, July 11, 2026",
-    "zh": "2026年7月11日，星期六"
+    "en": "Day 8",
+    "zh": "第8天"
   },
   "mn_11n_day2_desc": {
     "en": "The opening ceremony of Naadam, Mongolia's greatest national celebration. At the Central Stadium, costumed horsemen parade, wrestling champions are introduced, and archery competitors take their marks. Child jockeys as young as five prepare to race across the open steppe in one of sport's most extraordinary spectacles.",
@@ -736,8 +736,8 @@ window.__i18n = {
     "zh": "那达慕节第二天"
   },
   "mn_11n_day3_date": {
-    "en": "Sunday, July 12, 2026",
-    "zh": "2026年7月12日，星期日"
+    "en": "Day 9",
+    "zh": "第9天"
   },
   "mn_11n_day3_desc": {
     "en": "Return to the festival for wrestling finals, archery eliminations, and the thrilling conclusion of the horse races. Wander the grounds, sample khuushuur and airag, watch throat singing, and absorb one of the great cultural events on Earth alongside Mongolian families in their finest deels.",
@@ -752,8 +752,8 @@ window.__i18n = {
     "zh": "驱车前往哈拉和林"
   },
   "mn_11n_day4_date": {
-    "en": "Monday, July 13, 2026",
-    "zh": "2026年7月13日，星期一"
+    "en": "Day 10",
+    "zh": "第10天"
   },
   "mn_11n_day4_desc": {
     "en": "Head southwest toward the ancient capital of the Mongol Empire. Arrive at Karakorum and visit the Erdene Zuu Monastery, built from the stones of Genghis Khan's original palace. Walk the ancient foundation outlines as the steppe breeze carries wild sage. Overnight in a ger camp outside the monastery walls.",
@@ -768,8 +768,8 @@ window.__i18n = {
     "zh": "鄂尔浑河谷"
   },
   "mn_11n_day5_date": {
-    "en": "Tuesday, July 14, 2026",
-    "zh": "2026年7月14日，星期二"
+    "en": "Day 11",
+    "zh": "第11天"
   },
   "mn_11n_day5_desc": {
     "en": "Follow the Orkhon River into its UNESCO World Heritage valley. Hike to the waterfall erupting from ancient basalt. Visit a nomadic family at their summer camp, sharing tea and airag and witnessing the seasonal rhythms that have defined Mongolian life for centuries.",
@@ -784,8 +784,8 @@ window.__i18n = {
     "zh": "翁金寺遗址"
   },
   "mn_11n_day6_date": {
-    "en": "Wednesday, July 15, 2026",
-    "zh": "2026年7月15日，星期三"
+    "en": "Day 12",
+    "zh": "第12天"
   },
   "mn_11n_day6_desc": {
     "en": "Drive south through the steppe-to-desert transition. Stop at the ruins of Ongi Monastery, once one of Mongolia's largest religious complexes before the Stalinist purges of 1937. The rebuilt main temple offers context and quiet reflection before the road south continues into the Gobi.",
@@ -800,8 +800,8 @@ window.__i18n = {
     "zh": "火焰崖"
   },
   "mn_11n_day7_date": {
-    "en": "Thursday, July 16, 2026",
-    "zh": "2026年7月16日，星期四"
+    "en": "Day 13",
+    "zh": "第13天"
   },
   "mn_11n_day7_desc": {
     "en": "Visit Bayanzag, the Flaming Cliffs, where the world's first dinosaur eggs were found in 1923. The red sandstone burns at sunset with an intensity that borders on supernatural. Walk the rim and peer into the fossil-rich gullies below.",
@@ -816,8 +816,8 @@ window.__i18n = {
     "zh": "洪戈林沙丘"
   },
   "mn_11n_day8_date": {
-    "en": "Friday, July 17, 2026",
-    "zh": "2026年7月17日，星期五"
+    "en": "Day 14",
+    "zh": "第14天"
   },
   "mn_11n_day8_desc": {
     "en": "Ride Bactrian camels along the base of the Singing Sands, rising 300 metres from the desert floor. Climb the main dune ridge at sunset as violet shadows stretch across the sand below. One of the great natural vistas on Earth, seen by very few.",
@@ -832,8 +832,8 @@ window.__i18n = {
     "zh": "雅布赖峡谷与三骆驼酒店"
   },
   "mn_11n_day9_date": {
-    "en": "Saturday, July 18, 2026",
-    "zh": "2026年7月18日，星期六"
+    "en": "Day 15",
+    "zh": "第15天"
   },
   "mn_11n_day9_desc": {
     "en": "Walk the ice gorge of Yol Valley inside Gobi Gurvansaikhan National Park, a narrow canyon where ice persists through the summer heat. Arrive this afternoon at Three Camels Lodge, the Gobi's most celebrated accommodation. The desert sky tonight will hold more stars than you have ever seen.",
@@ -848,8 +848,8 @@ window.__i18n = {
     "zh": "白塔（察干苏巴尔加）"
   },
   "mn_11n_day10_date": {
-    "en": "Sunday, July 19, 2026",
-    "zh": "2026年7月19日，星期日"
+    "en": "Day 16",
+    "zh": "第16天"
   },
   "mn_11n_day10_desc": {
     "en": "Visit Tsagaan Suvarga, the White Stupa, an ancient seabed rising 30 metres from the Gobi floor in layered bands of white, red, and ochre. At sunrise and sunset the cliffs ignite with color. One of Mongolia's most quietly spectacular and least-known landscapes.",
@@ -864,8 +864,8 @@ window.__i18n = {
     "zh": "驱车返回乌兰巴托"
   },
   "mn_11n_day11_date": {
-    "en": "Monday, July 20, 2026",
-    "zh": "2026年7月20日，星期一"
+    "en": "Day 17",
+    "zh": "第17天"
   },
   "mn_11n_day11_desc": {
     "en": "The final leg of the overland journey brings you back into Ulaanbaatar by afternoon. Browse the Black Market for cashmere, handicrafts, and souvenirs. This evening, the farewell dinner: a proper Mongolian feast and a last sharing of stories from the steppe and the Gobi.",
@@ -880,8 +880,8 @@ window.__i18n = {
     "zh": "离开乌兰巴托"
   },
   "mn_11n_day12_date": {
-    "en": "Tuesday, July 21, 2026",
-    "zh": "2026年7月21日，星期二"
+    "en": "Day 18",
+    "zh": "第18天"
   },
   "mn_11n_day12_desc": {
     "en": "Transfer to Chinggis Khan International Airport for your onward journey. The expedition is complete. We hope you carry a little of the eternal blue sky with you.",
@@ -904,12 +904,12 @@ window.__i18n = {
     "zh": "费用包含"
   },
   "mn_detail_dates_label": {
-    "en": "Dates",
-    "zh": "日期"
+    "en": "Duration",
+    "zh": "行程时长"
   },
   "mn_detail_dates_value": {
-    "en": "July 4 – 21 (17 Nights) / July 7 – 21 (14 Nights) / July 10 – 21 (11 Nights), 2026",
-    "zh": "2026年7月4日 – 21日（17晚）/ 7月7日 – 21日（14晚）/ 7月10日 – 21日（11晚）"
+    "en": "17, 14, or 11 Nights",
+    "zh": "17晚、14晚或11晚"
   },
   "mn_detail_duration_label": {
     "en": "Duration",
@@ -940,7 +940,7 @@ window.__i18n = {
     "zh": "单间附加费"
   },
   "mn_detail_single_value": {
-    "en": "Additional $125/night for a private room (except Three Camels Lodge on July 18)",
+    "en": "Additional $125/night for a private room (except Three Camels Lodge)",
     "zh": "私人单间每晚额外收取 $125（7月18日三骆驼酒店除外）"
   },
   "mn_detail_meals_label": {
@@ -976,16 +976,16 @@ window.__i18n = {
     "zh": "选择您的蒙古之旅"
   },
   "mn_pricing_intro": {
-    "en": "Three itinerary lengths. One extraordinary destination. All tours end July 21, 2026.",
-    "zh": "三种行程时长，一个非凡目的地。所有团次均于2026年7月21日结束。"
+    "en": "Three itinerary lengths. One extraordinary destination.",
+    "zh": "三种行程时长，一个非凡目的地。"
   },
   "mn_pricing_card1_nights": {
     "en": "11 Nights",
     "zh": "11晚"
   },
   "mn_pricing_card1_dates": {
-    "en": "July 10 – 21, 2026",
-    "zh": "2026年7月10日 – 21日"
+    "en": "11 Nights",
+    "zh": "11晚"
   },
   "mn_pricing_card1_amount": {
     "en": "$4,950",
@@ -1004,8 +1004,8 @@ window.__i18n = {
     "zh": "14晚"
   },
   "mn_pricing_card2_dates": {
-    "en": "July 7 – 21, 2026",
-    "zh": "2026年7月7日 – 21日"
+    "en": "14 Nights",
+    "zh": "14晚"
   },
   "mn_pricing_card2_amount": {
     "en": "$5,950",
@@ -1028,8 +1028,8 @@ window.__i18n = {
     "zh": "17晚"
   },
   "mn_pricing_card3_dates": {
-    "en": "July 4 – 21, 2026",
-    "zh": "2026年7月4日 – 21日"
+    "en": "17 Nights",
+    "zh": "17晚"
   },
   "mn_pricing_card3_amount": {
     "en": "$7,450",
