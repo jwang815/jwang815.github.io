@@ -77,7 +77,13 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet" />
+  <!-- Defer Google Fonts to eliminate render-blocking -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet" /></noscript>
+
+  <!-- Preload LCP hero image -->
+  <link rel="preload" as="image" fetchpriority="high" href="https://images.unsplash.com/photo-1545315637-8f35ef2d87f5?w=1200&q=75&auto=format" />
 
   <style>
     :root {
@@ -368,7 +374,7 @@
     .hero-bg {
       position: absolute;
       inset: 0;
-      background-image: url('https://images.unsplash.com/photo-1545315637-8f35ef2d87f5?w=1600&q=80');
+      background-image: url('https://images.unsplash.com/photo-1545315637-8f35ef2d87f5?w=1600&q=80&auto=format');
       background-size: cover;
       background-position: center 40%;
       will-change: transform;
@@ -922,7 +928,7 @@
     .pricing-bg {
       position: absolute;
       inset: 0;
-      background-image: url('https://images.unsplash.com/photo-1761998940222-a9c2d2d8c7ab?w=1600&q=80');
+      background-image: url('https://images.unsplash.com/photo-1761998940222-a9c2d2d8c7ab?w=1600&q=80&auto=format');
       background-size: cover;
       background-position: center;
       opacity: 0.18;
@@ -1336,7 +1342,7 @@
         </div>
         <div class="intro-image-wrap fade-in-right">
           <img
-            src="https://images.unsplash.com/photo-1753818269652-2f2c5d11d3d1?w=1600&q=80"
+            src="https://images.unsplash.com/photo-1753818269652-2f2c5d11d3d1?w=1600&q=80&auto=format"
             alt="Stilt buildings on water in Benin, West Africa"
             loading="lazy"
           />
@@ -1350,19 +1356,19 @@
 
   <div class="gallery-strip" aria-hidden="true">
     <div class="gallery-strip-item">
-      <img src="https://images.unsplash.com/photo-1740825354701-2b864744c090?w=600&q=80" alt="Ghana fishing harbour with colourful boats — West Africa expedition" loading="lazy" width="600" height="400" />
+      <img src="https://images.unsplash.com/photo-1740825354701-2b864744c090?w=600&q=80&auto=format" alt="Ghana fishing harbour with colourful boats — West Africa expedition" loading="lazy" width="600" height="400" />
       <div class="gallery-strip-overlay"></div>
     </div>
     <div class="gallery-strip-item">
-      <img src="https://images.unsplash.com/photo-1753818293309-7a9829090678?w=600&q=80" alt="Bustling West African marketplace in Ghana, Benin or Togo" loading="lazy" width="600" height="400" />
+      <img src="https://images.unsplash.com/photo-1753818293309-7a9829090678?w=600&q=80&auto=format" alt="Bustling West African marketplace in Ghana, Benin or Togo" loading="lazy" width="600" height="400" />
       <div class="gallery-strip-overlay"></div>
     </div>
     <div class="gallery-strip-item">
-      <img src="https://images.unsplash.com/photo-1721011694126-e25f493b91f1?w=600&q=80" alt="Cape Coast Castle historic slave fort entrance, Ghana" loading="lazy" width="600" height="400" />
+      <img src="https://images.unsplash.com/photo-1721011694126-e25f493b91f1?w=600&q=80&auto=format" alt="Cape Coast Castle historic slave fort entrance, Ghana" loading="lazy" width="600" height="400" />
       <div class="gallery-strip-overlay"></div>
     </div>
     <div class="gallery-strip-item">
-      <img src="https://images.unsplash.com/photo-1761998940222-a9c2d2d8c7ab?w=600&q=80" alt="Ganvié stilt village on Lake Nokoué in Benin, West Africa" loading="lazy" width="600" height="400" />
+      <img src="https://images.unsplash.com/photo-1761998940222-a9c2d2d8c7ab?w=600&q=80&auto=format" alt="Ganvié stilt village on Lake Nokoué in Benin, West Africa" loading="lazy" width="600" height="400" />
       <div class="gallery-strip-overlay"></div>
     </div>
   </div>
@@ -1571,7 +1577,7 @@
   <!-- Full-width cinematic break -->
   <div style="position: relative; height: 480px; overflow: hidden;">
     <img
-      src="https://images.unsplash.com/photo-1721011694126-e25f493b91f1?w=1600&q=80"
+      src="https://images.unsplash.com/photo-1721011694126-e25f493b91f1?w=1600&q=80&auto=format"
       alt="Cape Coast Castle overlooking the Atlantic Ocean, Ghana"
       loading="lazy"
       style="width:100%; height:100%; object-fit:cover; object-position: center 50%;"
