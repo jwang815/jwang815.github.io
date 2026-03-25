@@ -386,5 +386,45 @@ window.__i18n = {
   "wa_footer_copy": {
     "en": "© 2026 Waypoint Journeys. All rights reserved.",
     "zh": "© 2026 Waypoint Journeys. 版权所有。"
+  },
+  "wa_faq_label": {
+    "en": "FREQUENTLY ASKED QUESTIONS",
+    "zh": "常见问题"
+  },
+  "wa_faq_title": {
+    "en": "Common Questions About the West Africa Expedition",
+    "zh": "西非探险常见问题"
+  },
+  "wa_faq_q1": {
+    "en": "Is West Africa safe for tourists?",
+    "zh": "西非对游客安全吗？"
+  },
+  "wa_faq_a1": {
+    "en": "Ghana, Benin, and Togo are among the most stable and welcoming countries in West Africa. Ghana consistently ranks as one of the safest nations on the continent. Our local team has deep roots in all three countries and manages logistics, security, and cultural access throughout the journey.",
+    "zh": "加纳、贝宁和多哥是西非最稳定、最友好的国家之一。加纳一直被评为非洲最安全的国家之一。我们的当地团队在三国都有深厚根基，全程负责后勤、安全和文化访问。"
+  },
+  "wa_faq_q2": {
+    "en": "What is the Voodoo experience like?",
+    "zh": "伏都教体验是什么样的？"
+  },
+  "wa_faq_a2": {
+    "en": "Voodoo (Vodun) is a living religion in Benin, not a Hollywood caricature. You\'ll visit sacred temples in Ouidah — the spiritual birthplace of Voodoo — meet practitioners, and witness ceremonies with deep respect and local guidance. It\'s one of the most culturally profound experiences we offer.",
+    "zh": "伏都教（Vodun）在贝宁是活生生的宗教，而非好莱坞的刻板印象。您将参访伏都教精神发源地维达的神圣寺庙，会见修行者，在当地向导的引领下以深切敬意观礼仪式。这是我们提供的最深刻的文化体验之一。"
+  },
+  "wa_faq_q3": {
+    "en": "What vaccinations do I need for West Africa?",
+    "zh": "前往西非需要哪些疫苗接种？"
+  },
+  "wa_faq_a3": {
+    "en": "Yellow fever vaccination is required for entry to all three countries. We also recommend being up to date on hepatitis A, typhoid, and routine vaccinations. Malaria prophylaxis is strongly recommended. We\'ll send you a complete health brief with specific medical guidance once you book.",
+    "zh": "进入三国均需要黄热病疫苗接种。我们还建议更新甲型肝炎、伤寒及常规疫苗。强烈建议服用疟疾预防药物。预订后我们将向您发送包含具体医疗建议的完整健康指南。"
+  },
+  "wa_faq_q4": {
+    "en": "What will I learn about the history of the slave trade?",
+    "zh": "我能了解到哪些奴隶贸易历史？"
+  },
+  "wa_faq_a4": {
+    "en": "The expedition includes visits to Cape Coast Castle and Elmina Castle in Ghana — two of the most significant slave trade sites in the world. You\'ll walk through the Door of No Return and learn the full history from expert local guides. In Ouidah, Benin, you\'ll trace the Route of the Slaves. These are deeply moving, essential historical experiences.",
+    "zh": "探险包括参访加纳的海岸角城堡和埃尔米纳城堡——世界上最重要的奴隶贸易遗址之二。您将走过\'不归之门\'，由当地专家向导讲述完整历史。在贝宁维达，您将追溯奴隶之路。这些是令人深受触动的重要历史体验。"
   }
 };

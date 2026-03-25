@@ -1074,5 +1074,45 @@ window.__i18n = {
   "mn_footer_copyright": {
     "en": "© 2026 Waypoint Journeys. All rights reserved.",
     "zh": "© 2026 Waypoint Journeys. 保留所有权利。"
+  },
+  "mn_faq_label": {
+    "en": "FREQUENTLY ASKED QUESTIONS",
+    "zh": "常见问题"
+  },
+  "mn_faq_title": {
+    "en": "Common Questions About the Mongolia Expedition",
+    "zh": "蒙古探险常见问题"
+  },
+  "mn_faq_q1": {
+    "en": "What are the different Mongolia itinerary options?",
+    "zh": "蒙古有哪些行程选择？"
+  },
+  "mn_faq_a1": {
+    "en": "We offer three tiers: 11 nights (from $4,950), 14 nights (from $5,950), and 17 nights (from $7,450). The 11-night core covers the Naadam Festival, Golden Eagle Hunters, and Gobi Desert. The 14-night adds Karakorum and deeper steppe exploration. The 17-night is the full Mongolia experience from Altai to Terelj.",
+    "zh": "我们提供三个档次：11晚（起价4,950美元）、14晚（起价5,950美元）和17晚（起价7,450美元）。11晚核心行程涵盖那达慕大会、金雕猎人和戈壁沙漠。14晚增加哈拉和林和深入草原探索。17晚是从阿尔泰到特勒吉的完整蒙古体验。"
+  },
+  "mn_faq_q2": {
+    "en": "What is the Naadam Festival?",
+    "zh": "什么是那达慕大会？"
+  },
+  "mn_faq_a2": {
+    "en": "Naadam is Mongolia\'s biggest cultural event, held every July. It features the \'Three Manly Games\' — wrestling, horse racing, and archery — and draws participants from across the country. Our expedition is timed so you experience Naadam in Ulaanbaatar with the best viewing access, not from the tourist stands.",
+    "zh": "那达慕是蒙古最大的文化盛事，每年七月举行。活动以\'男儿三艺\'——摔跤、赛马和射箭——为特色，吸引全国各地的参赛者。我们的行程经过精心安排，让您在乌兰巴托以最佳视角体验那达慕，而非从游客看台观看。"
+  },
+  "mn_faq_q3": {
+    "en": "Where will I sleep in Mongolia?",
+    "zh": "在蒙古住哪里？"
+  },
+  "mn_faq_a3": {
+    "en": "Accommodation varies across the journey: comfortable ger (yurt) camps in the countryside, a hotel night in Ulaanbaatar, and nomadic family ger stays in remote areas. The ger camps have proper beds, and some have hot showers. It\'s authentic without being uncomfortable.",
+    "zh": "住宿在旅途中各有不同：乡间舒适的蒙古包营地、乌兰巴托的酒店住宿、以及偏远地区的游牧家庭蒙古包体验。蒙古包营地配有正式床铺，部分有热水淋浴。真实而不失舒适。"
+  },
+  "mn_faq_q4": {
+    "en": "What is the weather like during the Mongolia expedition?",
+    "zh": "蒙古探险期间天气如何？"
+  },
+  "mn_faq_a4": {
+    "en": "July in Mongolia is warm and pleasant — daytime temperatures range from 20–30°C (68–86°F) in most areas. The Gobi Desert can be hotter. Evenings cool down, especially at altitude. Rain is possible but usually brief. We provide a detailed packing list with layering recommendations.",
+    "zh": "蒙古七月温暖宜人——大部分地区白天气温在20至30°C之间。戈壁沙漠可能更热。夜晚会变凉，尤其在海拔较高处。可能有雨但通常短暂。我们提供详细的行李清单和分层穿衣建议。"
   }
 };

@@ -205,6 +205,64 @@
   ]
   </script>
 
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What makes Waypoint Journeys different from other luxury travel companies?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We go where others don't. Waypoint Journeys specializes in off-the-beaten-path destinations like Socotra Island, Mongolia, Pakistan, and West Africa — places most luxury operators won't touch. Every expedition is limited to 5 guests maximum, with hand-crafted itineraries built from the ground up by local experts who call these regions home."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is included in the expedition price?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All expeditions include accommodation, expert local guides, ground transportation, most meals, and 24/7 on-the-ground support. International flights to the starting city are not included, giving you flexibility to book your own routing. Specific inclusions vary by destination."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How physically demanding are the expeditions?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on the destination. Socotra involves moderate hiking and beach camping. Mongolia ranges from comfortable to adventurous. Pakistan's Karakoram Highway trip is mostly vehicle-based. West Africa is culturally intensive but not physically strenuous. None require technical mountaineering."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I book a private or custom expedition?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. While we run scheduled group departures, every itinerary can be customized or run as a fully private trip. Email info@wpjourneys.com and we'll design it around you."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it safe to travel to these destinations?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Safety is our top priority. Our team leaders have years of experience operating in every destination we offer. We maintain relationships with trusted local partners, monitor conditions continuously, and provide 24/7 support throughout every trip. Many of our destinations are far safer than their reputations suggest."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How far in advance should I book?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We recommend booking at least 2–3 months in advance. With a maximum of 5 guests per trip, spots fill quickly — especially for destinations like Socotra where charter flights have limited availability."
+        }
+      }
+    ]
+  }
+  </script>
+
   <style>
     /* ========== CSS VARIABLES ========== */
     :root {
@@ -945,6 +1003,71 @@
       transform: scale(1.25);
     }
 
+    /* ========== FAQ ========== */
+    .faq {
+      background: var(--sand);
+      color: var(--text-dark);
+      padding: 120px 48px;
+    }
+    .faq-inner {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .faq-item {
+      border-bottom: 1px solid rgba(26, 26, 26, 0.12);
+    }
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 28px 40px 28px 0;
+      font-family: var(--font-display);
+      font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+      font-weight: 500;
+      color: var(--text-dark);
+      text-align: left;
+      cursor: pointer;
+      position: relative;
+      line-height: 1.4;
+      transition: color 0.3s ease;
+    }
+    .faq-question:hover {
+      color: var(--teal);
+    }
+    .faq-question::after {
+      content: '+';
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: var(--font-body);
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: var(--gold);
+      transition: transform 0.3s ease;
+    }
+    .faq-item.active .faq-question::after {
+      content: '\2212';
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.4s ease;
+    }
+    .faq-answer-inner {
+      padding: 0 0 28px 0;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: rgba(26, 26, 26, 0.75);
+    }
+    .faq-item.active .faq-answer {
+      max-height: 300px;
+    }
+
     /* ========== CTA ========== */
     .cta {
       background: var(--charcoal-deep);
@@ -1202,6 +1325,9 @@
         gap: 32px;
       }
       .testimonial {
+        padding: 80px 24px;
+      }
+      .faq {
         padding: 80px 24px;
       }
       .cta {
@@ -1508,6 +1634,45 @@
     </div>
   </section>
 
+  <!-- ==================== FAQ ==================== -->
+  <section class="faq" id="faq">
+    <div class="faq-inner">
+      <span class="section-label reveal" style="color: var(--teal);" data-i18n="faq_label">FREQUENTLY ASKED QUESTIONS</span>
+      <div class="gold-rule reveal"></div>
+      <h2 class="philosophy-title reveal reveal-delay-1" data-i18n="faq_title">Common Questions About Our Expeditions</h2>
+
+      <div class="faq-item reveal reveal-delay-2">
+        <button class="faq-question" data-i18n="faq_q1">What makes Waypoint Journeys different from other luxury travel companies?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a1">We go where others don't. Waypoint Journeys specializes in off-the-beaten-path destinations like Socotra Island, Mongolia, Pakistan, and West Africa — places most luxury operators won't touch. Every expedition is limited to 5 guests maximum, with hand-crafted itineraries built from the ground up by local experts who call these regions home.</div></div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-2">
+        <button class="faq-question" data-i18n="faq_q2">What is included in the expedition price?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a2">All expeditions include accommodation, expert local guides, ground transportation, most meals, and 24/7 on-the-ground support. International flights to the starting city are not included, giving you flexibility to book your own routing. Specific inclusions vary by destination — check each expedition page for the full breakdown.</div></div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-2">
+        <button class="faq-question" data-i18n="faq_q3">How physically demanding are the expeditions?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a3">It depends on the destination. Socotra involves moderate hiking and beach camping. Mongolia can range from comfortable to adventurous depending on which itinerary tier you choose. Pakistan's Karakoram Highway trip is mostly vehicle-based with light walks. West Africa is culturally intensive but not physically strenuous. None require technical mountaineering — just a reasonable level of fitness and a spirit of adventure.</div></div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-2">
+        <button class="faq-question" data-i18n="faq_q4">Can I book a private or custom expedition?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a4">Yes. While we run scheduled group departures, every itinerary can be customized or run as a fully private trip. Want to extend your time in the Gobi Desert, add a side trip to Lahore, or build something entirely new? Email us at info@wpjourneys.com and we'll design it around you.</div></div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-2">
+        <button class="faq-question" data-i18n="faq_q5">Is it safe to travel to these destinations?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a5">Safety is our top priority. Our team leaders have years of experience operating in every destination we offer. We maintain relationships with trusted local partners, monitor conditions continuously, and provide 24/7 support throughout every trip. Many of our destinations are far safer than their reputations suggest — Pakistan and Mongolia, for example, are among the most hospitable countries in the world for visitors.</div></div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-2">
+        <button class="faq-question" data-i18n="faq_q6">How far in advance should I book?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a6">We recommend booking at least 2–3 months in advance. With a maximum of 5 guests per trip, spots fill quickly — especially for destinations like Socotra where charter flights have limited availability. That said, last-minute inquiries are always welcome if space remains.</div></div>
+      </div>
+    </div>
+  </section>
+
   <!-- ==================== CTA ==================== -->
   <section class="cta" id="contact">
     <div class="cta-inner">
@@ -1798,6 +1963,20 @@
         }
       });
     })();
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var item = this.parentElement;
+        var wasActive = item.classList.contains('active');
+        // Close all
+        document.querySelectorAll('.faq-item.active').forEach(function(el) {
+          el.classList.remove('active');
+        });
+        // Toggle clicked
+        if (!wasActive) item.classList.add('active');
+      });
+    });
   </script>
 
   <script src="/lang/homepage.js"></script>

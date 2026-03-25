@@ -74,6 +74,48 @@
     
   }
   </script>
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Is West Africa safe for tourists?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ghana, Benin, and Togo are among the most stable and welcoming countries in West Africa. Ghana consistently ranks as one of the safest nations on the continent. Our local team has deep roots in all three countries and manages logistics, security, and cultural access throughout the journey."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the Voodoo experience like?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Voodoo (Vodun) is a living religion in Benin, not a Hollywood caricature. You'll visit sacred temples in Ouidah — the spiritual birthplace of Voodoo — meet practitioners, and witness ceremonies with deep respect and local guidance. It's one of the most culturally profound experiences we offer."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What vaccinations do I need for West Africa?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yellow fever vaccination is required for entry to all three countries. We also recommend being up to date on hepatitis A, typhoid, and routine vaccinations. Malaria prophylaxis is strongly recommended. We'll send you a complete health brief with specific medical guidance once you book."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What will I learn about the history of the slave trade?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The expedition includes visits to Cape Coast Castle and Elmina Castle in Ghana — two of the most significant slave trade sites in the world. You'll walk through the Door of No Return and learn the full history from expert local guides. In Ouidah, Benin, you'll trace the Route of the Slaves. These are deeply moving, essential historical experiences."
+            }
+        }
+    ]
+}
+  </script>
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -918,6 +960,94 @@
       background: rgba(10, 8, 5, 0.1);
     }
 
+
+    /* ========== FAQ ========== */
+    .faq {
+      background: var(--sand);
+      color: var(--charcoal);
+      padding: 120px 48px;
+    }
+    .faq-inner {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .faq-header-label {
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 12px;
+    }
+    .faq-header-rule {
+      width: 48px;
+      height: 2px;
+      background: var(--gold);
+      margin-bottom: 20px;
+    }
+    .faq-header-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 500;
+      color: var(--charcoal);
+      margin-bottom: 48px;
+    }
+    .faq-item {
+      border-bottom: 1px solid rgba(26, 26, 26, 0.12);
+    }
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 28px 40px 28px 0;
+      font-family: var(--font-display);
+      font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+      font-weight: 500;
+      color: var(--charcoal);
+      text-align: left;
+      cursor: pointer;
+      position: relative;
+      line-height: 1.4;
+      transition: color 0.3s ease;
+    }
+    .faq-question:hover {
+      color: var(--teal);
+    }
+    .faq-question::after {
+      content: '+';
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: var(--font-body);
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: var(--gold);
+      transition: transform 0.3s ease;
+    }
+    .faq-item.active .faq-question::after {
+      content: '\2212';
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.4s ease;
+    }
+    .faq-answer-inner {
+      padding: 0 0 28px 0;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: rgba(26, 26, 26, 0.75);
+    }
+    .faq-item.active .faq-answer {
+      max-height: 300px;
+    }
+
     #book {
       position: relative;
       padding: 8rem 0;
@@ -1633,6 +1763,38 @@
     </div>
   </section>
 
+
+  <!-- ═══════════════════════════════════════════════
+       FAQ
+  ═════════════════════════════════════════════════ -->
+  <section class="faq" id="faq">
+    <div class="faq-inner">
+      <p class="faq-header-label fade-in" data-i18n="wa_faq_label">FREQUENTLY ASKED QUESTIONS</p>
+      <div class="faq-header-rule fade-in"></div>
+      <h2 class="faq-header-title fade-in" data-i18n="wa_faq_title">Common Questions About This Expedition</h2>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question" data-i18n="wa_faq_q1">Is West Africa safe for tourists?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="wa_faq_a1">Ghana, Benin, and Togo are among the most stable and welcoming countries in West Africa. Ghana consistently ranks as one of the safest nations on the continent. Our local team has deep roots in all three countries and manages logistics, security, and cultural access throughout the journey.</div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question" data-i18n="wa_faq_q2">What is the Voodoo experience like?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="wa_faq_a2">Voodoo (Vodun) is a living religion in Benin, not a Hollywood caricature. You'll visit sacred temples in Ouidah — the spiritual birthplace of Voodoo — meet practitioners, and witness ceremonies with deep respect and local guidance. It's one of the most culturally profound experiences we offer.</div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question" data-i18n="wa_faq_q3">What vaccinations do I need for West Africa?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="wa_faq_a3">Yellow fever vaccination is required for entry to all three countries. We also recommend being up to date on hepatitis A, typhoid, and routine vaccinations. Malaria prophylaxis is strongly recommended. We'll send you a complete health brief with specific medical guidance once you book.</div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question" data-i18n="wa_faq_q4">What will I learn about the history of the slave trade?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="wa_faq_a4">The expedition includes visits to Cape Coast Castle and Elmina Castle in Ghana — two of the most significant slave trade sites in the world. You'll walk through the Door of No Return and learn the full history from expert local guides. In Ouidah, Benin, you'll trace the Route of the Slaves. These are deeply moving, essential historical experiences.</div></div>
+      </div>
+    </div>
+  </section>
+
   <section id="book" aria-labelledby="pricing-title">
     <div class="pricing-bg"></div>
     <div class="container">
@@ -1812,6 +1974,19 @@
         }
       });
     });
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var item = this.parentElement;
+        var wasActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item.active').forEach(function(el) {
+          el.classList.remove('active');
+        });
+        if (!wasActive) item.classList.add('active');
+      });
+    });
+
   </script>
 
 

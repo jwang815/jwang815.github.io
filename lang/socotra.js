@@ -374,5 +374,53 @@ window.__i18n = {
   "sc_footer_copy": {
     "en": "© 2026 Waypoint Journeys. All rights reserved.",
     "zh": "© 2026 Waypoint Journeys. 保留所有权利。"
+  },
+  "sc_faq_label": {
+    "en": "FREQUENTLY ASKED QUESTIONS",
+    "zh": "常见问题"
+  },
+  "sc_faq_title": {
+    "en": "Common Questions About the Socotra Expedition",
+    "zh": "索科特拉探险常见问题"
+  },
+  "sc_faq_q1": {
+    "en": "How do I get to Socotra Island?",
+    "zh": "如何前往索科特拉岛？"
+  },
+  "sc_faq_a1": {
+    "en": "You\'ll fly to Jeddah, Saudi Arabia, which serves as the departure point. From there, we arrange a charter flight directly to Socotra — it\'s the only reliable way to reach the island. The charter flight is included in your expedition price.",
+    "zh": "您需飞往沙特阿拉伯吉达作为出发点。我们将从那里安排直飞索科特拉的包机——这是到达该岛唯一可靠的方式。包机费用已包含在探险价格中。"
+  },
+  "sc_faq_q2": {
+    "en": "What is the accommodation like on Socotra?",
+    "zh": "索科特拉的住宿条件如何？"
+  },
+  "sc_faq_a2": {
+    "en": "Most nights are spent in our private mobile camp — think comfortable mattresses, quality bedding, and camp chairs set up in stunning locations like Detwah Lagoon and Arher Beach. The first or last night is at the Summerlands Hotel in Hadibo, the island\'s main town. This isn\'t roughing it — it\'s camping with purpose and comfort.",
+    "zh": "大部分夜晚在我们的私人移动营地度过——舒适的床垫、优质床品和营地椅，设在德特瓦泻湖和阿赫尔海滩等绝美地点。第一晚或最后一晚入住岛上主要城镇哈迪布的萨默兰兹酒店。这不是简陋的露营，而是有品质、有目的的野外体验。"
+  },
+  "sc_faq_q3": {
+    "en": "Is there internet or phone signal on Socotra?",
+    "zh": "索科特拉有网络或手机信号吗？"
+  },
+  "sc_faq_a3": {
+    "en": "Socotra has virtually no local cell coverage outside Hadibo. However, we provide Starlink satellite WiFi throughout the entire expedition, so you can stay connected when you need to — or disconnect completely. Your choice.",
+    "zh": "索科特拉在哈迪布以外几乎没有本地手机信号。但我们在整个探险过程中提供星链卫星WiFi，让您在需要时保持联系——或者完全断开连接。由您选择。"
+  },
+  "sc_faq_q4": {
+    "en": "Do I need a visa for Socotra?",
+    "zh": "前往索科特拉需要签证吗？"
+  },
+  "sc_faq_a4": {
+    "en": "Yes. A Socotra visa costs $150 USD and is payable on arrival. You\'ll also need a valid Saudi transit visa if connecting through Jeddah. We provide full visa guidance and documentation support once you book.",
+    "zh": "需要。索科特拉签证费用为150美元，抵达时支付。如果经吉达转机，还需要有效的沙特过境签证。预订后我们将提供完整的签证指导和文件支持。"
+  },
+  "sc_faq_q5": {
+    "en": "What wildlife will I see on Socotra?",
+    "zh": "在索科特拉能看到什么野生动物？"
+  },
+  "sc_faq_a5": {
+    "en": "Socotra is called the \'Galápagos of the Indian Ocean\' for good reason. You\'ll encounter Dragon\'s Blood Trees found nowhere else on Earth, endemic desert roses, and unique bird species. The marine life is equally impressive — pristine coral reefs, sea turtles, and dolphins are common around the island\'s coastline.",
+    "zh": "索科特拉被称为\'印度洋的加拉帕戈斯\'不无道理。您将看到地球上独有的龙血树、特有沙漠玫瑰和独特鸟类。海洋生物同样令人惊叹——原始珊瑚礁、海龟和海豚在岛屿海岸线常见。"
   }
 };

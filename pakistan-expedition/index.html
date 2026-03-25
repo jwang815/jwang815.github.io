@@ -79,6 +79,48 @@
     
   }
   </script>
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Is Pakistan safe for tourists?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pakistan has undergone a dramatic safety transformation in recent years. The northern areas — Hunza Valley, Skardu, and the Karakoram Highway — are extremely safe and welcoming. Pakistan consistently ranks among the most hospitable countries in the world. Our local team has operated in these regions for years and manages all security and logistics."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the best time to visit Pakistan's northern areas?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our expedition runs in October to catch the spectacular autumn foliage in Hunza Valley — when the trees turn gold and orange against the backdrop of snow-capped Karakoram peaks. It's widely considered the most beautiful time of year in northern Pakistan."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How difficult is the Karakoram Highway drive?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You won't be driving — our experienced local drivers handle the road. The Karakoram Highway is one of the highest paved roads in the world and the scenery is extraordinary, but the route has been significantly improved in recent years. We travel in comfortable 4x4 vehicles with plenty of stops for photography and exploration."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do I need a visa for Pakistan?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most nationalities can obtain a Pakistan e-visa online — the process has been streamlined significantly. We provide full visa guidance and a support letter once you book. The e-visa typically takes 5–7 business days to process."
+            }
+        }
+    ]
+}
+  </script>
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -923,6 +965,94 @@
       background: rgba(10, 8, 5, 0.1);
     }
 
+
+    /* ========== FAQ ========== */
+    .faq {
+      background: var(--sand);
+      color: var(--charcoal);
+      padding: 120px 48px;
+    }
+    .faq-inner {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .faq-header-label {
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 12px;
+    }
+    .faq-header-rule {
+      width: 48px;
+      height: 2px;
+      background: var(--gold);
+      margin-bottom: 20px;
+    }
+    .faq-header-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 500;
+      color: var(--charcoal);
+      margin-bottom: 48px;
+    }
+    .faq-item {
+      border-bottom: 1px solid rgba(26, 26, 26, 0.12);
+    }
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 28px 40px 28px 0;
+      font-family: var(--font-display);
+      font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+      font-weight: 500;
+      color: var(--charcoal);
+      text-align: left;
+      cursor: pointer;
+      position: relative;
+      line-height: 1.4;
+      transition: color 0.3s ease;
+    }
+    .faq-question:hover {
+      color: var(--teal);
+    }
+    .faq-question::after {
+      content: '+';
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: var(--font-body);
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: var(--gold);
+      transition: transform 0.3s ease;
+    }
+    .faq-item.active .faq-question::after {
+      content: '\2212';
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.4s ease;
+    }
+    .faq-answer-inner {
+      padding: 0 0 28px 0;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: rgba(26, 26, 26, 0.75);
+    }
+    .faq-item.active .faq-answer {
+      max-height: 300px;
+    }
+
     #book {
       position: relative;
       padding: 8rem 0;
@@ -1666,6 +1796,38 @@
     </div>
   </section>
 
+
+  <!-- ═══════════════════════════════════════════════
+       FAQ
+  ═════════════════════════════════════════════════ -->
+  <section class="faq" id="faq">
+    <div class="faq-inner">
+      <p class="faq-header-label fade-in" data-i18n="pk_faq_label">FREQUENTLY ASKED QUESTIONS</p>
+      <div class="faq-header-rule fade-in"></div>
+      <h2 class="faq-header-title fade-in" data-i18n="pk_faq_title">Common Questions About This Expedition</h2>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question" data-i18n="pk_faq_q1">Is Pakistan safe for tourists?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="pk_faq_a1">Pakistan has undergone a dramatic safety transformation in recent years. The northern areas — Hunza Valley, Skardu, and the Karakoram Highway — are extremely safe and welcoming. Pakistan consistently ranks among the most hospitable countries in the world. Our local team has operated in these regions for years and manages all security and logistics.</div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question" data-i18n="pk_faq_q2">What is the best time to visit Pakistan's northern areas?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="pk_faq_a2">Our expedition runs in October to catch the spectacular autumn foliage in Hunza Valley — when the trees turn gold and orange against the backdrop of snow-capped Karakoram peaks. It's widely considered the most beautiful time of year in northern Pakistan.</div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question" data-i18n="pk_faq_q3">How difficult is the Karakoram Highway drive?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="pk_faq_a3">You won't be driving — our experienced local drivers handle the road. The Karakoram Highway is one of the highest paved roads in the world and the scenery is extraordinary, but the route has been significantly improved in recent years. We travel in comfortable 4x4 vehicles with plenty of stops for photography and exploration.</div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question" data-i18n="pk_faq_q4">Do I need a visa for Pakistan?</button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="pk_faq_a4">Most nationalities can obtain a Pakistan e-visa online — the process has been streamlined significantly. We provide full visa guidance and a support letter once you book. The e-visa typically takes 5–7 business days to process.</div></div>
+      </div>
+    </div>
+  </section>
+
   <section id="book" aria-labelledby="pricing-title">
     <div class="pricing-bg"></div>
     <div class="container">
@@ -1845,6 +2007,19 @@
         }
       });
     });
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var item = this.parentElement;
+        var wasActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item.active').forEach(function(el) {
+          el.classList.remove('active');
+        });
+        if (!wasActive) item.classList.add('active');
+      });
+    });
+
   </script>
 
 

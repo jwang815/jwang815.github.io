@@ -470,5 +470,45 @@ window.__i18n = {
   "pk_footer_copy": {
     "en": "© 2026 Waypoint Journeys. All rights reserved.",
     "zh": "© 2026 Waypoint Journeys. 保留所有权利。"
+  },
+  "pk_faq_label": {
+    "en": "FREQUENTLY ASKED QUESTIONS",
+    "zh": "常见问题"
+  },
+  "pk_faq_title": {
+    "en": "Common Questions About the Pakistan Expedition",
+    "zh": "巴基斯坦探险常见问题"
+  },
+  "pk_faq_q1": {
+    "en": "Is Pakistan safe for tourists?",
+    "zh": "巴基斯坦对游客安全吗？"
+  },
+  "pk_faq_a1": {
+    "en": "Pakistan has undergone a dramatic safety transformation in recent years. The northern areas — Hunza Valley, Skardu, and the Karakoram Highway — are extremely safe and welcoming. Pakistan consistently ranks among the most hospitable countries in the world. Our local team has operated in these regions for years and manages all security and logistics.",
+    "zh": "巴基斯坦近年来安全状况发生了巨大转变。北部地区——罕萨谷、斯卡都和喀喇昆仑公路——非常安全且热情好客。巴基斯坦一直被评为世界上最友善的国家之一。我们的当地团队在这些地区运营多年，全程管理安全和后勤。"
+  },
+  "pk_faq_q2": {
+    "en": "What is the best time to visit Pakistan\'s northern areas?",
+    "zh": "巴基斯坦北部地区的最佳旅行时间是什么？"
+  },
+  "pk_faq_a2": {
+    "en": "Our expedition runs in October to catch the spectacular autumn foliage in Hunza Valley — when the trees turn gold and orange against the backdrop of snow-capped Karakoram peaks. It\'s widely considered the most beautiful time of year in northern Pakistan.",
+    "zh": "我们的探险安排在十月，正值罕萨谷壮观的秋叶季——树木在雪顶喀喇昆仑群峰的映衬下变成金色和橙色。这被公认为巴基斯坦北部一年中最美的时节。"
+  },
+  "pk_faq_q3": {
+    "en": "How difficult is the Karakoram Highway drive?",
+    "zh": "喀喇昆仑公路的行程辛苦吗？"
+  },
+  "pk_faq_a3": {
+    "en": "You won\'t be driving — our experienced local drivers handle the road. The Karakoram Highway is one of the highest paved roads in the world and the scenery is extraordinary, but the route has been significantly improved in recent years. We travel in comfortable 4x4 vehicles with plenty of stops for photography and exploration.",
+    "zh": "您无需自驾——由我们经验丰富的当地司机负责驾驶。喀喇昆仑公路是世界上海拔最高的铺装公路之一，沿途风景壮丽，近年来路况已大幅改善。我们乘坐舒适的四驱车行驶，途中有充足的停靠点供拍照和探索。"
+  },
+  "pk_faq_q4": {
+    "en": "Do I need a visa for Pakistan?",
+    "zh": "前往巴基斯坦需要签证吗？"
+  },
+  "pk_faq_a4": {
+    "en": "Most nationalities can obtain a Pakistan e-visa online — the process has been streamlined significantly. We provide full visa guidance and a support letter once you book. The e-visa typically takes 5–7 business days to process.",
+    "zh": "大多数国籍可以在线申请巴基斯坦电子签证——流程已大幅简化。预订后我们将提供完整的签证指导和支持信。电子签证通常需要5至7个工作日处理。"
   }
 };
