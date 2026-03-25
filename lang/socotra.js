@@ -32,8 +32,8 @@ window.__i18n = {
     "zh": "被世界遗忘的伊甸园"
   },
   "sc_hero_dates": {
-    "en": "April 21 – 27, 2026",
-    "zh": "2026年4月21日 – 27日"
+    "en": "7 Days",
+    "zh": "7天"
   },
   "sc_hero_tagline": {
     "en": "7 Days Exploring the Most Alien Landscape on Earth",
@@ -152,8 +152,8 @@ window.__i18n = {
     "zh": "吉达 → 索科特拉 → 霍姆希尔"
   },
   "sc_day1_date": {
-    "en": "Monday, April 21, 2026",
-    "zh": "2026年4月21日，星期一"
+    "en": "Day 1",
+    "zh": "第1天"
   },
   "sc_day1_desc": {
     "en": "Catch your flight to Socotra Island from Jeddah. Upon arrival, meet the team at the airport and drive to Hadibo town for lunch and last-minute supplies. Head into the mountainous northeast to the Homhil Plateau, where you'll camp among fabled dragon's blood, bottle, and cucumber trees. Enjoy a short hike down to a natural infinity pool overlooking the sea.",
@@ -168,8 +168,8 @@ window.__i18n = {
     "zh": "霍姆希尔 → 阿赫尔"
   },
   "sc_day2_date": {
-    "en": "Tuesday, April 22, 2026",
-    "zh": "2026年4月22日，星期二"
+    "en": "Day 2",
+    "zh": "第2天"
   },
   "sc_day2_desc": {
     "en": "Wake to a sunrise among Dragon's Blood Trees and hike to a stunning natural infinity pool at the edge of the plateau. Pick up dragon blood resin and frankincense from local children along the way. After lunch, drive to Arher — a spectacular beach camp in the far northeast where a fresh creek emerges from cracked granite mountains. Climb the massive 100+ metre sand dune for a jaw-dropping sunset. If you're lucky, witness bright blue bioluminescence in the ocean at night.",
@@ -184,8 +184,8 @@ window.__i18n = {
     "zh": "阿赫尔 → 霍克洞穴 → 伊里塞尔角"
   },
   "sc_day3_date": {
-    "en": "Wednesday, April 23, 2026",
-    "zh": "2026年4月23日，星期三"
+    "en": "Day 3",
+    "zh": "第3天"
   },
   "sc_day3_desc": {
     "en": "An early start for the 2.5-hour hike up to Hoq Cave — over three kilometres long with stalactites, stalagmites, crystalline formations, and a water pool at the end, like an ancient cathedral. In the evening, drive to Ras Irisseyl, the easternmost point of Socotra where the Indian Ocean meets the Arabian Sea. Visit a small fishing village and explore \"Crab City\" — a beach home to thousands of sand crabs building castle-like structures at low tide.",
@@ -200,8 +200,8 @@ window.__i18n = {
     "zh": "阿赫尔 → 卡利桑峡谷 → 哈迪布"
   },
   "sc_day4_date": {
-    "en": "Thursday, April 24, 2026",
-    "zh": "2026年4月24日，星期四"
+    "en": "Day 4",
+    "zh": "第4天"
   },
   "sc_day4_desc": {
     "en": "Drive through rolling hills of Dragon's Blood Trees to reach Kalisan Canyon — a deep swimming wadi with crystal-clear freshwater pools and waterfalls. The 45-minute hike down passes Bottle Trees along the way. Spend the morning swimming before driving to Hadibo for a night at the Summerlands Hotel with hot showers and WiFi.",
@@ -216,8 +216,8 @@ window.__i18n = {
     "zh": "哈迪布 → 菲尔明森林 → 扎赫克 → 迪克萨姆"
   },
   "sc_day5_date": {
-    "en": "Friday, April 25, 2026",
-    "zh": "2026年4月25日，星期五"
+    "en": "Day 5",
+    "zh": "第5天"
   },
   "sc_day5_desc": {
     "en": "Trek into Firhmin Forest, the last woodland of Dragon's Blood trees at this density anywhere on Earth. A local goat herder demonstrates how precious red resin has been collected for centuries. Hike into Derhur Canyon for swimming and a picnic lunch among unusual rock formations. At sunset, explore the \"sea of sand\" at Zahek — a surreal landscape of dunes rolling to the shoreline where ancient pottery shards still surface.",
@@ -232,8 +232,8 @@ window.__i18n = {
     "zh": "迪克萨姆 → 德特瓦泻湖 → 舒阿卜海滩"
   },
   "sc_day6_date": {
-    "en": "Saturday, April 26, 2026",
-    "zh": "2026年4月26日，星期六"
+    "en": "Day 6",
+    "zh": "第6天"
   },
   "sc_day6_desc": {
     "en": "Visit the Dragon's Blood Tree nursery, then stop at Diksam's school to meet students and teachers (volunteer to teach English if you'd like). Drive northwest to Detwah Lagoon — a marine-protected paradise with a white sandy peninsula jutting into turquoise waters. Meet Abdullah the Caveman, your guide to exploring marine wildlife from his cave above the lagoon. Later, boat to Shu'ab Beach for snorkeling with spinner dolphins.",
@@ -248,8 +248,8 @@ window.__i18n = {
     "zh": "哈迪布 → 吉达"
   },
   "sc_day7_date": {
-    "en": "Sunday, April 27, 2026",
-    "zh": "2026年4月27日，星期日"
+    "en": "Day 7",
+    "zh": "第7天"
   },
   "sc_day7_desc": {
     "en": "A leisurely final morning in Hadibo — browse the market for frankincense, dragon blood resin, and local crafts to bring home. After a last breakfast together, transfer to the airport for your direct charter flight back to Jeddah. Carry with you memories of a place unlike any other on Earth.",
@@ -272,12 +272,12 @@ window.__i18n = {
     "zh": "费用包含"
   },
   "sc_detail_dates_label": {
-    "en": "Dates",
-    "zh": "日期"
+    "en": "Duration",
+    "zh": "行程时长"
   },
   "sc_detail_dates_value": {
-    "en": "April 21 – 27, 2026",
-    "zh": "2026年4月21日 – 27日"
+    "en": "7 Days",
+    "zh": "7天"
   },
   "sc_detail_duration_label": {
     "en": "Duration",

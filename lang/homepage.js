@@ -92,8 +92,8 @@ window.__i18n = {
     "zh": "来自另一星球的秘岛"
   },
   "expedition_socotra_dates": {
-    "en": "April 2026",
-    "zh": "2026年4月"
+    "en": "7 Days",
+    "zh": "7天"
   },
   "expedition_socotra_price": {
     "en": "From $2,950",
@@ -116,8 +116,8 @@ window.__i18n = {
     "zh": "巫毒文化、古堡传说与奴隶海岸"
   },
   "expedition_westafrica_dates": {
-    "en": "May 2026",
-    "zh": "2026年5月"
+    "en": "8 Days",
+    "zh": "8天"
   },
   "expedition_westafrica_price": {
     "en": "From $2,950",
@@ -140,8 +140,8 @@ window.__i18n = {
     "zh": "永恒苍穹之地"
   },
   "expedition_mongolia_dates": {
-    "en": "July 2026",
-    "zh": "2026年7月"
+    "en": "11–17 Days",
+    "zh": "11–17天"
   },
   "expedition_mongolia_price": {
     "en": "From $4,950",
@@ -164,8 +164,8 @@ window.__i18n = {
     "zh": "喀喇昆仑山脉与远古帝国遗踪"
   },
   "expedition_pakistan_dates": {
-    "en": "Oct 2026",
-    "zh": "2026年10月"
+    "en": "13 Days",
+    "zh": "13天"
   },
   "expedition_pakistan_price": {
     "en": "From $3,695",
