@@ -29,7 +29,13 @@
   <link rel="canonical" href="https://wpjourneys.com/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Defer Google Fonts to eliminate render-blocking (swap ensures text visible immediately) -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+
+  <!-- Preload LCP hero image -->
+  <link rel="preload" as="image" fetchpriority="high" href="https://images.unsplash.com/photo-1682686581660-3693f0c588d2?w=1200&q=75&auto=format">
 
   <!-- Structured Data: TravelAgency -->
   <script type="application/ld+json">
@@ -1278,11 +1284,25 @@
   <!-- ==================== HERO ==================== -->
   <section class="hero" id="hero">
     <div class="hero-slide active">
-      <img src="https://images.unsplash.com/photo-1682686581660-3693f0c588d2?w=1600&q=80" alt="Luxury desert expedition with winding trail through remote landscape" width="1600" height="1067">
+      <img src="https://images.unsplash.com/photo-1682686581660-3693f0c588d2?w=1200&q=75&auto=format"
+           srcset="https://images.unsplash.com/photo-1682686581660-3693f0c588d2?w=600&q=70&auto=format 600w,
+                  https://images.unsplash.com/photo-1682686581660-3693f0c588d2?w=900&q=75&auto=format 900w,
+                  https://images.unsplash.com/photo-1682686581660-3693f0c588d2?w=1200&q=75&auto=format 1200w,
+                  https://images.unsplash.com/photo-1682686581660-3693f0c588d2?w=1600&q=75&auto=format 1600w"
+           sizes="100vw"
+           alt="Luxury desert expedition with winding trail through remote landscape"
+           width="1600" height="1067" fetchpriority="high" decoding="async">
     </div>
 
     <div class="hero-slide">
-      <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80" alt="Dramatic mountain canyon landscape at golden hour — adventure travel" width="1600" height="1067">
+      <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=75&auto=format"
+           srcset="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=70&auto=format 600w,
+                  https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&q=75&auto=format 900w,
+                  https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=75&auto=format 1200w,
+                  https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=75&auto=format 1600w"
+           sizes="100vw"
+           alt="Dramatic mountain canyon landscape at golden hour — adventure travel"
+           width="1600" height="1067" decoding="async">
     </div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
@@ -1310,7 +1330,7 @@
         <p class="philosophy-text" data-i18n="philosophy_text_3">From the Karakoram Highway to the Dragon Blood forests of Socotra, from ancient mountain kingdoms to destinations we haven't announced yet. We go where the guidebooks end. Every itinerary is bespoke. Every experience is unrepeatable. That's the Waypoint promise.</p>
       </div>
       <div class="philosophy-image reveal reveal-delay-1">
-        <img src="https://images.unsplash.com/photo-1587135941948-670b381f08ce?w=800&q=80" alt="Luxury clifftop glamping tents overlooking clouds and mountains" loading="lazy" width="800" height="533">
+        <img src="https://images.unsplash.com/photo-1587135941948-670b381f08ce?w=800&q=75&auto=format" alt="Luxury clifftop glamping tents overlooking clouds and mountains" loading="lazy" width="800" height="533">
       </div>
     </div>
   </section>
@@ -1325,7 +1345,7 @@
 
       <!-- Socotra -->
       <a href="/socotra/" class="expedition-card reveal" data-card="socotra">
-        <img class="expedition-card-img" src="https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80" alt="Aerial view of Socotra Island tropical lagoon with turquoise waters" loading="lazy" width="800" height="533">
+        <img class="expedition-card-img" src="https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=75&auto=format" alt="Aerial view of Socotra Island tropical lagoon with turquoise waters" loading="lazy" width="800" height="533">
         <div class="expedition-card-overlay"></div>
         <div class="expedition-card-content">
           <span class="expedition-card-tag" data-i18n="expedition_socotra_tag">Featured Expedition</span>
@@ -1345,7 +1365,7 @@
 
       <!-- West Africa -->
       <a href="/west-africa-expedition/" class="expedition-card reveal reveal-delay-1">
-        <img class="expedition-card-img" src="https://images.unsplash.com/photo-1545315637-8f35ef2d87f5?w=800&q=80" alt="Colorful pirogue boat on West African beach at sunset — Ghana, Benin, Togo expedition" loading="lazy" width="800" height="533">
+        <img class="expedition-card-img" src="https://images.unsplash.com/photo-1545315637-8f35ef2d87f5?w=800&q=75&auto=format" alt="Colorful pirogue boat on West African beach at sunset — Ghana, Benin, Togo expedition" loading="lazy" width="800" height="533">
         <div class="expedition-card-overlay"></div>
         <div class="expedition-card-content">
           <span class="expedition-card-tag" data-i18n="expedition_westafrica_tag">Cultural Expedition</span>
@@ -1365,7 +1385,7 @@
 
       <!-- Mongolia -->
       <a href="/mongolia-expedition/" class="expedition-card reveal reveal-delay-2">
-        <img class="expedition-card-img" src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&q=80" alt="Kazakh Golden Eagle hunter on horseback in Mongolian steppe" loading="lazy" width="800" height="533">
+        <img class="expedition-card-img" src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&q=75&auto=format" alt="Kazakh Golden Eagle hunter on horseback in Mongolian steppe" loading="lazy" width="800" height="533">
         <div class="expedition-card-overlay"></div>
         <div class="expedition-card-content">
           <span class="expedition-card-tag" data-i18n="expedition_mongolia_tag">Naadam Festival</span>
@@ -1385,7 +1405,7 @@
 
       <!-- Pakistan -->
       <a href="/pakistan-expedition/" class="expedition-card reveal reveal-delay-3">
-        <img class="expedition-card-img" src="https://images.unsplash.com/photo-1514558427911-8e293bebf18c?w=800&q=80" alt="Hunza Valley autumn foliage with Karakoram mountains in Pakistan" loading="lazy" width="800" height="533">
+        <img class="expedition-card-img" src="https://images.unsplash.com/photo-1514558427911-8e293bebf18c?w=800&q=75&auto=format" alt="Hunza Valley autumn foliage with Karakoram mountains in Pakistan" loading="lazy" width="800" height="533">
         <div class="expedition-card-overlay"></div>
         <div class="expedition-card-content">
           <span class="expedition-card-tag" data-i18n="expedition_pakistan_tag">Fall Foliage Season</span>
@@ -1408,7 +1428,7 @@
 
   <!-- ==================== EXPERIENCE STRIP ==================== -->
   <section class="stats" id="stats">
-    <img class="stats-bg" src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80" alt="Northern lights aurora borealis over expedition landscape" loading="lazy" width="800" height="533">
+    <img class="stats-bg" src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=75&auto=format" alt="Northern lights aurora borealis over expedition landscape" loading="lazy" width="800" height="533">
     <div class="stats-overlay"></div>
     <div class="stats-grid">
       <div class="stat-item reveal">
