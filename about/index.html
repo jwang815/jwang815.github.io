@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — Meet the Founders | Waypoint Journeys</title>
+  <meta name="description" content="Meet the founders of Waypoint Journeys. Three adventurers with 300+ countries between them, building luxury expeditions to the world's last wild places.">
+  <meta name="keywords" content="Waypoint Journeys founders, about us, luxury adventure travel, Jason Wang, Chad Zhang, Michael Du, travel experts">
+  <meta name="author" content="Waypoint Journeys">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://wpjourneys.com/about/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Waypoint Journeys">
+  <meta property="og:title" content="Meet the Founders | Waypoint Journeys">
+  <meta property="og:description" content="Meet the founders of Waypoint Journeys. Three adventurers with 300+ countries between them, building luxury expeditions to the world's last wild places.">
+  <meta property="og:url" content="https://wpjourneys.com/about/">
+  <meta property="og:image" content="https://wpjourneys.com/images/jason-wang.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Meet the Founders | Waypoint Journeys">
+  <meta name="twitter:description" content="Meet the founders of Waypoint Journeys. Three adventurers with 300+ countries between them, building luxury expeditions to the world's last wild places.">
+  <meta name="twitter:image" content="https://wpjourneys.com/images/jason-wang.jpg">
+
+  <link rel="icon" type="image/svg+xml" href="https://wpjourneys.com/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://wpjourneys.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About Us",
+        "item": "https://wpjourneys.com/about/"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts: Defer to eliminate render-blocking -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+
+  <link rel="stylesheet" href="/css/related-expeditions.css">
+
+  <style>
+    /* ========== CSS VARIABLES ========== */
+    :root {
+      --charcoal: #1A1A1A;
+      --charcoal-deep: #111111;
+      --sand: #F5EDE0;
+      --sand-light: #FAF6F0;
+      --gold: #C4944A;
+      --gold-light: #D4A85C;
+      --teal: #1B5E6B;
+      --teal-dark: #154C57;
+      --white: #FFFFFF;
+      --off-white: #E8E0D4;
+      --text-dark: #1A1A1A;
+      --text-light: #F5EDE0;
+      --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+      --font-body: 'Source Sans 3', 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+
+    /* ========== RESET & BASE ========== */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--text-light);
+      background: var(--charcoal);
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* ========== UTILITY ========== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .reveal-delay-1 { transition-delay: 0.15s; }
+    .reveal-delay-2 { transition-delay: 0.3s; }
+    .reveal-delay-3 { transition-delay: 0.45s; }
+    .reveal-delay-4 { transition-delay: 0.6s; }
+
+    .gold-rule {
+      width: 60px;
+      height: 2px;
+      background: var(--gold);
+      margin-bottom: 32px;
+      margin-top: 8px;
+    }
+
+    .section-label {
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    /* ========== NAVIGATION ========== */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      padding: 24px 48px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: background 0.4s ease, padding 0.4s ease, box-shadow 0.4s ease;
+      background: rgba(17, 17, 17, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .nav.scrolled {
+      background: rgba(17, 17, 17, 0.97);
+      padding: 16px 48px;
+      box-shadow: 0 2px 40px rgba(0,0,0,0.3);
+    }
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .nav-logo svg {
+      width: 36px;
+      height: 36px;
+    }
+    .nav-logo-text {
+      font-family: var(--font-body);
+      font-weight: 600;
+      font-size: 0.72rem;
+      letter-spacing: 0.35em;
+      color: var(--sand);
+      text-transform: uppercase;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--sand);
+      transition: color 0.3s ease;
+      position: relative;
+    }
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--gold);
+      transition: width 0.3s ease;
+    }
+    .nav-links a:hover {
+      color: var(--gold);
+    }
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+    .nav-links a.active {
+      color: var(--gold);
+    }
+    .nav-links a.active::after {
+      width: 100%;
+    }
+    .nav-cta-btn {
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--charcoal) !important;
+      background: var(--gold);
+      padding: 10px 24px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .nav-cta-btn:hover {
+      background: var(--gold-light);
+      transform: translateY(-1px);
+    }
+    .nav-cta-btn::after {
+      display: none !important;
+    }
+
+    /* Hamburger */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 8px;
+      z-index: 1001;
+    }
+    .hamburger span {
+      display: block;
+      width: 26px;
+      height: 1.5px;
+      background: var(--sand);
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .hamburger.active span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 4px);
+    }
+    .hamburger.active span:nth-child(2) {
+      opacity: 0;
+    }
+    .hamburger.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -4px);
+    }
+
+    /* Mobile menu */
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: rgba(17, 17, 17, 0.98);
+      z-index: 999;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.4s ease;
+    }
+    .mobile-menu.open {
+      opacity: 1;
+      pointer-events: all;
+    }
+    .mobile-menu a {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      color: var(--sand);
+      transition: color 0.3s ease;
+      letter-spacing: 0.05em;
+    }
+    .mobile-menu a:hover {
+      color: var(--gold);
+    }
+
+    /* ========== HERO ========== */
+    .about-hero {
+      background: var(--charcoal);
+      padding: 180px 48px 120px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      border-bottom: 1px solid rgba(196, 148, 74, 0.12);
+    }
+    .about-hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1px;
+      height: 100px;
+      background: linear-gradient(to bottom, transparent, rgba(196, 148, 74, 0.4));
+    }
+    .about-hero::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1px;
+      height: 80px;
+      background: linear-gradient(to bottom, rgba(196, 148, 74, 0.4), transparent);
+    }
+    /* Subtle texture lines in the background */
+    .about-hero-bg-line {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      opacity: 0.03;
+      background-image:
+        repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 79px,
+          rgba(196, 148, 74, 1) 80px
+        );
+    }
+    .about-hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .about-hero-eyebrow {
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.45em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 28px;
+    }
+    .about-hero-rule {
+      width: 60px;
+      height: 1px;
+      background: var(--gold);
+      margin: 0 auto 40px;
+      opacity: 0.6;
+    }
+    .about-hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.8rem, 6vw, 4.8rem);
+      font-weight: 500;
+      line-height: 1.08;
+      color: var(--sand);
+      letter-spacing: -0.01em;
+      margin-bottom: 32px;
+    }
+    .about-hero-subtitle {
+      font-family: var(--font-body);
+      font-size: 1.05rem;
+      font-weight: 300;
+      color: rgba(245, 237, 224, 0.6);
+      letter-spacing: 0.04em;
+      line-height: 1.7;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    /* ========== FOUNDERS SECTION ========== */
+    .founders {
+      background: var(--charcoal);
+      padding: 0;
+    }
+
+    /* Individual founder card — full-width row */
+    .founder-card {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      min-height: 640px;
+      border-bottom: 1px solid rgba(196, 148, 74, 0.08);
+      position: relative;
+      overflow: hidden;
+    }
+    .founder-card:last-child {
+      border-bottom: none;
+    }
+
+    /* Alternate: photo right */
+    .founder-card.photo-right {
+      grid-template-columns: 3fr 2fr;
+    }
+    .founder-card.photo-right .founder-photo-col {
+      order: 2;
+    }
+    .founder-card.photo-right .founder-text-col {
+      order: 1;
+    }
+
+    /* Photo column */
+    .founder-photo-col {
+      position: relative;
+      overflow: hidden;
+      background: #111;
+    }
+    .founder-photo-col img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      filter: grayscale(100%) brightness(0.88);
+      transition: filter 0.6s ease, transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+      display: block;
+    }
+    .founder-card:hover .founder-photo-col img {
+      filter: grayscale(80%) brightness(0.95);
+      transform: scale(1.03);
+    }
+    /* Subtle vignette overlay on photo */
+    .founder-photo-col::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to right,
+        transparent 60%,
+        rgba(26, 26, 26, 0.7) 100%
+      );
+      pointer-events: none;
+    }
+    .founder-card.photo-right .founder-photo-col::after {
+      background: linear-gradient(
+        to left,
+        transparent 60%,
+        rgba(26, 26, 26, 0.7) 100%
+      );
+    }
+
+    /* Text column */
+    .founder-text-col {
+      padding: 72px 72px 72px 64px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+    }
+    .founder-card.photo-right .founder-text-col {
+      padding: 72px 64px 72px 72px;
+    }
+
+    /* Number indicator */
+    .founder-number {
+      font-family: var(--font-display);
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.3em;
+      color: rgba(196, 148, 74, 0.35);
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+
+    /* Founder name */
+    .founder-name {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 500;
+      color: var(--gold);
+      line-height: 1.15;
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    /* Founder title */
+    .founder-title {
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 32px;
+    }
+
+    /* Separator line */
+    .founder-rule {
+      width: 40px;
+      height: 1px;
+      background: rgba(196, 148, 74, 0.4);
+      margin-bottom: 28px;
+    }
+
+    /* Bio text */
+    .founder-bio {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.82;
+      color: rgba(245, 237, 224, 0.72);
+      margin-bottom: 36px;
+    }
+
+    /* Favorite moment callout */
+    .founder-moment {
+      border-left: 3px solid var(--gold);
+      padding-left: 24px;
+      margin-top: auto;
+    }
+    .founder-moment-label {
+      font-family: var(--font-body);
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--gold);
+      opacity: 0.8;
+      margin-bottom: 10px;
+      display: block;
+    }
+    .founder-moment-quote {
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.7;
+      color: rgba(245, 237, 224, 0.6);
+    }
+
+    /* ========== CTA SECTION ========== */
+    .cta {
+      background: var(--charcoal-deep);
+      padding: 120px 48px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1px;
+      height: 80px;
+      background: linear-gradient(to bottom, var(--gold), transparent);
+    }
+    .cta-inner {
+      max-width: 700px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    .cta-title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 3.5vw, 2.8rem);
+      font-weight: 500;
+      color: var(--sand);
+      margin-bottom: 24px;
+    }
+    .cta-text {
+      font-family: var(--font-body);
+      font-size: 1.1rem;
+      font-weight: 300;
+      color: var(--off-white);
+      line-height: 1.7;
+      margin-bottom: 16px;
+      opacity: 0.85;
+    }
+    .cta-contact-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.4rem;
+      margin-bottom: 36px;
+      flex-wrap: wrap;
+    }
+    .cta-contact-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-family: var(--font-body);
+      font-size: 0.92rem;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      transition: color 0.3s ease;
+    }
+    .cta-contact-link:hover {
+      color: var(--gold-light);
+    }
+    .cta-contact-link svg {
+      width: 17px;
+      height: 17px;
+      fill: currentColor;
+      flex-shrink: 0;
+    }
+    .cta-contact-sep {
+      width: 1px;
+      height: 18px;
+      background: rgba(245, 237, 224, 0.2);
+    }
+    .cta-button {
+      display: inline-block;
+      font-family: var(--font-body);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--charcoal);
+      background: var(--gold);
+      padding: 18px 48px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    }
+    .cta-button:hover {
+      background: var(--gold-light);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(196, 148, 74, 0.25);
+    }
+
+    /* ========== FOOTER ========== */
+    .footer {
+      background: #0D0D0D;
+      padding: 60px 48px 40px;
+      text-align: center;
+      border-top: 1px solid rgba(196, 148, 74, 0.15);
+    }
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .footer-logo svg {
+      width: 28px;
+      height: 28px;
+    }
+    .footer-logo-text {
+      font-family: var(--font-body);
+      font-weight: 600;
+      font-size: 0.68rem;
+      letter-spacing: 0.35em;
+      color: var(--sand);
+      text-transform: uppercase;
+      opacity: 0.8;
+    }
+    .footer-social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 28px;
+    }
+    .footer-social a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border: 1px solid rgba(196, 148, 74, 0.3);
+      border-radius: 50%;
+      transition: border-color 0.3s ease, background 0.3s ease;
+    }
+    .footer-social a:hover {
+      border-color: var(--gold);
+      background: rgba(196, 148, 74, 0.1);
+    }
+    .footer-social a svg {
+      width: 16px;
+      height: 16px;
+      fill: var(--sand);
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+    }
+    .footer-social a:hover svg {
+      opacity: 1;
+    }
+    .footer-tagline {
+      font-family: var(--font-display);
+      font-size: 0.88rem;
+      font-style: italic;
+      color: var(--off-white);
+      opacity: 0.5;
+      margin-bottom: 16px;
+    }
+    .footer-copy {
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      color: var(--off-white);
+      opacity: 0.35;
+      letter-spacing: 0.1em;
+    }
+
+    /* ========== RESPONSIVE ========== */
+    @media (max-width: 1024px) {
+      .founder-card,
+      .founder-card.photo-right {
+        grid-template-columns: 1fr 1.4fr;
+      }
+      .founder-text-col,
+      .founder-card.photo-right .founder-text-col {
+        padding: 56px 48px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav {
+        padding: 18px 24px;
+      }
+      .nav.scrolled {
+        padding: 14px 24px;
+      }
+      .nav-links {
+        display: none;
+      }
+      .hamburger {
+        display: flex;
+      }
+      .mobile-menu {
+        display: flex;
+      }
+
+      .about-hero {
+        padding: 140px 24px 80px;
+      }
+      .about-hero-title {
+        font-size: 2.4rem;
+      }
+
+      /* Stack founder cards vertically on mobile */
+      .founder-card,
+      .founder-card.photo-right {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        min-height: auto;
+      }
+      .founder-card.photo-right .founder-photo-col {
+        order: 1;
+      }
+      .founder-card.photo-right .founder-text-col {
+        order: 2;
+      }
+      .founder-photo-col {
+        height: 380px;
+      }
+      .founder-photo-col::after {
+        background: linear-gradient(
+          to top,
+          rgba(26, 26, 26, 0.6) 0%,
+          transparent 50%
+        ) !important;
+      }
+      .founder-text-col,
+      .founder-card.photo-right .founder-text-col {
+        padding: 40px 24px 48px;
+      }
+      .founder-name {
+        font-size: 1.7rem;
+      }
+
+      .cta {
+        padding: 80px 24px;
+      }
+      .footer {
+        padding: 48px 24px 32px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .about-hero-title {
+        font-size: 2rem;
+      }
+      .founder-photo-col {
+        height: 300px;
+      }
+      .founder-text-col,
+      .founder-card.photo-right .founder-text-col {
+        padding: 32px 20px 40px;
+      }
+      .founder-name {
+        font-size: 1.5rem;
+      }
+      .founder-bio {
+        font-size: 0.95rem;
+      }
+      .cta-button {
+        padding: 16px 36px;
+        font-size: 0.75rem;
+      }
+    }
+
+    /* ========== PRINT ========== */
+    @media print {
+      .nav, .hamburger, .mobile-menu { display: none !important; }
+      body { color: #000; background: #fff; }
+      .cta, .footer { background: #fff; color: #000; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="nav" id="mainNav">
+    <a href="/" class="nav-logo" aria-label="Waypoint Journeys Home">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="24" r="22" stroke="#C4944A" stroke-width="1.5" fill="none"/>
+        <circle cx="24" cy="24" r="16" stroke="#C4944A" stroke-width="0.8" fill="none" opacity="0.5"/>
+        <line x1="24" y1="2" x2="24" y2="46" stroke="#C4944A" stroke-width="0.8" opacity="0.4"/>
+        <line x1="2" y1="24" x2="46" y2="24" stroke="#C4944A" stroke-width="0.8" opacity="0.4"/>
+        <polygon points="24,6 26.5,20 24,18 21.5,20" fill="#C4944A"/>
+        <polygon points="24,42 26.5,28 24,30 21.5,28" fill="#C4944A" opacity="0.5"/>
+        <polygon points="6,24 20,21.5 18,24 20,26.5" fill="#C4944A" opacity="0.5"/>
+        <polygon points="42,24 28,21.5 30,24 28,26.5" fill="#C4944A" opacity="0.5"/>
+        <circle cx="24" cy="24" r="3" fill="#C4944A"/>
+      </svg>
+      <span class="nav-logo-text">Waypoint Journeys</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/" data-i18n="about_nav_home">Home</a></li>
+      <li><a href="/socotra/" data-i18n="about_nav_expeditions">Expeditions</a></li>
+      <li><a href="/about/" class="active" data-i18n="about_nav_about">About Us</a></li>
+      <li><a href="mailto:info@wpjourneys.com" class="nav-cta-btn" data-i18n="about_nav_inquire">Inquire</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="/" onclick="closeMobileMenu()" data-i18n="about_nav_home">Home</a>
+    <a href="/socotra/" onclick="closeMobileMenu()" data-i18n="about_nav_expeditions">Expeditions</a>
+    <a href="/about/" onclick="closeMobileMenu()" data-i18n="about_nav_about">About Us</a>
+    <a href="mailto:info@wpjourneys.com" onclick="closeMobileMenu()" data-i18n="about_nav_inquire">Inquire</a>
+  </div>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="about-hero" aria-label="About Us hero">
+    <div class="about-hero-bg-line" aria-hidden="true"></div>
+    <div class="about-hero-content">
+      <p class="about-hero-eyebrow reveal visible" data-i18n="about_hero_eyebrow">THE PEOPLE BEHIND THE JOURNEY</p>
+      <div class="about-hero-rule" aria-hidden="true"></div>
+      <h1 class="about-hero-title reveal visible" data-i18n="about_hero_title">Meet the Founders</h1>
+      <p class="about-hero-subtitle reveal visible" data-i18n="about_hero_subtitle">Three adventurers. 300+ countries between them. One obsession: showing you a world most people never find on a map.</p>
+    </div>
+  </section>
+
+  <!-- ==================== FOUNDERS ==================== -->
+  <section class="founders" id="founders" aria-label="Our founders">
+
+    <!-- ── JASON WANG: photo LEFT, text RIGHT ── -->
+    <article class="founder-card reveal" aria-label="Jason Wang, Co-Founder">
+      <div class="founder-photo-col">
+        <img
+          src="/images/jason-wang.jpg"
+          alt="Jason Wang, Co-Founder of Waypoint Journeys"
+          width="800"
+          height="1000"
+          loading="eager"
+        >
+      </div>
+      <div class="founder-text-col">
+        <span class="founder-number" aria-hidden="true">01 / 03</span>
+        <h2 class="founder-name" data-i18n="about_jason_name">Jason Wang</h2>
+        <p class="founder-title" data-i18n="about_jason_title">Co-Founder</p>
+        <div class="founder-rule" aria-hidden="true"></div>
+        <p class="founder-bio" data-i18n="about_jason_bio">Jason Wang was a Silicon Valley tech executive who traded boardrooms for borders in 2016. Nearly a decade and 184 countries later, he still hasn't come back. His resume includes standing at the South Pole, summiting peaks on five continents, camping among the Dragon Blood Trees of Socotra, and most recently, joining 450 million pilgrims at India's Kumbh Mela. Before all of this, he built and sold companies. Now he builds itineraries for people who've run out of places to find on Google Maps.</p>
+        <div class="founder-moment">
+          <span class="founder-moment-label" data-i18n="about_moment_label">Favorite Travel Moment</span>
+          <p class="founder-moment-quote" data-i18n="about_jason_moment">"Riding on top of an iron ore train for 22 consecutive hours across the Sahara Desert in Mauritania. No seats, no shade, no regrets."</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- ── CHAD ZHANG: photo RIGHT, text LEFT ── -->
+    <article class="founder-card photo-right reveal" aria-label="Chad Zhang, Co-Founder">
+      <div class="founder-photo-col">
+        <img
+          src="/images/chad-zhang.jpg"
+          alt="Chad Zhang, Co-Founder of Waypoint Journeys"
+          width="800"
+          height="1000"
+          loading="lazy"
+        >
+      </div>
+      <div class="founder-text-col">
+        <span class="founder-number" aria-hidden="true">02 / 03</span>
+        <h2 class="founder-name" data-i18n="about_chad_name">Chad Zhang</h2>
+        <p class="founder-title" data-i18n="about_chad_title">Co-Founder</p>
+        <div class="founder-rule" aria-hidden="true"></div>
+        <p class="founder-bio" data-i18n="about_chad_bio">Chad Zhang's career reads like a choose-your-own-adventure book: investment banking, big tech, and now a university professor teaching graduate students. Between semesters, he's visited over 100 countries in pursuit of the world's quiet kindnesses and hidden corners. He's trekked the lesser-known Bumdra trail to Bhutan's Tiger's Nest, wandered the surreal, empty boulevards of Ashgabat at midnight, and blazed unnamed trails through Utah's canyon country in a Jeep Wrangler. His conviction: off-the-beaten-path travel shouldn't require roughing it, and luxury shouldn't mean sterile. At Waypoint, he's working to make that real for anyone willing to go.</p>
+        <div class="founder-moment">
+          <span class="founder-moment-label" data-i18n="about_moment_label">Favorite Travel Moment</span>
+          <p class="founder-moment-quote" data-i18n="about_chad_moment">"Standing at the edge of the Door to Hell in Turkmenistan. A 230-foot-wide crater that's been burning since 1971, in the middle of absolutely nowhere. You feel the heat on your face from 30 feet away."</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- ── MICHAEL DU: photo LEFT, text RIGHT ── -->
+    <article class="founder-card reveal" aria-label="Michael Du, Co-Founder">
+      <div class="founder-photo-col">
+        <img
+          src="/images/michael-du.jpg"
+          alt="Michael Du, Co-Founder of Waypoint Journeys"
+          width="800"
+          height="1000"
+          loading="lazy"
+        >
+      </div>
+      <div class="founder-text-col">
+        <span class="founder-number" aria-hidden="true">03 / 03</span>
+        <h2 class="founder-name" data-i18n="about_michael_name">Michael Du</h2>
+        <p class="founder-title" data-i18n="about_michael_title">Co-Founder</p>
+        <div class="founder-rule" aria-hidden="true"></div>
+        <p class="founder-bio" data-i18n="about_michael_bio">Michael Du has been in motion since he was 18. Raised by parents whose own journeys spanned five continents, he grew up understanding that the best way to learn a place is to live in it. He's worked abroad, learned languages the hard way, and made a habit of following curiosity over comfort. He's floated through the otherworldly stilt village of Ganvie in Benin, scaled the towering Khongor Sand Dunes in Mongolia's Gobi Desert, and spent three nights camped in the Nigerian bush waiting for the Guerewol festival to unfold. For Michael, travel isn't a vacation. It's how he makes sense of the world. At Waypoint, he's the one making sure every expedition delivers on that feeling.</p>
+        <div class="founder-moment">
+          <span class="founder-moment-label" data-i18n="about_moment_label">Favorite Travel Moment</span>
+          <p class="founder-moment-quote" data-i18n="about_michael_moment">"Three nights camping in rural Niger to witness the Guerewol festival. Wodaabe men in full face paint competing in a beauty contest judged by young women. Nothing I've seen anywhere else comes close."</p>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- ==================== CTA ==================== -->
+  <section class="cta" id="contact">
+    <div class="cta-inner">
+      <span class="section-label reveal" data-i18n="about_cta_label">BEGIN YOUR STORY</span>
+      <h2 class="cta-title reveal reveal-delay-1" data-i18n="about_cta_title">Book Your Luxury Expedition — Inquire Today</h2>
+      <p class="cta-text reveal reveal-delay-2" data-i18n="about_cta_text">Every journey begins with a single conversation. Tell us where you dream of going, and we'll show you a world beyond imagination.</p>
+      <div class="cta-contact-row reveal reveal-delay-2">
+        <a href="mailto:info@wpjourneys.com" class="cta-contact-link" title="Email us">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" stroke-width="1.8"/><polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+          <span>info@wpjourneys.com</span>
+        </a>
+        <span class="cta-contact-sep"></span>
+        <a href="https://wa.me/message/4D3P4QCBYG5SG1" class="cta-contact-link" target="_blank" rel="noopener noreferrer" title="Message us on WhatsApp">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span data-i18n="about_cta_whatsapp">WhatsApp</span>
+        </a>
+      </div>
+      <a href="mailto:info@wpjourneys.com?subject=Expedition%20Inquiry" class="cta-button reveal reveal-delay-3" data-i18n="about_cta_button">INQUIRE ABOUT AN EXPEDITION</a>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="footer-logo">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="24" r="22" stroke="#C4944A" stroke-width="1.5" fill="none" opacity="0.6"/>
+        <circle cx="24" cy="24" r="16" stroke="#C4944A" stroke-width="0.8" fill="none" opacity="0.3"/>
+        <line x1="24" y1="2" x2="24" y2="46" stroke="#C4944A" stroke-width="0.8" opacity="0.3"/>
+        <line x1="2" y1="24" x2="46" y2="24" stroke="#C4944A" stroke-width="0.8" opacity="0.3"/>
+        <polygon points="24,6 26.5,20 24,18 21.5,20" fill="#C4944A" opacity="0.6"/>
+        <circle cx="24" cy="24" r="3" fill="#C4944A" opacity="0.6"/>
+      </svg>
+      <span class="footer-logo-text">Waypoint Journeys</span>
+    </div>
+    <div class="footer-social">
+      <!-- Instagram -->
+      <a href="https://instagram.com/waypoint.journeys" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
+      <!-- Facebook -->
+      <a href="https://facebook.com/waypointjourneys" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385h-3.047v-3.47h3.047v-2.642c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953h-1.514c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385c5.737-.9 10.125-5.864 10.125-11.854z"/>
+        </svg>
+      </a>
+      <!-- WhatsApp -->
+      <a href="https://wa.me/message/4D3P4QCBYG5SG1" target="_blank" rel="noopener noreferrer" aria-label="Message us on WhatsApp">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="footer-tagline" data-i18n="about_footer_tagline">Luxury adventure travel to the world's last wild places.</p>
+    <p class="footer-copy" data-i18n="about_footer_copy">&copy; 2026 Waypoint Journeys. All rights reserved.</p>
+  </footer>
+
+  <!-- ==================== JAVASCRIPT ==================== -->
+  <script>
+    // ========== Navigation Scroll ==========
+    (function() {
+      var nav = document.getElementById('mainNav');
+      var ticking = false;
+
+      window.addEventListener('scroll', function() {
+        if (!ticking) {
+          requestAnimationFrame(function() {
+            if (window.scrollY > 80) {
+              nav.classList.add('scrolled');
+            } else {
+              nav.classList.remove('scrolled');
+            }
+            ticking = false;
+          });
+          ticking = true;
+        }
+      });
+    })();
+
+    // ========== Mobile Menu ==========
+    var hamburger = document.getElementById('hamburger');
+    var mobileMenu = document.getElementById('mobileMenu');
+
+    hamburger.addEventListener('click', function() {
+      hamburger.classList.toggle('active');
+      var isOpen = mobileMenu.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+
+    function closeMobileMenu() {
+      hamburger.classList.remove('active');
+      mobileMenu.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+
+    // ========== Scroll Reveal (IntersectionObserver) ==========
+    (function() {
+      var reveals = document.querySelectorAll('.reveal');
+
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -60px 0px'
+      });
+
+      reveals.forEach(function(el) {
+        if (!el.classList.contains('visible')) {
+          observer.observe(el);
+        }
+      });
+    })();
+  </script>
+
+  <!-- i18n translations for this page -->
+  <script>
+    window.__i18n = {
+      "about_nav_home": { "en": "Home", "zh": "首页" },
+      "about_nav_expeditions": { "en": "Expeditions", "zh": "精选行程" },
+      "about_nav_about": { "en": "About Us", "zh": "关于我们" },
+      "about_nav_inquire": { "en": "Inquire", "zh": "咨询预订" },
+      "about_hero_eyebrow": { "en": "THE PEOPLE BEHIND THE JOURNEY", "zh": "旅程背后的人" },
+      "about_hero_title": { "en": "Meet the Founders", "zh": "认识创始人" },
+      "about_hero_subtitle": {
+        "en": "Three adventurers. 300+ countries between them. One obsession: showing you a world most people never find on a map.",
+        "zh": "三位探险者。三百余国的足迹。一个共同的执念：带你走进那些地图上几乎不存在的世界。"
+      },
+      "about_jason_name": { "en": "Jason Wang", "zh": "王Jason" },
+      "about_jason_title": { "en": "Co-Founder", "zh": "联合创始人" },
+      "about_jason_bio": {
+        "en": "Jason Wang was a Silicon Valley tech executive who traded boardrooms for borders in 2016. Nearly a decade and 184 countries later, he still hasn't come back. His resume includes standing at the South Pole, summiting peaks on five continents, camping among the Dragon Blood Trees of Socotra, and most recently, joining 450 million pilgrims at India's Kumbh Mela. Before all of this, he built and sold companies. Now he builds itineraries for people who've run out of places to find on Google Maps.",
+        "zh": "Jason Wang曾是硅谷科技高管，2016年，他放弃了会议室，选择奔赴世界的边疆。近十年、184个国家之后，他依然没有回头。他的履历包括：踏上南极点、登顶五大洲山峰、在索科特拉岛的龙血树林间露营，以及最近加入四亿五千万朝圣者的印度大壶节。在此之前，他创立并出售了多家公司。如今，他为那些在谷歌地图上已经找不到新地方的人，打造专属行程。"
+      },
+      "about_jason_moment": {
+        "en": "\"Riding on top of an iron ore train for 22 consecutive hours across the Sahara Desert in Mauritania. No seats, no shade, no regrets.\"",
+        "zh": "「在毛里塔尼亚，骑在铁矿石火车顶上，穿越撒哈拉沙漠，连续行驶22小时。没有座位，没有遮阴，毫无遗憾。」"
+      },
+      "about_chad_name": { "en": "Chad Zhang", "zh": "张Chad" },
+      "about_chad_title": { "en": "Co-Founder", "zh": "联合创始人" },
+      "about_chad_bio": {
+        "en": "Chad Zhang's career reads like a choose-your-own-adventure book: investment banking, big tech, and now a university professor teaching graduate students. Between semesters, he's visited over 100 countries in pursuit of the world's quiet kindnesses and hidden corners. He's trekked the lesser-known Bumdra trail to Bhutan's Tiger's Nest, wandered the surreal, empty boulevards of Ashgabat at midnight, and blazed unnamed trails through Utah's canyon country in a Jeep Wrangler. His conviction: off-the-beaten-path travel shouldn't require roughing it, and luxury shouldn't mean sterile. At Waypoint, he's working to make that real for anyone willing to go.",
+        "zh": "Chad Zhang的职业生涯读起来像一本自选式冒险小说：投行、科技巨头，如今是一名教授研究生的大学教授。每个学期之间，他已走访逾百国，追寻世界角落里那些沉默的善意与隐秘之境。他走过鲜为人知的Bumdra山径通往不丹虎穴寺，午夜漫步阿什哈巴德空旷超现实的大道，驾着Jeep Wrangler穿越犹他州峡谷无名小道。他的信念：人迹罕至的旅行不该是吃苦，奢华也不该意味着冷冰冰。在Waypoint，他正把这一切变为现实。"
+      },
+      "about_chad_moment": {
+        "en": "\"Standing at the edge of the Door to Hell in Turkmenistan. A 230-foot-wide crater that's been burning since 1971, in the middle of absolutely nowhere. You feel the heat on your face from 30 feet away.\"",
+        "zh": "「站在土库曼斯坦地狱之门的边缘。一个直径70米、自1971年燃烧至今的陨石坑，身处绝对荒无人烟之地。距离10米外，你就能感受到扑面而来的热浪。」"
+      },
+      "about_michael_name": { "en": "Michael Du", "zh": "杜Michael" },
+      "about_michael_title": { "en": "Co-Founder", "zh": "联合创始人" },
+      "about_michael_bio": {
+        "en": "Michael Du has been in motion since he was 18. Raised by parents whose own journeys spanned five continents, he grew up understanding that the best way to learn a place is to live in it. He's worked abroad, learned languages the hard way, and made a habit of following curiosity over comfort. He's floated through the otherworldly stilt village of Ganvie in Benin, scaled the towering Khongor Sand Dunes in Mongolia's Gobi Desert, and spent three nights camped in the Nigerian bush waiting for the Guerewol festival to unfold. For Michael, travel isn't a vacation. It's how he makes sense of the world. At Waypoint, he's the one making sure every expedition delivers on that feeling.",
+        "zh": "Michael Du从18岁起就一直在路上。他的父母足迹遍布五大洲，他在这样的家庭里长大，深知了解一个地方最好的方式，就是身处其中。他曾旅居海外、用最艰难的方式学习语言，并养成了以好奇心代替舒适感的习惯。他漂流过贝宁如梦似幻的水上村落甘维耶，攀登过蒙古戈壁沙漠的洪古尔沙丘，在尼日利亚的丛林中扎营三夜，等待格雷沃尔节徐徐展开。对Michael来说，旅行不是度假，而是他认识世界的方式。在Waypoint，他确保每一次探险都能真实传递那种感受。"
+      },
+      "about_michael_moment": {
+        "en": "\"Three nights camping in rural Niger to witness the Guerewol festival. Wodaabe men in full face paint competing in a beauty contest judged by young women. Nothing I've seen anywhere else comes close.\"",
+        "zh": "「在尼日尔农村扎营三夜，亲历格雷沃尔节。沃达贝族男子盛妆打扮，参加由年轻女性评判的选美比赛。这是我在世界任何角落都不曾见过的景象。」"
+      },
+      "about_moment_label": { "en": "Favorite Travel Moment", "zh": "最难忘的旅行瞬间" },
+      "about_cta_label": { "en": "BEGIN YOUR STORY", "zh": "开启您的故事" },
+      "about_cta_title": { "en": "Book Your Luxury Expedition — Inquire Today", "zh": "预订您的奢华探险之旅 — 立即咨询" },
+      "about_cta_text": {
+        "en": "Every journey begins with a single conversation. Tell us where you dream of going, and we'll show you a world beyond imagination.",
+        "zh": "每一段旅程，都始于一次对话。告诉我们你梦想前往的地方，我们将为你开启一个超越想象的世界。"
+      },
+      "about_cta_whatsapp": { "en": "WhatsApp", "zh": "WhatsApp" },
+      "about_cta_button": { "en": "INQUIRE ABOUT AN EXPEDITION", "zh": "咨询探险行程" },
+      "about_footer_tagline": { "en": "Luxury adventure travel to the world's last wild places.", "zh": "奢华探险，抵达世界最后的秘境。" },
+      "about_footer_copy": { "en": "© 2026 Waypoint Journeys. All rights reserved.", "zh": "© 2026 Waypoint Journeys. 版权所有。" }
+    };
+  </script>
+
+  <!-- i18n engine -->
+  <script src="/lang/i18n.js"></script>
+
+</body>
+</html>
