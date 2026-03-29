@@ -426,5 +426,57 @@ window.__i18n = {
   "wa_faq_a4": {
     "en": "The expedition includes visits to Cape Coast Castle and Elmina Castle in Ghana — two of the most significant slave trade sites in the world. You\'ll walk through the Door of No Return and learn the full history from expert local guides. In Ouidah, Benin, you\'ll trace the Route of the Slaves. These are deeply moving, essential historical experiences.",
     "zh": "探险包括参访加纳的海岸角城堡和埃尔米纳城堡——世界上最重要的奴隶贸易遗址之二。您将走过\'不归之门\'，由当地专家向导讲述完整历史。在贝宁维达，您将追溯奴隶之路。这些是令人深受触动的重要历史体验。"
+  },
+  "wa_related_label": {
+    "en": "EXPLORE MORE EXPEDITIONS",
+    "zh": "探索更多探险之旅"
+  },
+  "wa_related_title": {
+    "en": "Continue Your Journey",
+    "zh": "继续您的探险旅程"
+  },
+  "wa_related_sc_name": {
+    "en": "Socotra Island",
+    "zh": "索科特拉岛"
+  },
+  "wa_related_sc_sub": {
+    "en": "The Alien Island",
+    "zh": "来自另一星球的秘岛"
+  },
+  "wa_related_mn_name": {
+    "en": "Mongolia",
+    "zh": "蒙古"
+  },
+  "wa_related_mn_sub": {
+    "en": "Land of the Eternal Sky",
+    "zh": "永恒苍穹之地"
+  },
+  "wa_related_pk_name": {
+    "en": "Pakistan",
+    "zh": "巴基斯坦"
+  },
+  "wa_related_pk_sub": {
+    "en": "The Karakoram and Ancient Empires",
+    "zh": "喀喇昆仑与古老帝国"
+  },
+  "wa_footer_link_home": {
+    "en": "Home",
+    "zh": "首页"
+  },
+  "wa_footer_link_socotra": {
+    "en": "Socotra Island Expedition",
+    "zh": "索科特拉岛探险"
+  },
+  "wa_footer_link_wa": {
+    "en": "Ghana, Benin & Togo Expedition",
+    "zh": "加纳、贝宁与多哥探险"
+  },
+  "wa_footer_link_mn": {
+    "en": "Mongolia Expedition",
+    "zh": "蒙古探险"
+  },
+  "wa_footer_link_pk": {
+    "en": "Pakistan Expedition",
+    "zh": "巴基斯坦探险"
   }
 };

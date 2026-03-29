@@ -1,0 +1,119 @@
+/* ========== RELATED EXPEDITIONS ========== */
+.related-expeditions {
+  background: var(--sand, #F5EDE0);
+  padding: 80px 24px;
+}
+.related-expeditions-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.related-expeditions .section-label {
+  display: block;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--teal, #1B5E6B);
+  margin-bottom: 12px;
+}
+.related-expeditions .gold-rule {
+  width: 60px;
+  height: 3px;
+  background: var(--gold, #C4944A);
+  margin-bottom: 24px;
+}
+.related-expeditions h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: var(--charcoal, #1A1A1A);
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.related-card {
+  display: block;
+  background: var(--charcoal, #1A1A1A);
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.related-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+}
+.related-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.related-card-body {
+  padding: 20px;
+}
+.related-card-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  margin-bottom: 6px;
+  color: #fff;
+}
+.related-card-subtitle {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.6);
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.related-card-details {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.8rem;
+  color: var(--gold, #C4944A);
+  letter-spacing: 0.05em;
+}
+.related-card-details .separator {
+  margin: 0 8px;
+  opacity: 0.5;
+}
+
+/* Footer sitemap */
+.footer-sitemap {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.footer-sitemap a {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-sitemap a:hover {
+  color: var(--gold, #C4944A);
+}
+
+@media (max-width: 768px) {
+  .related-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .related-expeditions {
+    padding: 60px 20px;
+  }
+  .related-expeditions h2 {
+    font-size: 1.6rem;
+  }
+  .footer-sitemap {
+    gap: 16px;
+  }
+}
