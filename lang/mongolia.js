@@ -1114,5 +1114,57 @@ window.__i18n = {
   "mn_faq_a4": {
     "en": "July in Mongolia is warm and pleasant — daytime temperatures range from 20–30°C (68–86°F) in most areas. The Gobi Desert can be hotter. Evenings cool down, especially at altitude. Rain is possible but usually brief. We provide a detailed packing list with layering recommendations.",
     "zh": "蒙古七月温暖宜人——大部分地区白天气温在20至30°C之间。戈壁沙漠可能更热。夜晚会变凉，尤其在海拔较高处。可能有雨但通常短暂。我们提供详细的行李清单和分层穿衣建议。"
+  },
+  "mn_related_label": {
+    "en": "EXPLORE MORE EXPEDITIONS",
+    "zh": "探索更多探险之旅"
+  },
+  "mn_related_title": {
+    "en": "Continue Your Journey",
+    "zh": "继续您的探险旅程"
+  },
+  "mn_related_pk_name": {
+    "en": "Pakistan",
+    "zh": "巴基斯坦"
+  },
+  "mn_related_pk_sub": {
+    "en": "The Karakoram and Ancient Empires",
+    "zh": "喀喇昆仑与古老帝国"
+  },
+  "mn_related_sc_name": {
+    "en": "Socotra Island",
+    "zh": "索科特拉岛"
+  },
+  "mn_related_sc_sub": {
+    "en": "The Alien Island",
+    "zh": "来自另一星球的秘岛"
+  },
+  "mn_related_wa_name": {
+    "en": "Ghana, Benin & Togo",
+    "zh": "加纳、贝宁与多哥"
+  },
+  "mn_related_wa_sub": {
+    "en": "Voodoo, Castles & the Slave Coast",
+    "zh": "巫毒文化、古堡传说与奴隶海岸"
+  },
+  "mn_footer_link_home": {
+    "en": "Home",
+    "zh": "首页"
+  },
+  "mn_footer_link_socotra": {
+    "en": "Socotra Island Expedition",
+    "zh": "索科特拉岛探险"
+  },
+  "mn_footer_link_wa": {
+    "en": "Ghana, Benin & Togo Expedition",
+    "zh": "加纳、贝宁与多哥探险"
+  },
+  "mn_footer_link_mn": {
+    "en": "Mongolia Expedition",
+    "zh": "蒙古探险"
+  },
+  "mn_footer_link_pk": {
+    "en": "Pakistan Expedition",
+    "zh": "巴基斯坦探险"
   }
 };

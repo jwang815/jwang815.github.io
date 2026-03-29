@@ -510,5 +510,57 @@ window.__i18n = {
   "pk_faq_a4": {
     "en": "Most nationalities can obtain a Pakistan e-visa online — the process has been streamlined significantly. We provide full visa guidance and a support letter once you book. The e-visa typically takes 5–7 business days to process.",
     "zh": "大多数国籍可以在线申请巴基斯坦电子签证——流程已大幅简化。预订后我们将提供完整的签证指导和支持信。电子签证通常需要5至7个工作日处理。"
+  },
+  "pk_related_label": {
+    "en": "EXPLORE MORE EXPEDITIONS",
+    "zh": "探索更多探险之旅"
+  },
+  "pk_related_title": {
+    "en": "Continue Your Journey",
+    "zh": "继续您的探险旅程"
+  },
+  "pk_related_mn_name": {
+    "en": "Mongolia",
+    "zh": "蒙古"
+  },
+  "pk_related_mn_sub": {
+    "en": "Land of the Eternal Sky",
+    "zh": "永恒苍穹之地"
+  },
+  "pk_related_wa_name": {
+    "en": "Ghana, Benin & Togo",
+    "zh": "加纳、贝宁与多哥"
+  },
+  "pk_related_wa_sub": {
+    "en": "Voodoo, Castles & the Slave Coast",
+    "zh": "巫毒文化、古堡传说与奴隶海岸"
+  },
+  "pk_related_sc_name": {
+    "en": "Socotra Island",
+    "zh": "索科特拉岛"
+  },
+  "pk_related_sc_sub": {
+    "en": "The Alien Island",
+    "zh": "来自另一星球的秘岛"
+  },
+  "pk_footer_link_home": {
+    "en": "Home",
+    "zh": "首页"
+  },
+  "pk_footer_link_socotra": {
+    "en": "Socotra Island Expedition",
+    "zh": "索科特拉岛探险"
+  },
+  "pk_footer_link_wa": {
+    "en": "Ghana, Benin & Togo Expedition",
+    "zh": "加纳、贝宁与多哥探险"
+  },
+  "pk_footer_link_mn": {
+    "en": "Mongolia Expedition",
+    "zh": "蒙古探险"
+  },
+  "pk_footer_link_pk": {
+    "en": "Pakistan Expedition",
+    "zh": "巴基斯坦探险"
   }
 };

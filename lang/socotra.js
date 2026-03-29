@@ -423,4 +423,57 @@ window.__i18n = {
     "en": "Socotra is called the \'Galápagos of the Indian Ocean\' for good reason. You\'ll encounter Dragon\'s Blood Trees found nowhere else on Earth, endemic desert roses, and unique bird species. The marine life is equally impressive — pristine coral reefs, sea turtles, and dolphins are common around the island\'s coastline.",
     "zh": "索科特拉被称为\'印度洋的加拉帕戈斯\'不无道理。您将看到地球上独有的龙血树、特有沙漠玫瑰和独特鸟类。海洋生物同样令人惊叹——原始珊瑚礁、海龟和海豚在岛屿海岸线常见。"
   }
+,
+  "sc_related_label": {
+    "en": "EXPLORE MORE EXPEDITIONS",
+    "zh": "探索更多探险之旅"
+  },
+  "sc_related_title": {
+    "en": "Continue Your Journey",
+    "zh": "继续您的探险旅程"
+  },
+  "sc_related_wa_name": {
+    "en": "Ghana, Benin & Togo",
+    "zh": "加纳、贝宁与多哥"
+  },
+  "sc_related_wa_sub": {
+    "en": "Voodoo, Castles & the Slave Coast",
+    "zh": "巫毒文化、古堡传说与奴隶海岸"
+  },
+  "sc_related_pk_name": {
+    "en": "Pakistan",
+    "zh": "巴基斯坦"
+  },
+  "sc_related_pk_sub": {
+    "en": "The Karakoram and Ancient Empires",
+    "zh": "喀喇昆仑与古老帝国"
+  },
+  "sc_related_mn_name": {
+    "en": "Mongolia",
+    "zh": "蒙古"
+  },
+  "sc_related_mn_sub": {
+    "en": "Land of the Eternal Sky",
+    "zh": "永恒苍穹之地"
+  },
+  "sc_footer_link_home": {
+    "en": "Home",
+    "zh": "首页"
+  },
+  "sc_footer_link_socotra": {
+    "en": "Socotra Island Expedition",
+    "zh": "索科特拉岛探险"
+  },
+  "sc_footer_link_wa": {
+    "en": "Ghana, Benin & Togo Expedition",
+    "zh": "加纳、贝宁与多哥探险"
+  },
+  "sc_footer_link_mn": {
+    "en": "Mongolia Expedition",
+    "zh": "蒙古探险"
+  },
+  "sc_footer_link_pk": {
+    "en": "Pakistan Expedition",
+    "zh": "巴基斯坦探险"
+  }
 };

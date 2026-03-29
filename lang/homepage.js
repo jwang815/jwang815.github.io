@@ -410,5 +410,25 @@ window.__i18n = {
   "faq_a6": {
     "en": "We recommend booking at least 2–3 months in advance. With a maximum of 5 guests per trip, spots fill quickly — especially for destinations like Socotra where charter flights have limited availability. That said, last-minute inquiries are always welcome if space remains.",
     "zh": "我们建议至少提前2至3个月预订。每次行程最多5位客人，名额很快售罄，尤其是像索科特拉这样包机航班有限的目的地。当然，如果还有名额，我们随时欢迎临时咨询。"
+  },
+  "footer_link_home": {
+    "en": "Home",
+    "zh": "首页"
+  },
+  "footer_link_socotra": {
+    "en": "Socotra Island Expedition",
+    "zh": "索科特拉岛探险"
+  },
+  "footer_link_wa": {
+    "en": "Ghana, Benin & Togo Expedition",
+    "zh": "加纳、贝宁与多哥探险"
+  },
+  "footer_link_mn": {
+    "en": "Mongolia Expedition",
+    "zh": "蒙古探险"
+  },
+  "footer_link_pk": {
+    "en": "Pakistan Expedition",
+    "zh": "巴基斯坦探险"
   }
 };
