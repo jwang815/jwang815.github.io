@@ -60,12 +60,12 @@ window.__i18n = {
     "zh": "漫游者并非迷失，而那些最勇敢的灵魂，早已欣然放逐自我。"
   },
   "philosophy_text_1": {
-    "en": "The world's most extraordinary places are the ones most people will never see. Waypoint Journeys exists to take you there. Not as a tourist. As a traveler. Every expedition is hand-crafted from the ground up by our team of destination specialists and local experts who call these remote corners of the world home.",
-    "zh": "世界上最非凡的地方，往往是大多数人穷其一生也无缘踏足之处。Waypoint Journeys 的使命，正是带您抵达这里——不以游客的身份，而以真正旅行者的姿态。每一条行程，皆由我们的目的地专家团队与以这片远方为家园的本地向导共同精心设计，量身打造，绝无复制。"
+    "en": "The rarest places on earth aren't defined by distance. They're defined by access. Geographic, cultural, human. We built Waypoint Journeys to open those doors. Every expedition is crafted from the ground up by destination specialists and local experts who call these remote corners of the world home.",
+    "zh": "世界上最珍稀的目的地，并非取决于距离，而是取决于通达——地理的、文化的、人文的。我们创立Waypoint Journeys，正是为了打开那些大门。每一条行程，皆由目的地专家与以这片远方为家园的本地向导从零开始精心设计。"
   },
   "philosophy_text_2": {
-    "en": "Our groups never exceed 5 guests. This isn't mass tourism repackaged with a luxury label. It's the antithesis of it. We set up private camps beneath desert stars, arrange dinners in thousand-year-old ruins, and partner with boutique lodges and glamping operators who share our obsession with detail and authenticity.",
-    "zh": "每次出行，随行宾客不超过五位。这不是将大众旅游重新包装后贴上奢华标签——而是与之截然相反的存在。我们在沙漠星空下搭建私属营地，在千年古迹中安排私宴，与同样痴迷于细节与真实体验的精品营地及豪华野奢运营商深度合作，共同缔造无可复刻的旅行时刻。"
+    "en": "Our groups never exceed five. Not because exclusivity makes good marketing, but because it changes what's possible. Where you can go. Who you can meet. How deeply you experience a place. We set up private camps beneath desert stars, arrange dinners in thousand-year-old ruins, and partner with lodges and glamping operators who share our obsession with detail and authenticity. Without compromising an ounce of luxury.",
+    "zh": "每次出行，随行宾客不超过五位。并非因为“小众”是好的营销卖点，而是因为它从根本上改变了旅行的可能性——你能去哪里，能遇见谁，能多深入地体验一个地方。我们在沙漠星空下搭建私属营地，在千年古迹中安排私宴，与同样痴迷于细节与真实体验的营地及野奢运营商深度合作。奢华，分毫不减。"
   },
   "philosophy_text_3": {
     "en": "From the Karakoram Highway to the Dragon Blood forests of Socotra, from ancient mountain kingdoms to destinations we haven't announced yet. We go where the guidebooks end. Every itinerary is bespoke. Every experience is unrepeatable. That's the Waypoint promise.",
@@ -264,60 +264,60 @@ window.__i18n = {
     "zh": "听他们亲口讲述"
   },
   "testimonial_1_quote": {
-    "en": "Waypoint Journeys showed us a Socotra that doesn't exist in any guidebook. This wasn't travel. It was transformation.",
-    "zh": "Waypoint Journeys 带我们见识了一个任何旅行指南都无从描绘的索科特拉岛。那不只是一次旅行，而是一场蜕变。"
+    "en": "We almost didn't go. Socotra sounded too remote, too complicated. But from the moment we landed on that charter flight, everything just worked. Our guide Saleh knew every beach, every hidden cave. Sleeping on Detwah Lagoon with the Milky Way right there... my wife still talks about it weekly.",
+    "zh": "我们差点就没去。索科特拉听起来太偏远、太复杂了。但从包机落地的那一刻起，一切都很顺利。向导Saleh熟悉每一片海滩、每一个隐藏的洞穴。在Detwah澟湖边睡在星空下……我夫人现在还每周都在说这件事。"
   },
   "testimonial_1_attribution": {
-    "en": "— James & Laura P.",
-    "zh": "— James & Laura P."
+    "en": "— Tomás & Elena R.",
+    "zh": "— Tomás & Elena R."
   },
   "testimonial_1_destination": {
     "en": "Socotra Expedition, 2024",
     "zh": "索科特拉岛探险之旅，2024"
   },
   "testimonial_2_quote": {
-    "en": "The Karakoram Highway, the Hunza Valley, the kindness of strangers at every turn. Pakistan shattered every preconception I had. Waypoint made it seamless and safe.",
-    "zh": "喀喇昆仑公路、罕萨山谷，以及每一个路口迎来的陌生人的温情——巴基斯坦彻底颠覆了我原有的一切认知。而 Waypoint 让这一切如此顺畅、如此安心。"
+    "en": "I told maybe three people I was going to Pakistan because I didn't want the lecture. Now I won't shut up about it. The Karakoram Highway is genuinely the most beautiful drive I've ever done. And the people... a shopkeeper in Karimabad closed his store to give us a tour of his village. You can't plan that.",
+    "zh": "我只告诉了大概三个人我要去巴基斯坦，因为不想听大道理。现在我逞人就说。喀喇昆仑公路是我这辈子走过最美的路，没有之一。卡里姆阿巴德一个店主关了店带我们参观他的村子。这种事你计划不来的。"
   },
   "testimonial_2_attribution": {
-    "en": "— Sarah M.",
-    "zh": "— Sarah M."
+    "en": "— Priya S.",
+    "zh": "— Priya S."
   },
   "testimonial_2_destination": {
     "en": "Pakistan Expedition, 2024",
     "zh": "巴基斯坦探险之旅，2024"
   },
   "testimonial_3_quote": {
-    "en": "Sleeping in a ger under a sky so full of stars it felt like science fiction. The Mongolian steppe makes you realize how small you are and how big life can be.",
-    "zh": "躺在蒙古包里，仰望密密麻麻的繁星，恍若置身科幻世界。蒙古草原让你深切感受到自身的渺小，也让你明白生命可以有多么辽阔。"
+    "en": "Day three, middle of the steppe, no other humans for miles. Our guide pulls out a bottle of airag and starts singing. His horse is just standing there chewing grass. That's the stuff you remember. The Gobi was incredible too but honestly the quiet moments between the big ones are what got me.",
+    "zh": "第三天，草原正中间，方圆几里都没有人。向导掏出一瓶马奶酒就开始唱歌。他的马就站在那儿嘲草。这种事情才是你会记住的。戈壁也很震撼，但说实话，是那些大场景之间的安静时刻真正打动了我。"
   },
   "testimonial_3_attribution": {
-    "en": "— David & Keiko T.",
-    "zh": "— David & Keiko T."
+    "en": "— James & Keiko T.",
+    "zh": "— James & Keiko T."
   },
   "testimonial_3_destination": {
     "en": "Mongolia Expedition, 2023",
     "zh": "蒙古探险之旅，2023"
   },
   "testimonial_4_quote": {
-    "en": "Watching sunrise over two thousand temples in Bagan, floating through Inle Lake's gardens. Myanmar was a dream I didn't know I needed. Waypoint opened a door to another era.",
-    "zh": "在蒲甘看晨曦映照两千座神庙，泛舟茵莱湖上的水上花园。缅甸是一个我不知自己需要的梦境。Waypoint 为我推开了一扇通往另一个时代的门。"
+    "en": "Bagan at sunrise is one of those things that actually lives up to the photos. Two thousand temples in every direction, hot air balloons drifting overhead, and we had the platform to ourselves. Our group was only four people. That would never happen on a normal tour.",
+    "zh": "蒲甘的日出是那种真的和照片一样美的地方。四面八方两千座寺庙，热气球在头顶飘过，而整个观景台只有我们。我们团只有四个人。跟普通团游绝对不可能有这种体验。"
   },
   "testimonial_4_attribution": {
-    "en": "— Rebecca H.",
-    "zh": "— Rebecca H."
+    "en": "— Aisha K.",
+    "zh": "— Aisha K."
   },
   "testimonial_4_destination": {
     "en": "Myanmar Expedition, 2023",
     "zh": "缅甸探险之旅，2023"
   },
   "testimonial_5_quote": {
-    "en": "Walking through the old souk in Aleppo, standing in the courtyard of the Umayyad Mosque in Damascus. There is nothing else like it. Waypoint gave us access to history most people only read about.",
-    "zh": "穿行于阿勒颇的老集市，伫立于大马士革倭马亚清真寺的庭院之中——这般体验，世间再无其二。Waypoint 让我们得以亲历那些大多数人只能在书中读到的历史。"
+    "en": "Walking through what's left of the Aleppo souk was heavy. Rebuilding everywhere, but the energy is still there. A tea seller insisted we sit and talk for an hour. Damascus blew my mind. I've traveled a lot and Syria is the one trip that actually changed how I think about the world.",
+    "zh": "走在阿勒颇老集市的残垣中，心情很沉重。到处都在重建，但那股生命力还在。一个茶商非要我们坐下来聊了一个小时。大马士革彻底震撼了我。我去过很多地方，叙利亚是唯一一次真正改变了我看世界方式的旅行。"
   },
   "testimonial_5_attribution": {
-    "en": "— Michael R.",
-    "zh": "— Michael R."
+    "en": "— Marcus & Li Wei C.",
+    "zh": "— Marcus & Li Wei C."
   },
   "testimonial_5_destination": {
     "en": "Syria Expedition, 2024",
