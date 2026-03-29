@@ -175,6 +175,54 @@ window.__i18n = {
     "en": "View Expedition",
     "zh": "查看行程详情"
   },
+  "expedition_socotra_desc": {
+    "en": "A UNESCO-protected archipelago off the Horn of Africa with alien-like Dragon's Blood Trees, pristine white-sand beaches, and one of the most biodiverse marine environments on Earth. Charter flight from Jeddah included.",
+    "zh": "非洲之角外的联合国教科文组织保护群岛，拥有外星般的龙血树、原始白沙滩和地球上最丰富的海洋生态系统之一。包含从吉达出发的包机航班。"
+  },
+  "expedition_westafrica_desc": {
+    "en": "Three nations, one extraordinary journey along the Gulf of Guinea. Explore Voodoo temples in Ouidah, walk the halls of Cape Coast and Elmina slave castles, visit the stilt village of Ganvié, and witness the royal palaces of Abomey.",
+    "zh": "三个国家，一段非凡的几内亚湾之旅。探索维达的巫毒神庙，走过海岸角城堡和埃尔米纳奴隶城堡，造访甘维耶水上村落，见证阿波美皇家宫殿。"
+  },
+  "expedition_mongolia_desc": {
+    "en": "From the Naadam Festival's ancient competitions to the sweeping dunes of the Gobi Desert and the Kazakh Golden Eagle hunters of the Altai Mountains. Sleep in traditional gers, ride across the open steppe, and experience nomadic culture firsthand.",
+    "zh": "从那达慕大会的古老竞技到戈壁沙漠的壮阔沙丘，再到阿尔泰山脉的哈萨克金雕猎人。住在传统蒙古包中，骑马穿越辽阔草原，亲身体验游牧文化。"
+  },
+  "expedition_pakistan_desc": {
+    "en": "Drive the legendary Karakoram Highway through the world's most dramatic mountain corridor. Explore the Hunza Valley's ancient forts and apricot orchards, cross the highest paved border crossing on Earth, and discover Lahore's Mughal heritage.",
+    "zh": "驾车穿越传奇的喀喇昆仑公路，途经世界上最壮观的山脉走廊。探索罕萨谷的古堡和杏花园，跨越地球上海拔最高的铺装国境口岸，感受拉合尔的莫卧儿遗产。"
+  },
+  "hiw_label": {
+    "en": "HOW IT WORKS",
+    "zh": "预订流程"
+  },
+  "hiw_title": {
+    "en": "From Inquiry to Expedition in Three Simple Steps",
+    "zh": "从咨询到出发，三步轻松搞定"
+  },
+  "hiw_step1_title": {
+    "en": "Tell Us Your Dream",
+    "zh": "告诉我们您的梦想"
+  },
+  "hiw_step1_text": {
+    "en": "Reach out by email or WhatsApp with your destination interests, travel dates, and group size. There are no forms to fill out and no obligations — just a conversation about where you want to go.",
+    "zh": "通过电子邮件或WhatsApp联系我们，告知您感兴趣的目的地、旅行日期和团队人数。无需填写表格，没有任何约束——只是一次关于您想去哪里的对话。"
+  },
+  "hiw_step2_title": {
+    "en": "We Design Your Itinerary",
+    "zh": "我们为您量身定制行程"
+  },
+  "hiw_step2_text": {
+    "en": "Our destination specialists craft a fully bespoke itinerary tailored to your interests, fitness level, and pace. Every detail — from accommodation to local guides to charter flights — is handled by our on-the-ground team.",
+    "zh": "我们的目的地专家根据您的兴趣、体能水平和节奏，量身打造完全定制的行程。从住宿到当地向导再到包机航班，每一个细节都由我们的当地团队负责。"
+  },
+  "hiw_step3_title": {
+    "en": "Pack Your Bags",
+    "zh": "准备出发"
+  },
+  "hiw_step3_text": {
+    "en": "Once confirmed, you'll receive a detailed trip briefing with packing lists, visa guidance, and everything you need to prepare. From wheels up to wheels down, we're with you 24/7 on the ground.",
+    "zh": "确认预订后，您将收到详细的行前指南，包括行李清单、签证指导和所有准备事项。从起飞到落地，我们全程24/7在地陪同。"
+  },
   "stat_group_size_value": {
     "en": "5",
     "zh": "5"
