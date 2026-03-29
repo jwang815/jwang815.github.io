@@ -1166,5 +1166,9 @@ window.__i18n = {
   "mn_footer_link_pk": {
     "en": "Pakistan Expedition",
     "zh": "巴基斯坦探险"
+  },
+  "mn_nav_about": {
+    "en": "About Us",
+    "zh": "关于我们"
   }
 };
