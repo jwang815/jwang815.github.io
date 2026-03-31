@@ -285,10 +285,9 @@
       <span class="nav-logo-text">Waypoint Journeys</span>
     </a>
     <ul class="nav-links">
-      <li><a href="#philosophy" data-i18n="mobile_nav_approach">Our Approach</a></li>
       <li><a href="#expeditions" data-i18n="mobile_nav_expeditions">Expeditions</a></li>
-      <li><a href="#testimonial" data-i18n="mobile_nav_stories">Stories</a></li>
-      <li><a href="/about/" data-i18n="mobile_nav_about">About Us</a></li>
+      <li><a href="/blog/" data-i18n="mobile_nav_blog">Blog</a></li>
+      <li><a href="/about/" data-i18n="mobile_nav_about">About</a></li>
       <li><a href="mailto:info@wpjourneys.com" class="nav-cta-btn" data-i18n="mobile_nav_inquire">Inquire</a></li>
     </ul>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu">
@@ -300,10 +299,10 @@
 
   <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobileMenu">
-    <a href="#philosophy" onclick="closeMobileMenu()" data-i18n="mobile_nav_approach">Our Approach</a>
     <a href="#expeditions" onclick="closeMobileMenu()" data-i18n="mobile_nav_expeditions">Expeditions</a>
-    <a href="#testimonial" onclick="closeMobileMenu()" data-i18n="mobile_nav_stories">Stories</a>
-    <a href="/about/" onclick="closeMobileMenu()" data-i18n="mobile_nav_about">About Us</a>
+    <a href="#custom-expedition" onclick="closeMobileMenu()" data-i18n="mobile_nav_custom">Custom Trip</a>
+    <a href="/blog/" onclick="closeMobileMenu()" data-i18n="mobile_nav_blog">Blog</a>
+    <a href="/about/" onclick="closeMobileMenu()" data-i18n="mobile_nav_about">About</a>
     <a href="mailto:info@wpjourneys.com" onclick="closeMobileMenu()" data-i18n="mobile_nav_inquire">Inquire</a>
   </div>
 
@@ -350,7 +349,7 @@
       <div class="philosophy-content reveal">
         <span class="section-label" data-i18n="philosophy_label">THE WAYPOINT DIFFERENCE</span>
         <div class="gold-rule"></div>
-        <h2 class="philosophy-title" data-i18n="philosophy_title">Small-Group Luxury Adventure Travel — Max 5 Guests Per Expedition</h2>
+        <h2 class="philosophy-title" data-i18n="philosophy_title">Small-Group Luxury Adventure Travel, Max 5 Guests Per Expedition</h2>
         <p class="philosophy-text" data-i18n="philosophy_text_1">The rarest places on earth aren't defined by distance. They're defined by access. Geographic, cultural, human. We built Waypoint Journeys to open those doors. Every expedition is crafted from the ground up by destination specialists and local experts who call these remote corners of the world home.</p>
         <p class="philosophy-text" data-i18n="philosophy_text_2">Our groups never exceed five. Not because exclusivity makes good marketing, but because it changes what's possible. Where you can go. Who you can meet. How deeply you experience a place. We set up private camps beneath desert stars, arrange dinners in thousand-year-old ruins, and partner with lodges and glamping operators who share our obsession with detail and authenticity. Without compromising an ounce of luxury.</p>
         <p class="philosophy-text" data-i18n="philosophy_text_3">From the Karakoram Highway to the Dragon Blood forests of Socotra, from ancient mountain kingdoms to destinations we haven't announced yet. We go where the guidebooks end. Every itinerary is bespoke. Every experience is unrepeatable. That's the Waypoint promise.</p>
@@ -490,18 +489,57 @@
         <div class="hiw-step reveal">
           <div class="hiw-number">01</div>
           <h3 class="hiw-step-title" data-i18n="hiw_step1_title">Tell Us Your Dream</h3>
-          <p class="hiw-step-text" data-i18n="hiw_step1_text">Reach out by email or WhatsApp with your destination interests, travel dates, and group size. There are no forms to fill out and no obligations — just a conversation about where you want to go.</p>
+          <p class="hiw-step-text" data-i18n="hiw_step1_text">Reach out by email or WhatsApp with your destination interests, travel dates, and group size. There are no forms to fill out and no obligations. Just a conversation about where you want to go.</p>
         </div>
         <div class="hiw-step reveal reveal-delay-1">
           <div class="hiw-number">02</div>
           <h3 class="hiw-step-title" data-i18n="hiw_step2_title">We Design Your Itinerary</h3>
-          <p class="hiw-step-text" data-i18n="hiw_step2_text">Our destination specialists craft a fully bespoke itinerary tailored to your interests, fitness level, and pace. Every detail — from accommodation to local guides to charter flights — is handled by our on-the-ground team.</p>
+          <p class="hiw-step-text" data-i18n="hiw_step2_text">Our destination specialists craft a fully bespoke itinerary tailored to your interests, fitness level, and pace. Every detail, from accommodation to local guides to charter flights, is handled by our on-the-ground team.</p>
         </div>
         <div class="hiw-step reveal reveal-delay-2">
           <div class="hiw-number">03</div>
           <h3 class="hiw-step-title" data-i18n="hiw_step3_title">Pack Your Bags</h3>
           <p class="hiw-step-text" data-i18n="hiw_step3_text">Once confirmed, you'll receive a detailed trip briefing with packing lists, visa guidance, and everything you need to prepare. From wheels up to wheels down, we're with you 24/7 on the ground.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CUSTOM EXPEDITION ==================== -->
+  <section class="custom-expedition" id="custom-expedition">
+    <div class="custom-expedition-inner">
+      <div class="custom-expedition-content">
+        <span class="section-label light reveal" data-i18n="custom_label">BEYOND OUR EXPEDITIONS</span>
+        <div class="gold-rule reveal" style="background: var(--gold);"></div>
+        <h2 class="custom-expedition-title reveal reveal-delay-1" data-i18n="custom_title">Any Destination. Fully Planned. Completely Yours.</h2>
+        <p class="custom-expedition-text reveal reveal-delay-2" data-i18n="custom_text">Our scheduled expeditions cover Socotra, Mongolia, Pakistan, and West Africa, but we don't stop there. Have a destination in mind that's not on our list? We'll build an expedition from scratch, anywhere in the world. From permits and logistics to local guides and accommodations, we handle every detail so you can focus on the journey.</p>
+        <div class="custom-expedition-features reveal reveal-delay-2">
+          <div class="custom-feature">
+            <span class="custom-feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </span>
+            <span class="custom-feature-text" data-i18n="custom_feat1">Any country, any region</span>
+          </div>
+          <div class="custom-feature">
+            <span class="custom-feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </span>
+            <span class="custom-feature-text" data-i18n="custom_feat2">Itinerary built around you</span>
+          </div>
+          <div class="custom-feature">
+            <span class="custom-feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </span>
+            <span class="custom-feature-text" data-i18n="custom_feat3">Local experts on the ground</span>
+          </div>
+          <div class="custom-feature">
+            <span class="custom-feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </span>
+            <span class="custom-feature-text" data-i18n="custom_feat4">Permits, visas, flights handled</span>
+          </div>
+        </div>
+        <a href="mailto:info@wpjourneys.com?subject=Custom%20Expedition%20Inquiry" class="custom-expedition-btn reveal reveal-delay-3" data-i18n="custom_btn">Plan a Custom Expedition</a>
       </div>
     </div>
   </section>
@@ -607,7 +645,7 @@
   <section class="cta" id="contact">
     <div class="cta-inner">
       <span class="section-label light reveal" data-i18n="cta_label">BEGIN YOUR STORY</span>
-      <h2 class="cta-title reveal reveal-delay-1" data-i18n="cta_title">Book Your Luxury Expedition — Inquire Today</h2>
+      <h2 class="cta-title reveal reveal-delay-1" data-i18n="cta_title">Book Your Luxury Expedition. Inquire Today.</h2>
       <p class="cta-text reveal reveal-delay-2" data-i18n="cta_text">Every journey begins with a single conversation. Tell us where you dream of going, and we'll show you a world beyond imagination.</p>
       <div class="cta-contact-row reveal reveal-delay-2">
         <a href="mailto:info@wpjourneys.com" class="cta-contact-link" title="Email us">
