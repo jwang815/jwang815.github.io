@@ -432,7 +432,47 @@ window.__i18n = {
     "zh": "巴基斯坦探险"
   },
   "mobile_nav_about": {
-    "en": "About Us",
-    "zh": "关于我们"
+    "en": "About",
+    "zh": "关于"
+  },
+  "mobile_nav_blog": {
+    "en": "Blog",
+    "zh": "博客"
+  },
+  "mobile_nav_custom": {
+    "en": "Custom Trip",
+    "zh": "定制行程"
+  },
+  "custom_label": {
+    "en": "BEYOND OUR EXPEDITIONS",
+    "zh": "超越常规探险"
+  },
+  "custom_title": {
+    "en": "Any Destination. Fully Planned. Completely Yours.",
+    "zh": "任何目的地，全程规划，专属于您"
+  },
+  "custom_text": {
+    "en": "Our scheduled expeditions cover Socotra, Mongolia, Pakistan, and West Africa, but we don't stop there. Have a destination in mind that's not on our list? We'll build an expedition from scratch, anywhere in the world. From permits and logistics to local guides and accommodations, we handle every detail so you can focus on the journey.",
+    "zh": "我们的定期探险涵盖索科特拉岛、蒙古、巴基斯坦和西非，但我们的服务远不止于此。如果您心中有一个不在我们列表上的目的地，我们将从零开始为您打造专属探险，足迹遍及全球。从许可证、物流到当地向导和住宿，我们处理每一个细节，让您专注于旅程本身。"
+  },
+  "custom_feat1": {
+    "en": "Any country, any region",
+    "zh": "任何国家，任何地区"
+  },
+  "custom_feat2": {
+    "en": "Itinerary built around you",
+    "zh": "围绕您量身定制"
+  },
+  "custom_feat3": {
+    "en": "Local experts on the ground",
+    "zh": "当地专家全程陪同"
+  },
+  "custom_feat4": {
+    "en": "Permits, visas, flights handled",
+    "zh": "签证、许可、机票全包办"
+  },
+  "custom_btn": {
+    "en": "Plan a Custom Expedition",
+    "zh": "规划定制探险"
   }
 };
