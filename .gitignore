@@ -2,3 +2,5 @@
 
 # local tooling (Playwright review)
 node_modules/
+
+_site/
