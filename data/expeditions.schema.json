@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wpjourneys.com/schemas/expedition.json",
+  "title": "Waypoint expedition catalog",
+  "description": "Single source of truth for every advertised trip. Pages, nav, i18n, CTAs, schema, and sitemap must derive from this file — they must not keep a private allowlist.",
+  "type": "object",
+  "required": ["expeditions"],
+  "additionalProperties": false,
+  "properties": {
+    "expeditions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/expedition" }
+    }
+  },
+  "$defs": {
+    "expedition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "path",
+        "langFile",
+        "continent",
+        "countries",
+        "titleEn",
+        "priceUsd",
+        "days",
+        "inquire",
+        "heroImage",
+        "imageCountry"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "description": "Stable slug used by /inquire/?dest= and CTA allowlists."
+        },
+        "path": {
+          "type": "string",
+          "pattern": "^/[a-z0-9-]+/$",
+          "description": "Public URL path. Socotra is /socotra/; everything else is /{id}-expedition/."
+        },
+        "langFile": {
+          "type": "string",
+          "pattern": "^lang/[a-z0-9-]+\\.js$",
+          "description": "Translation module. Do not invent a second stem (maya vs maya-corridor, maghreb vs tunisia-algeria)."
+        },
+        "continent": {
+          "type": "string",
+          "enum": ["Africa", "Asia", "Europe", "North America", "South America", "Oceania"]
+        },
+        "countries": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 2 }
+        },
+        "titleEn": { "type": "string", "minLength": 4 },
+        "priceUsd": { "type": "integer", "minimum": 1 },
+        "days": { "type": "integer", "minimum": 1, "maximum": 60 },
+        "inquire": {
+          "type": "boolean",
+          "description": "If true, the page must load inquire-cta.js and accept ?dest={id}."
+        },
+        "heroImage": {
+          "type": "string",
+          "pattern": "^/images/expeditions/[a-z0-9-]+\\.(jpg|webp)$",
+          "description": "Filename must name the place, not the stock-photo vendor (no unsplash-*)."
+        },
+        "imageCountry": {
+          "type": "string",
+          "description": "Country actually depicted. Must be one of `countries`. Catches Kyoto-on-Mongolia."
+        },
+        "yearRound": {
+          "type": "boolean",
+          "default": true,
+          "description": "PR #12: no specific departure month/year on cards or itineraries."
+        }
+      }
+    }
+  }
+}

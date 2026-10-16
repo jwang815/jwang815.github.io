@@ -1,0 +1,46 @@
+{
+  "expeditions": [
+    {
+      "id": "ethiopia",
+      "path": "/ethiopia-expedition/",
+      "langFile": "lang/ethiopia.js",
+      "continent": "Africa",
+      "countries": ["Ethiopia"],
+      "titleEn": "Ethiopia — Fire and Faith",
+      "priceUsd": 3295,
+      "days": 8,
+      "inquire": true,
+      "heroImage": "/images/expeditions/ethiopia-dallol.jpg",
+      "imageCountry": "Ethiopia",
+      "yearRound": true
+    },
+    {
+      "id": "socotra",
+      "path": "/socotra/",
+      "langFile": "lang/socotra.js",
+      "continent": "Asia",
+      "countries": ["Yemen"],
+      "titleEn": "Socotra",
+      "priceUsd": 2950,
+      "days": 7,
+      "inquire": true,
+      "heroImage": "/images/expeditions/socotra-dragon-blood-tree-sunset.jpg",
+      "imageCountry": "Yemen",
+      "yearRound": true
+    },
+    {
+      "id": "bangladesh",
+      "path": "/bangladesh-expedition/",
+      "langFile": "lang/bangladesh.js",
+      "continent": "Asia",
+      "countries": ["Bangladesh"],
+      "titleEn": "Bangladesh",
+      "priceUsd": 1695,
+      "days": 7,
+      "inquire": true,
+      "heroImage": "/images/expeditions/bangladesh-dhaka-aerial.jpg",
+      "imageCountry": "Bangladesh",
+      "yearRound": true
+    }
+  ]
+}
